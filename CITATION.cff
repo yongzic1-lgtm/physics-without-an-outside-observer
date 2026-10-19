@@ -10,6 +10,7 @@ repository-code: "https://github.com/yongzic1-lgtm/physics-without-an-outside-ob
 license: MIT
 version: "1.0"
 date-released: "2026-10-20"
+doi: "10.5281/zenodo.23484199"
 abstract: "Programs, data and Lean proofs accompanying the article Physics Without an Outside Observer: A Finite Geometry, Broken and Completed. The comparison of the five postulates, the determinant law in one variable, its returns and source responses, and the quantities of the article's tables are computed by the programs; the mathematical statements are proved in Lean."
 keywords:
   - foundations of physics

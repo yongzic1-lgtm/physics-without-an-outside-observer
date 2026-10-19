@@ -138,7 +138,7 @@ For a further calculation, place the source on the existing step, keep its full 
 
 ## Cite
 
-Cite the article, Physics Without an Outside Observer: A Finite Geometry, Broken and Completed, by Yongzi CHEN, and this repository through `CITATION.cff`. The release that accompanies the article is 1.0.
+Cite the article, Physics Without an Outside Observer: A Finite Geometry, Broken and Completed, by Yongzi CHEN, and this repository through `CITATION.cff`. The release that accompanies the article is 1.0, archived on Zenodo as [doi:10.5281/zenodo.23484200](https://doi.org/10.5281/zenodo.23484200); all versions are under [doi:10.5281/zenodo.23484199](https://doi.org/10.5281/zenodo.23484199).
 
 ## License
 
