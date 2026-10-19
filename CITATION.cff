@@ -5,6 +5,7 @@ type: software
 authors:
   - given-names: Yongzi
     family-names: Chen
+    orcid: "https://orcid.org/0009-0008-6202-002X"
     affiliation: "Department of Physics and Materials, The Hong Kong Polytechnic University"
 repository-code: "https://github.com/yongzic1-lgtm/physics-without-an-outside-observer"
 license: MIT
