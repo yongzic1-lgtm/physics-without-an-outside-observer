@@ -1,0 +1,308 @@
+
+======================================================================================================================
+PART I. THE GEOMETRY OF COMPARISON (mathematics; nothing is named physically here)
+======================================================================================================================
+ok   I.1 one system: four amplitudes, five Dirac matrices g_a g_b + g_b g_a = 2 delta_ab, Hermitian
+ok   I.1 the five together are a number, g1 g2 g3 g4 g5 = +-1   [-1]
+ok   I.1 sixteen observables 1 + 5 + 10, orthonormal
+ok   I.1 the overlap of two sides: Q_n Q_m Q_n = ((1 + n.m)/2) Q_n
+ok   I.2 two systems: the comparison L = 1(x)1 + sum g(x)g has spectrum 6^1, 2^10, (-2)^5   [[(np.float64(6.0), 1), (np.float64(2.0), 10), (np.float64(-2.0), 5)]]
+ok   I.2 L = 2(P + E): P the exchange, E of rank one, E^2 = 4E, PE = EP = -E
+ok   I.2 the matrix C of the quaternionic structure (C g^T C^-1 = g for every Dirac matrix) is unique up to a factor and antisymmetric
+ok   I.2 one's own past and a neighbour: the quaternionic structure on one system exchanges P and E and keeps L
+ok   I.3 the square root of the sign q_D = 1 - P_D + iP_D: q^2 = theta_D (the metric's sign), q^dagger q = 1
+ok   I.3 i^|S| on the basis of the exterior algebra of the six directions: 1, i, -1, -i on 16, 12, 16, 20   [[16, 12, 16, 20]]
+ok   I.4 four types d|6-d: rotations within / mixing the two sides 15/0, 10/5, 7/8, 6/9
+ok   I.4 the null cone of a distinction of type 2|4, projectivized: on a complement of the radial null direction the metric has 3 + and 1 -: one time, three space   [(np.int64(3), np.int64(1), np.int64(0))]
+
+======================================================================================================================
+PART II. EXISTENCE: THE STEP B, THE LAW, AND EVERYTHING COUNTED ON B
+======================================================================================================================
+ok   II.1 P5: 80 directed edges (state, last change), 4 continuations, 320 transitions
+ok   II.2 P4: the law det(I - uB) = (1 - u^2)^24 k0 k2^10 k4^5, k_N(u) = 1 + 4u^2 - u(5 - 2N)
+ok   II.2 its leading zero: k0(1/4) = 0, every other factor nonzero on |u| <= 1/4
+ok   II.3 the signed step (the Clifford sign of every transition): A_-^2 = 5I
+ok   II.4 one step out and back to where it started: F(z) = z^4(1 + z)/(16 - 8z - 3z^2 - 3z^3); signed Phi(z) = -z^4/(16 + 3z^2)
+ok   II.4 every first-return excursion closes, F(1) = 1, after F'(1) = 16 steps on average (the mean return time); Phi(1) = -1/19, Phi(i) = -1/13
+ok   II.5 one excursion visits the symmetric states E n_F = 10 and the vector states E n_L = 5 times; Var n_F = 84, Var n_L = 12, Cov = 30, Var l = 156
+ok   II.6 the available transitions: 74 directed edges, M = 296 transitions, C_h = 60 along h, 59 along each other direction, 34 edges whose state does not contain h
+ok   II.7 the critical Green's function (5 - A)^+ = (7 + A)/32 - 3J/128; the effective resistance between the singlet and a symmetric state b = 7/16
+ok   II.8 the symmetric-state visits of one excursion x(1 + x)/(16 - 11x - 3x^2), pole x_c = (sqrt 313 - 11)/6
+ok   II.9 the polar step: singular values of B are 1 and 4, xi = log 2, tanh(xi/4) = tan^2(pi/8)
+ok   II.10 one transition of the 320 marked with a phase: D_theta = D + (e^(-i theta) - 1) u D'/320
+
+======================================================================================================================
+THE PRIMITIVE NUMBERS: every number the geometry and the law give directly (no measurement)
+======================================================================================================================
+  L(Omega)                   6                                        the comparison on the singlet (geometry): 1 + 5
+  N_2, N_C, k_C              (10, 8, 3)                               ten symmetric states, eight traceless colour rotations, three directions outside the plane hk (geometry)
+  Tr L^2/4, states           (24, 11)                                 24 traceless rotations, 11 states of positive comparison value (geometry)
+  direction charges          0, 1, -1/3, -1/3, -1/3                   the five directions seen from the plane hk (geometry); c = 2 Var Q = 8/15
+  M, C_h, C_j                (296, 60, 59)                            the available transitions (B)
+  74 edges, 34 without h     (74, 34)                                 R_ud = 34/74 = 17/37 (B)
+  E l, Var l                 (16, 156)                                the mean return time and its variance (B)
+  E n_F, E n_L, Var n_F, Var n_L, Cov (10, 5, 84, 12, 30)                      visits of one excursion to the symmetric and the vector states (B)
+  Phi(1), Phi(i)             ('-1/19', '-1/13')                       signed first return at the even and the odd points u = i^d/4 (B)
+  k_N(-1/4)                  ('5/2', '3/2', '1/2')                    the law's grade factors at that point
+  t, e, e_line               ('2/5', '3/5', '1/3')                    transmission 1/k0, reflection k2/k0, reflection at a single direction k4/k2
+  b                          7/16                                     the effective resistance between the singlet and a symmetric state (B)
+  a                          5/38                                     (1 - Phi(1))/8, the probability of a sign-reversing return per continuation
+  chi_A, w_h, chi_h          ('13/12', '3/13', '30/169')              1/(1 + Phi(i)), 1/(4 chi_A), w_h(1 - w_h)
+  eta, sigma, c_L            ('295/296', '75/74', '15/74')            (M - 1)/M, 5C_h/M, C_h/M
+  E_H                        3                                        transitions along h per mean return, E l C_h/320
+  f, nu                      ('9/250', '9/4000')                      e^2/N_2 and f/E l
+  the clock's marks          (0, 1, 2, 3, -1/Phi(1))/4                a quarter step per direction other than h and the long return; h = [M_Q(nu)M_Q(-nu)]^(-3/2) = 0.999971049330
+  N_h                        0.077085840563                           the repeated return along h, sum h^j p_j(4(i/4)^j)
+  x                          7.573572544734e-06                       the contact interaction at the plane hk retained once, nu h/(M + 1 + N_h)
+  kappa                      (0.005, 0.010204081632653064)            the stiffness 2w^4/(1 - 5w^2)^2 at w = 1/5 and i/3
+  x_c, rho_nu, xi            (1.115301002159, 0.171572875254, 0.69314718056) pole of the symmetric-state visits, tan^2(pi/8), log 2
+  W                          7.685149636651e-20                       the transmission factor t^(k_C E l) eta^(k_C E_H) = (2/5)^48 (295/296)^9
+ok   the primitive numbers: c = 8/15, R_ud = 17/37, a = 5/38, chi_A = 13/12, eta = 295/296, sigma = 75/74, c_L = 15/74, E_H = 3, f = 9/250, nu = 9/4000
+
+======================================================================================================================
+THE COMPLETIONS: each computed from the law, then what is seen, then the name
+======================================================================================================================
+5. a distinction of type 2|4: the null cone has signature (1, 3) (Part I) and the rotation of the divided plane commutes
+   with every rotation within the two sides: seen, three plus one and the light cone; named, time, space, the common clock.
+ok   6. the long-wave limit: at u = 1/4 - eps^2 m^2/24 the law's operator is (eps^2/8)(m^2 - Delta): Klein-Gordon; named mass, length, light
+ok   7. the first-order step: U + U^dagger = 2 cos k cos mu, cos w = cos mu cos k: Dirac; at rest the phase is a clock, E = mc^2
+
+======================================================================================================================
+THE 131 SCALAR ROWS EVALUATED HERE: calculated value, recorded value and measurement
+======================================================================================================================
+| row | constant | composition (of the primitive numbers) | value | table | measurement | standard deviations |
+|---|---|---|---:|---:|---|---:|
+| J01 | m_p/m_e | L(Omega) M + C_h + log k0(-1/4)/L(Omega) - a^5 - b a^6 | 1836.15267341 | 1836.15267341205 | 1836.152673426 +3.2e-08 / −3.2e-08 [CODATA 2022] | -0.436 |
+| B12 | m_p/m_e | the same | 1836.15267341 | 1836.15267341205 | 1836.152673426 +3.2e-08/-3.2e-08 [CODATA 2022] | -0.436 |
+| D01 | alpha_s | (e_line^2/N_C)^(1/2), the two colour sources' reflections over eight rotations | 0.117851130198 | 0.117851130197758 | 0.118 +0.0009/-0.0009 [PDG 2024] | -0.165 |
+| D02 | 1/alpha | N_2(1 - x) k0^2/(c_L k2^2): the reflections at the plane hk on the transitions along h, contact x once | 137.035999177 | 137.035999177096 | 137.035999177 +2.1e-08/-2.1e-08 [CODATA 2022] | +0.005 |
+| D04 | alpha_G x 1e39 | W^2, W = t^(k_C E l) eta^(k_C E_H): each source carries a whole excursion | 5.90615249377 | 5.90615249377146 | 5.90614943 +0.000133/-0.000133 [CODATA 2022 G] | +0.023 |
+| D03 | G_F x 1e5 [GeV^-2] | (1 - 1/N_2) W_W/M^2 over m_p^2, W_W = F(h)h^-4(1 - 2b + 2bh) | 1.16637885871 | 1.16637885870644 | 1.1663787 +6e-07/-6e-07 [CODATA 2022] | +0.265 |
+| D15 | v [GeV] | (sqrt2 G_F)^(-1/2) | 246.219634043 | 246.219634042871 | 246.21964024 +6.33e-05/-6.33e-05 [(sqrt2 G_F)^(-1/2) of the PDG 2024 G_F, the Fermi row's second record] | -0.098 |
+| D11 | M_W [GeV] | v (pi alpha/((1 - f) s^2))^(1/2), s^2 = 3N_h/(1 + f) | 80.3662510403 | 80.3662510403325 | 80.3625 +0.0077/-0.0077 [PDG 2026 evaluation without the CDF II measurement] | +0.487 |
+| D12 | M_Z [GeV] | M_W/(1 - s^2)^(1/2) | 91.1853615183 | 91.1853615183457 | 91.1879 +0.002/-0.002 [PDG 2026 world average (LEP 1, CDF, LHCb), running-width convention] | -1.269 |
+| D16 | m_H [GeV] | v (2 pi alpha/chi_h)^(1/2) | 125.134771593 | 125.134771593402 | 125.13 +0.11/-0.11 [PDG 2026 average, error with scale factor S = 1.5] | +0.043 |
+| D17 | m_t [GeV] | v (eta/2 sigma)^(1/2) | 172.646613614 | 172.646613614442 | 172.6 +0.27/-0.27 [PDG 2026 average of direct measurements, error with scale factor S = 1.5] | +0.173 |
+| D08 | sin^2 theta (s^2) | 3 N_h | 0.231257521689 | 0.231257521689422 | 0.23122 +6e-05/-6e-05 [PDG 2026, top decoupled] | +0.625 |
+| D10 | s^2 on shell | 3N_h/(1 + f) | 0.223221546032 | 0.223221546032261 | 0.2233373 +0.000153/-0.000153 [direct M_W/M_Z] | -0.757 |
+| D13 | M_W/M_Z | (1 - s^2)^(1/2) | 0.881350358239 | 0.881350358238844 | 0.88128469 +8.66e-05/-8.66e-05 [direct masses] | +0.758 |
+| D14 | f | e^2/N_2 = 9/250 | 0.036 | 0.036 | 0.03641 +0.00046/-0.00046 [1 - pi alpha/(sqrt2 G_F M_W^2 s2_OS) of the records of 1/alpha, G_F, M_W and M_Z] | -0.891 |
+| D05 | M_Pl x 1e-19 [GeV] | m_p/W | 1.22088981189 | 1.22088981188542 | 1.22089 +1.4e-05/-1.4e-05 [CODATA 2022] | -0.013 |
+| B01 | m_mu/m_e | (k2/k4)^5 e^(-9/56) M_Q(nu)^(1/6): the ten symmetric states opened | 206.768283945 | 206.768283945476 | 206.7682827 +4.6e-06/-4.6e-06 [CODATA 2022] | +0.271 |
+| B02 | m_tau/m_mu | (k2/k4)^(5/2) e^(1/14 + 2 nu): the vector states opened | 16.8181606411 | 16.8181606410583 | 16.817691845 +0.000852/-0.000852 [PDG 2024 m_tau] | +0.550 |
+| B03 | Koide | from m_mu and m_tau | 0.666667259761 | 0.666667259761091 | 0.6666645 +6.8e-06/-6.8e-06 [PDG masses] | +0.406 |
+| B04 | m_s/m_d = p_q | the symmetric states at the odd sign | 19.9616523938 | 19.9616523937783 | 19.946 +0.335/-0.335 [FLAG 2021 N_f = 2+1+1, m_s/m_ud = 27.23(10) times (1 + m_u/m_d)/2 with m_u/m_d = 0.465(24)] | +0.047 |
+| B05 | m_b/m_s | q eta, the vector states at the odd sign | 53.9210868808 | 53.9211 | 53.88 +0.12/-0.12 [PDG 2026] | +0.342 |
+| B06 | m_b^2 m_d/m_s^3 | q_q^2 eta^2/p_q | 145.653453585 | 145.653 | 145.45 +2.63/-2.63 [(m_b/m_s)^2 (m_d/m_s) of the two FLAG ratios above] | +0.077 |
+| B07 | B06 again | the same | 145.653453585 | 145.653 | 144.156 +6.06/-5.72 [PDG 2026 masses, four-loop running to m_t(m_t)] | +0.247 |
+| B08 | m_mu/m_e over p_q | the lepton and quark symmetric-state factors | 10.3582749497 | 10.3582749497192 | 10.3664 +0.174/-0.174 [CODATA m_mu/m_e over the FLAG strange/down ratio] | -0.047 |
+| B09 | m_u/m_d | R_ud = 34/74, the edges whose state does not contain h | 0.459459459459 | 0.459459459459459 | 0.4595745 +0.01/-0.01 [PDG 2.16/4.70] | -0.012 |
+| B10 | kappa_up | (e/t)^(E l/E n_F) = (3/2)^(8/5), per visit to a symmetric state | 1.91313675094 | 1.91313675093869 | 1.9131 +0.0062/-0.0062 [up-sector masses] | +0.006 |
+| B11 | m_c/m_s like | R_ud kappa^5 | 11.7754434122 | 11.7754434121621 | 11.761 +0.028/-0.028 [PDG 2026 m_c/m_s] | +0.516 |
+| B13 | m_n/m_p | k0(-1/4)^(5a^4 + 4a^10 + 10 c_L b a^6): the neutral pole over the ten symmetric states | 1.00137841956 | 1.00137841956462 | 1.00137841946 +4e-10/-4e-10 [CODATA 2022] | +0.262 |
+| J02 | m_n/m_p | the same | 1.00137841956 | 1.00137841956462 | 1.00137841946 +4e-10 / −4e-10 [CODATA 2022] | +0.262 |
+| B14 | m_n/m_e | B12 B13 | 1838.68366218 | 1838.68366218071 | 1838.683662 +7.4e-07/-7.4e-07 [CODATA 2022] | +0.244 |
+| J05 | m_pi0 [MeV] | (2/|Phi(1)| h m_e m_p)^(1/2) = (38 h m_e m_p)^(1/2) | 134.97704456 | 134.977044559769 | 134.9768 +0.0005 / −0.0005 [PDG 2026] | +0.489 |
+| J06 | m_pi+ [MeV] | (m_pi0^2 + pi alpha m_p^2/(E l(1 - alpha b Phi(i))))^(1/2) | 139.570386614 | 139.570386613809 | 139.57039 +0.00018 / −0.00018 [PDG 2024] | -0.019 |
+| S01 | g_A | (5/3) t^(2b/3): 5/3 the axial current of the projected nucleon, (N_c + 2)/3 | 1.27580092812 | 1.27580092811547 | 1.2753 +0.0013/-0.0013 [PDG 2026] | +0.385 |
+| G01 | r_p [fm] | 4 lambda_p | 0.841235640213 | 0.84123564021281 | 0.84075 +0.00064/-0.00064 [CODATA 2022] | +0.759 |
+| G02 | Delta [MeV] | 3 b m_p | 1231.48211736 | 1231.48211736401 | 1232 +2/-2 [PDG 2026] | -0.259 |
+| G03 | mu_p | (Var l/(2N_2) (1 - eps2/(E l^2 b)))^(1/2) | 2.7928473453 | 2.79284734529616 | 2.79284734463 +8.2e-10/-8.2e-10 [CODATA 2022] | +0.812 |
+| G04 | mu_n | -4(1 + E n_F)/23 (1 - eps2/(E l^2 b))^(1/2) | -1.91304302381 | -1.91304302380603 | -1.91304276 +4.5e-07/-4.5e-07 [CODATA 2022] | -0.586 |
+| G05 | mu_n/mu_p | G04/G03 | -0.684979444733 | -0.684979444733371 | -0.68497935 +1.6e-07/-1.6e-07 [CODATA 2022] | -0.592 |
+| G06 | m_pi0 [MeV] | as J05 | 134.97704456 | 134.977044559769 | 134.9768 +0.0005/-0.0005 [PDG 2026] | +0.489 |
+| G07 | m_pi+ [MeV] | as J06 | 139.570386614 | 139.570386613809 | 139.57039 +0.00018/-0.00018 [PDG 2024] | -0.019 |
+| G08 | f_pi [MeV] | eta m_p (2k_C)^(1/2)/(2 pi mu_p) | 130.529195478 | 130.529195478157 | 130.56 +0.138/-0.138 [PDG, (2)(4)(13) combined] | -0.223 |
+| G10 | B_d [MeV] | m_p chi_A^(1/2) a^3 (1 - (1 + t/E l) eps2) | 2.2245664631 | 2.22456646309919 | 2.22456636409 +3.8e-07/-3.8e-07 [CODATA 2022 mass ratios] | +0.261 |
+| G11 | m_deut [MeV] | m_p + m_n - B_d | 1875.61294498 | 1875.61294498229 | 1875.612945 +5.8e-07/-5.8e-07 [CODATA 2022] | -0.031 |
+| G12 | m_deut/m_p | G11/m_p | 1.99900750127 | 1.99900750126897 | 1.99900750127 +8.4e-12/-8.4e-12 [CODATA 2022] | -0.122 |
+| J03 | Lambda [MeV] | m_n k0^(E_H/E l) = m_n (5/2)^(3/16) | 1115.68290091 | 1115.68290090769 | 1115.683 +0.006 / −0.006 [source not recorded] | -0.017 |
+| J04 | Delta [MeV] | k_C b m_p | 1231.48211736 | 1231.48211736401 | 1232 +2 / −2 [PDG 2026] | -0.259 |
+| J07 | J07 | 2 k_C m_p^2 log x_c | 0.576408555494 | 0.576408555494293 | 0.577879 +0.002449 / −0.002449 [source not recorded] | -0.600 |
+| J17 | m_p/L(Omega) [MeV] | the share of each of six | 156.37868157 | 156.378681570033 | 156.5 +1.5 / −1.5 [source not recorded] | -0.081 |
+| C01 | s12 (quarks) | (Var n_F - Cov^2/Var n_L)/(E l 5/2) = 9/40 | 0.225 | 0.225 | 0.22517 +0.00068/-0.00068 [PDG 2026 CKM global fit] | -0.250 |
+| C02 | s23 | 4/Tr L^2 = 1/24 | 0.0416666666667 | 0.0416666666666667 | 0.04189 +0.00081/-0.00069 [PDG 2026 CKM fit] | -0.324 |
+| C03 | s13 | s12 t s23 | 0.00375 | 0.00375 | 0.003763 +8.8e-05/-8.3e-05 [PDG 2026 CKM fit] | -0.157 |
+| C04 | delta_q | arg(b + i) = arg(7 + 16i) | 1.1583858852 | 1.15838588519751 | 1.154 +0.025/-0.025 [PDG 2026 CKM fit] | +0.175 |
+| C05 | J_q x 1e5 | Jarlskog of V | 3.13550917579 | 3.13550917578981 | 3.16 +0.13/-0.11 [PDG] | -0.223 |
+| C10 | s^2_12 (leptons) | U = R12(sqrt(2b) s12, pi/2 - delta_q)^dagger R23(1/sqrt2) R12(sqrt b) | 0.305089610923 | 0.305089610922636 | 0.3036 +0.0064/-0.0064 [JUNO 2026] | +0.233 |
+| C11 | s^2_13 | the same U | 0.0221484375 | 0.0221484375 | 0.02215 +0.00056/-0.00058 [NuFIT 6.0] | -0.003 |
+| C13 | s^2_23 | the same U | 0.488674949067 | 0.488674949067231 | 0.47 +0.017/-0.013 [NuFIT 6.0] | +1.099 |
+| D06 | Lambda l_P^2 x 1e122 | 3 W^6 tau s^3, tau = 2pi/(E l m_p/m_e) | 2.85522324301 | 2.85522324300803 | 2.8451 +0.076/-0.076 [Planck 2018 base model, 3 Omega_Lambda H_0^2 l_P^2/c^2 with Omega_Lambda = 0.6847 and H_0 = 67.36] | +0.133 |
+| F01 | eta_B x 1e10 | 3 a^11 | 6.14004762346 | 6.14004762346375 | 6.12 +0.04/-0.04 [PDG 2024 BBN review, Planck omega_b = 0.02237(15)] | +0.501 |
+| F04 | N_eff | 3 eta sigma^(4/3) | 3.04385727362 | 3.04385727361762 | 2.99 +0.17/-0.17 [Planck + BAO] | +0.317 |
+| E06 | m_3 [meV] | seesaw: Yukawas sigma v (0, rho_nu^(1/2), 1)/sqrt2, M_R = M_Pl e_line^9 | 50.1983309478 | 50.1983309477773 | 50.09 +0.269/-0.25 [sqrt Delta m^2_31 of JUNO 2026] | +0.403 |
+| K02 | sum m_nu [eV] | m1 + m2 + m3 | 0.0588110029214 | 0.0588110029214298 | < 0.081 eV [SPT-3G D1 + DESI] |  |
+| D07 | D07 | 0 | 0 | 0 | 14 +11/-11 [atomic clocks, Lange et al., Phys. Rev. Lett. 126, 011102 (2021)] | -1.273 |
+| D09 | 3 sum of the plain returns | 3 sum_k p_k, without the clock | 0.231550233938 | 0.231550233937853 | 0.23153 +0.00016/-0.00016 [LEP/SLD, Phys. Rep. 427, 257 (2006)] | +0.126 |
+| E01 | m_2^2 x 1e5 [eV^2] | seesaw m_2 squared | 7.41781185257 | 7.41781185257386 | 7.388 +0.078/-0.078 [JUNO 2026] | +0.382 |
+| E02 | m_3^2 x 1e3 [eV^2] | seesaw m_3 squared | 2.51987242994 | 2.51987242994258 | 2.509 +0.027/-0.025 [JUNO 2026] | +0.403 |
+| E03 | Delta m^2_32 x 1e3 | m_3^2 - m_2^2 | 2.44569431142 | 2.44569431141684 | 2.438 +0.021/-0.019 [NuFIT 6.0] | +0.366 |
+| E04 | m_2/m_3 | rho_nu through the exact light-root ratio | 0.171572875254 | 0.17157287525381 | 0.172645 +0.00229/-0.00229 [NuFIT 6.0-derived, m_1 = 0] | -0.468 |
+| E05 | (m_3/m_2)^2 | the inverse squared | 33.9705627485 | 33.9705627484771 | 33.55 +0.94/-0.94 [PDG-derived] | +0.447 |
+| E07 | families | three pairings of the four directions other than h | 3 | 3 | 2.9963 +0.0074/-0.0074 [Janot and Jadach, Phys. Lett. B 803, 135319 (2020)] | +0.500 |
+| C06 | alpha (CKM angle) [deg] | unitarity triangle of V | 90.7137730643 | 90.713773064338 | 91.04 +1.61/-1.6 [PDG-derived] | -0.204 |
+| C07 | beta [deg] | unitarity triangle of V | 22.9511439354 | 22.9511439353888 | 22.86 +0.71/-0.7 [PDG-derived] | +0.128 |
+| C08 | gamma [deg] | unitarity triangle of V | 66.3350830003 | 66.3350830002732 | 66.09 +1.43/-1.43 [PDG-derived] | +0.171 |
+| C09 | first two rows' unitarity | sum |V|^2 of two rows | 2 | 2 | 1.984 +0.021/-0.021 [CMS 2022, Phys. Rev. D 105, 072008] | +0.762 |
+| C12 | 4 s^2_13 (1 - s^2_13) | from U | 0.0866315368652 | 0.0866315368652344 | 0.0833 +0.0022/-0.0022 [Daya Bay, Phys. Rev. Lett. 133, 151801 (2024)] | +1.514 |
+| C14 | delta_l [deg] | the phase of U | 205.584225835 | 205.584225835201 | 212 +26/-41 [NuFIT 6.0] | -0.156 |
+| C15 | C15 | 1 - t/E l | 0.975 | 0.975 | 0.9752 +0.003/-0.003 [P-ACT-LB2] | -0.067 |
+| C16 | C16 | 0 | 0 | 0 | -0.0045 +0.0067/-0.0067 [Planck 2018] | +0.672 |
+| F03 | log(1e10 A_s) | A_s = 12 a^11 (0.05 l)^(-1/40) | 3.06130986015 | 3.06130986015343 | 3.056 +0.013/-0.013 [P-ACT] | +0.408 |
+| F13 | F13 | 0 | 0 | 0 | 0.0007 +0.0019/-0.0019 [Planck + BAO] | -0.368 |
+| G09 | f_pi V_ud [MeV] | f_pi |V_ud| | 127.181371253 | 127.181371252679 | 127.13 +0.13/-0.13 [PDG, (1)(13) combined] | +0.395 |
+| G13 | mu_d | the deuteron's moment from mu_p + mu_n, its binding and the neutron's share | 0.857438233519 | 0.857438233518713 | 0.8574382335 +2.2e-09/-2.2e-09 [CODATA 2022] | +0.009 |
+| H01 | H01 | counts | 2 | 2 | 2.000021 +2.3e-05/-2.3e-05 [Cassini, Bertotti et al., Nature 425, 374 (2003)] | -0.913 |
+| H02 | H02 | counts | 1 | 1 | 0.99934908645 +0.00277/-0.00277 [Gravity Probe B, Everitt et al., Phys. Rev. Lett. 106, 221101 (2011)] | +0.235 |
+| H03 | H03 | counts | 1 | 1 | 0.976 +0.015/-0.015 [quantum switch, Procopio et al., Nat. Commun. 6, 7913 (2015)] | +1.600 |
+| S02 | S02 [fm^2] | (Var n_F - Cov^2/Var n_L) lambda_p^2 | 0.39806853883 | 0.398068538829894 | 0.339 +0.0484/-0.0484 [ETMC 2024 lattice; errors 0.048 and 0.006] | +1.220 |
+| S03 | S03 [fm] | (Var n_F - Cov^2/Var n_L)^(1/2) lambda_p | 0.63092673016 | 0.630926730159608 | construction (S02 is its square) |  |
+| S04 | S04 [fm] | (E n_F)^(1/2) lambda_p | 0.665055167996 | 0.665055167995603 | 0.659 +0.004/-0.004 [PDG] | +1.514 |
+| S05 | tau_n [s] | 5099.33/(1.03983 |V_ud|^2 (1 + 3 g_A^2)) | 878.051411827 | 878.051411826578 | 878.3 +0.4/-0.4 [PDG 2026 neutron listing] | -0.621 |
+| S07 | S07 [GeV] | m_p^2/(E n_F m_e) | 172.281080538 | 172.281080537681 | 172.57 +0.29/-0.29 [PDG 2024 direct] | -0.996 |
+| S08 | S08 | b^24 (0.05 l)^(-1/40) | 2.1025756247 | 2.10257562469885 | 2.099 +0.029/-0.029 [Planck 2018] | +0.123 |
+| S09 | S09 | M/(M - 4C_h) | 5.28571428571 | 5.28571428571429 | 5.3643 +0.0646/-0.0646 [Planck 2018 ratio] | -1.216 |
+| A002 | 5 m_p/36 [MeV] | 5 m_p/36 | 130.315567975 | 130.315567975027 | 130.2 +0.8/-0.8 [FLAG 2+1] | +0.144 |
+| A003 | 5 m_p/36 V_ud | 5 m_p/36 |V_ud| | 126.973222886 | 126.97322288644 | 127.13 +0.13/-0.13 [PDG inclusive pion decay; correlated with lifetime] | -1.206 |
+| K01 | K01 | 0 | 0 | 0 | \|θ\| < 1e-10 [neutron EDM] |  |
+| K03 | sum m_nu again [eV] | m1 + m2 + m3 | 0.0588110029214 | 0.0588110029214298 | < 0.055 eV [CMB-SPA + DESI] |  |
+| K05 | sum |V_ii|^2 | the diagonal of V | 2.89531084488 | 2.89531084487576 | >= 2.84295 [direct current rows] |  |
+| K06 | proton lifetime [yr] | 72^2 hbar/(3^24 W^4 m_p) | 1.16971098946e+37 | 1.16971098945628e+37 | > 2.4e34 yr [Super-Kamiokande] |  |
+| T01 | M_R [GeV] | M_Pl e_line^9 | 6.20276285061e+14 | 620276285060927 | threshold |  |
+| T02 | M_off [GeV] | M_Pl e_line^6 | 1.67474596966e+16 | 1.6747459696645e+16 | threshold |  |
+| T03 | l [Mpc] | lambda_p/(W^2 (tau s^3)^(1/2)) | 5369.08213305 | 5369.08213305102 | de Sitter convention |  |
+| T04 | T04 | hc/(2 pi l) | 1.89564063246e-34 | 1.8956406324587e-34 | de Sitter convention |  |
+| T06 | J_l | Jarlskog of U | -0.0144644347463 | -0.0144644347463475 | prediction |  |
+| T07 | 2/51 | 2/51 | 0.0392156862745 | 0.0392156862745098 | construction |  |
+| L01 | m_tau [MeV] | as named | 1776.97954286 | 1776.97954286319 | from B01 and B02 |  |
+| L03 | rho_nu^-2 | as named | 33.9705627485 | 33.9705627484771 | prediction |  |
+| L04 | 3 | as named | 3 | 3 | prediction: no fourth family |  |
+| L05 | 3^(5/2) m_e | as named | 7.96568530689 | 7.96568530688517 | prediction: no charged lepton at this threshold |  |
+| L06 | 0 | as named | 0 | 0 | prediction |  |
+| L07 | 0 | as named | 0 | 0 | prediction |  |
+| L08 | -1 | as named | -1 | -1 | prediction |  |
+| L09 | 0 | as named | 0 | 0 | prediction |  |
+| L10 | 3 pi/Lambda l_P^2 | as named | 3.30089003858e+122 | 3.30089003858073e+122 | identity with D06 |  |
+| L11 | 16 Lambda/(3 pi 12 a^11) | as named | 1.9735911755e-113 | 1.9735911754997e-113 | prediction |  |
+| L12 | proton lifetime | as named | 1.16971098946e+37 | 1.16971098945628e+37 | > 2.4e34 yr [Super-Kamiokande] |  |
+| L13 | B_d | as named | 2.2245664631 | 2.22456646309919 | from G10 |  |
+| L14 | N_C | as named | 8 | 8 | identity |  |
+| L15 | M_W | as named | 80.3662510403 | 80.3662510403325 | 80.3570(60) GeV [PDG 2026 SM indirect determination] |  |
+| L16 | 0 | as named | 0 | 0 | \|θ̄\| < 1e-10 [neutron EDM] |  |
+| L17 | Koide | as named | 0.666667259761 | 0.666667259761091 | from B03 |  |
+| L18 | 15 pi/4 | as named | 11.780972451 | 11.7809724509617 | prediction |  |
+| L19 | 1/alpha without the clock | the contact with h = 1 | 137.035999147 | 137.035999147056 | bound for every clock |  |
+| L20 | 3 N_h without the clock | the repeated return along h with h = 1 | 0.231264231358 | 0.231264231357674 | bound for every clock |  |
+| I08 | I08 | the light quark levels' lowest mode | 0.212911371927 | 0.212911371927165 | 0.21054 +0.0224/-0.0224 [lattice, Borsanyi et al., Nature 539, 69 (2016)] | +0.106 |
+| I09 | I09 | the light quark levels' third moment | -0.0280584730988 | -0.0280584730987574 | -0.029 +0.002/-0.002 [NLO chiral, Grilli di Cortona et al., JHEP 01 (2016) 034] | +0.471 |
+| N22 | -a_V [MeV] | (1 - t/E l) m_p a^2 | -15.8382148058 | -15.8382148058291 | -16 +0.5/-0.5 [extrapolation of masses to symmetric matter] | +0.324 |
+| S16 | Lambda_QCD-like [MeV] | M_Z e^(-2 pi/(23/3 alpha_s)) | 87.0577778265 | 87.0577778264851 | one-loop convention |  |
+| M1 | m_p [MeV] | m_e m_p/m_e | 938.27208942 | 938.272089420197 | 938.27208943 ± 2.9e-07 [CODATA 2022] | -0.034 |
+| M2 | m_n [MeV] | m_p m_n/m_p | 939.565422025 | 939.56542202519 | 939.56542194 ± 4.8e-07 [CODATA 2022] | +0.177 |
+| M3 | m_deut [MeV] | m_p + m_n - B_d | 1875.61294498 | 1875.61294498229 | 1875.612945 ± 5.8e-07 [CODATA 2022] | -0.031 |
+| J08 | K0 [MeV] | M^2 = 2 k_C m_p^2 Tr delta1(R) on the d and s levels, coupling c = 8/15 | 497.613584451 | 497.613584450934 | 497.611 +0.013 / −0.013 [source not recorded] | +0.199 |
+| J09 | K+ [MeV] | the same on u and s, with the electric term of the plane hk | 493.665032668 | 493.665032668308 | 493.677 +0.015 / −0.015 [source not recorded] | -0.798 |
+
+rows written here: 131; with a table value: 131; equal to the table within its printed digits: 131
+measured comparisons among this program's 131 evaluated scalar rows: 99; within one standard deviation: 90; within two: 99
+ok   the 131 scalar values evaluated here equal their recorded values within the printed digits; J09 with the plane-hk electric term is 493.665032668
+
+======================================================================================================================
+WHICH PRIMITIVE NUMBERS CARRY THE ROWS
+======================================================================================================================
+  b           17 rows: J01 B12 D03 B13 J02 J06 S01 G02 G03 G04 J04 C04 C10 C11 ...
+  m_p         17 rows: D03 D05 J05 G02 G08 G10 J04 J07 J17 F03 S07 A002 A003 K06 ...
+  rows        17 rows: L01 L03 L04 L05 L06 L07 L08 L09 L10 L11 L12 L13 L14 L15 ...
+  above       17 rows: L01 L03 L04 L05 L06 L07 L08 L09 L10 L11 L12 L13 L14 L15 ...
+  k0           9 rows: J01 B12 D02 D04 D14 B10 B13 J02 J03
+  W            9 rows: D05 D06 E06 F03 S08 K06 T01 T02 T03
+  a            8 rows: J01 B12 B13 J02 G10 F01 F03 N22
+  k2           8 rows: D01 D02 D14 B01 B02 B04 B05 B10
+  alpha        6 rows: D11 D16 J06 G03 G04 G10
+  M            5 rows: J01 B12 D02 D03 S09
+  k4           5 rows: D01 B01 B02 B04 B05
+  N_2          5 rows: D02 D03 D14 G03 D06
+  eta          5 rows: D04 D17 B05 G08 F04
+  t            5 rows: S01 G10 C03 C15 N22
+  C01-C04      5 rows: C05 C06 C07 C08 C09
+  E06          5 rows: E01 E02 E03 E04 E05
+  C_h          4 rows: J01 B12 D02 S09
+  v            4 rows: D11 D16 D17 E06
+  nu           4 rows: B01 B02 B04 B05
+  E_nF         4 rows: B10 G04 S04 S07
+  lambda_p     4 rows: G01 S02 S03 S04
+  s12          4 rows: C10 C11 C13 C14
+  delta_q      4 rows: C10 C11 C13 C14
+  geometry     4 rows: E07 H01 H02 H03
+  V            4 rows: G09 S05 A003 K05
+  E_l          3 rows: D04 B10 C15
+  k_C          3 rows: D04 G08 J08
+  N_h          3 rows: D11 D08 D10
+  sigma        3 rows: D17 F04 E06
+  clock        3 rows: B01 B02 B04
+  B04          3 rows: B06 B07 B08
+  J05          3 rows: J06 G06 J08
+  G10          3 rows: G11 G13 M3
+  visits       3 rows: C01 S02 S03
+  e_line       3 rows: E06 T01 T02
+  R_ud         3 rows: I08 I09 J08
+  p            3 rows: I08 I09 J08
+  L            2 rows: J01 B12
+  E_H          2 rows: D04 J03
+  F            2 rows: D03 D09
+  h            2 rows: D03 J05
+  +            2 rows: D03 S05
+  f            2 rows: D11 D10
+  s^2          2 rows: D12 D13
+  B01          2 rows: B03 B08
+  B05          2 rows: B06 B07
+  c_L          2 rows: B13 J02
+  Phi          2 rows: J05 D09
+  G03          2 rows: G05 G13
+  G04          2 rows: G05 G13
+  J06          2 rows: G07 J09
+  e            2 rows: D06 T03
+  E            2 rows: K02 K03
+  N_C          1 rows: D01
+  x            1 rows: D02
+  G_F          1 rows: D15
+  M_W          1 rows: D12
+  chi_h        1 rows: D16
+  B02          1 rows: B03
+  B            1 rows: B09
+  B09          1 rows: B11
+  B10          1 rows: B11
+  B12          1 rows: B14
+  B13          1 rows: B14
+  m_e          1 rows: J05
+  Phi(i)       1 rows: J06
+  (5/3)        1 rows: S01
+  Var_l        1 rows: G03
+  mu_p         1 rows: G08
+  chi_A        1 rows: G10
+  G11          1 rows: G12
+  m_n          1 rows: J03
+  x_c          1 rows: J07
+  Tr           1 rows: C02
+  L^2          1 rows: C02
+  C01          1 rows: C03
+  C02          1 rows: C03
+  m_p/m_e      1 rows: D06
+  rho_nu       1 rows: E06
+  C11          1 rows: C12
+  G08          1 rows: G09
+  g_A          1 rows: S05
+  inputs       1 rows: S05
+  T03          1 rows: T04
+  U            1 rows: T06
+  D02          1 rows: L19
+  D08          1 rows: L20
+  M_Z          1 rows: S16
+  alpha_s      1 rows: S16
+  J01          1 rows: M1
+  J02          1 rows: M2
+  c            1 rows: J08
+  J08          1 rows: J09
+
+checks: 28 of 28 ok

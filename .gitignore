@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# the Lean build folder
+.lake/
+lean/.lake/
+
+# editor and system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

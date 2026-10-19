@@ -1,0 +1,4475 @@
+[
+  {
+    "id": "P01",
+    "quantity": "the comparison of two systems",
+    "formula": "L = I⊗I + Σ_t γ_t⊗γ_t = 2(P + E), spec L = 6¹ ⊕ 2¹⁰ ⊕ (−2)⁵, L(Ω) = 6",
+    "value": "6, 2, -2; L(\\ensuremath{\\Omega}) = 6",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_10",
+      "Comparison.System.prop_11",
+      "Comparison.Formulas.LOmega_inner",
+      "Comparison.System.Completion.Num.LOmega_eq",
+      "Comparison.System.S3_1"
+    ],
+    "source": "Supplemental Material, Part IV, record P01",
+    "unit": "1"
+  },
+  {
+    "id": "P02",
+    "quantity": "the types of distinction",
+    "formula": "within C(d, 2) + C(6 − d, 2) = 15, 10, 7, 6; mixing d(6 − d) = 0, 5, 8, 9; a clock only at 2¦4",
+    "value": "15, 10, 7, 6; 0, 5, 8, 9",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.central_kept_iff_card",
+      "Comparison.Formulas.no_clock_one_five",
+      "Comparison.System.S3_2"
+    ],
+    "source": "Supplemental Material, Part IV, record P02",
+    "unit": "1"
+  },
+  {
+    "id": "P03",
+    "quantity": "the two clocks",
+    "formula": "T₁ = iγ_h, T₂ = γ_hγ_k, T₃ = iγ_k: one quaternion triple, H_kT₁H_k† = T₂",
+    "value": "T\\_\\allowbreak{}a\\ensuremath{{}^{2}} = -1",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.quaternion_triple",
+      "Comparison.Formulas.halfStep_carries_clock",
+      "Comparison.System.prop_91"
+    ],
+    "source": "Supplemental Material, Part IV, record P03",
+    "unit": "1"
+  },
+  {
+    "id": "P04",
+    "quantity": "one generation",
+    "formula": "Y = \\|S ∩ F\\|/2 − \\|S ∩ C\\|/3: ΣY = ΣY³ = 0; charges (0, 1, −1/3, −1/3, −1/3)",
+    "value": "0",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_45",
+      "Comparison.System.S3_3"
+    ],
+    "source": "Supplemental Material, Part IV, record P04",
+    "unit": "1"
+  },
+  {
+    "id": "P05",
+    "quantity": "the Gram of h at the source",
+    "formula": "Gram of the twelve rotations keeping 2 + 3, moved by h: (1/2, 1/2, 4/5), nine zeros; M_W²/M_Z² = 5/8, sin²θ = 3/8",
+    "value": "5/8, 3/8",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_47",
+      "Comparison.System.S3_4"
+    ],
+    "source": "Supplemental Material, Part IV, record P05",
+    "unit": "1"
+  },
+  {
+    "id": "P06",
+    "quantity": "one time and three space",
+    "formula": "Tangent signature (one negative, three positive directions) of (S^1 x S^3)/Z_2",
+    "value": "(1, 3), negative directions first",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_21"
+    ],
+    "source": "Supplemental Material, Part IV, record P06",
+    "unit": "1"
+  },
+  {
+    "id": "P07",
+    "quantity": "the step B",
+    "formula": "80 directed edges (a state and its last change), 4 continuations each, 320 transitions",
+    "value": "80, 320",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_26"
+    ],
+    "source": "Supplemental Material, Part IV, record P07",
+    "unit": "1"
+  },
+  {
+    "id": "P08",
+    "quantity": "the law",
+    "formula": "det(I − uB) = (1 − u²)²⁴u¹⁶ det[(6I − L) + χI] = (1 − u²)²⁴k₀k₂¹⁰k₄⁵, χ = (1 − u)(1 − 4u)/u, k_N = u(2N + χ)",
+    "value": "one leading zero, k\\ensuremath{{}_{0}}(1/4) = 0",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.law_gap",
+      "Comparison.Formulas.law_bass_form",
+      "Comparison.Formulas.kN_gap",
+      "Comparison.Formulas.lawPoly_eq",
+      "Comparison.System.prop_54",
+      "Comparison.System.S3_5"
+    ],
+    "source": "Supplemental Material, Part IV, record P08",
+    "unit": "1"
+  },
+  {
+    "id": "P09",
+    "quantity": "the four points u = i^d/4",
+    "formula": "χ(i^d/4) = 0, −5 − 3i, −10, −5 + 3i",
+    "value": "0, -5 - 3i, -10, -5 + 3i",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.chi_quarters",
+      "Comparison.System.table_VII"
+    ],
+    "source": "Supplemental Material, Part IV, record P09",
+    "unit": "1"
+  },
+  {
+    "id": "P10",
+    "quantity": "grade factors, transmission and reflection at u = −1/4",
+    "formula": "k_N(−1/4) = (5 − N)/2; t = 1/k₀, e = k₂/k₀, t_ℓ = 1/k₂, e_ℓ = k₄/k₂",
+    "value": "5/2, 3/2, 1/2; 2/5, 3/5, 2/3, 1/3",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.kN_plane_gap",
+      "Comparison.Formulas.transmission_echo",
+      "Comparison.System.Completion.Num.k_zero",
+      "Comparison.System.Completion.Num.k_two",
+      "Comparison.System.Completion.Num.k_four",
+      "Comparison.System.Completion.Num.t_eq",
+      "Comparison.System.Completion.Num.e_eq",
+      "Comparison.System.Completion.Num.tLine_eq",
+      "Comparison.System.Completion.Num.eLine_eq",
+      "Comparison.System.prop_44"
+    ],
+    "source": "Supplemental Material, Part IV, record P10",
+    "unit": "1"
+  },
+  {
+    "id": "P11",
+    "quantity": "the long-wave limit",
+    "formula": "u=1/4-epsilon^2 m^2/24: chi=epsilon^2 m^2/2+O(epsilon^4), m>0; chi/(epsilon^2 m^2/2) tends to 1",
+    "value": "chi/(epsilon^2 m^2/2) tends to 1, m>0",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.chi_mass_shell",
+      "Comparison.Formulas.chart_symbol_second_order",
+      "Comparison.System.prop_59"
+    ],
+    "source": "Supplemental Material, Part IV, record P11",
+    "unit": "1"
+  },
+  {
+    "id": "P12",
+    "quantity": "the first-order step",
+    "formula": "U = e^(−ikγ_j)e^(−iμγ_h): U + U† = 2 cos k cos μ: Dirac",
+    "value": "cos \\ensuremath{\\omega} = cos \\ensuremath{\\mu} cos k",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_60"
+    ],
+    "source": "Supplemental Material, Part IV, record P12",
+    "unit": "1"
+  },
+  {
+    "id": "P13",
+    "quantity": "the gauge field's stiffness",
+    "formula": "κ(χ) = 2/[(χ + 5)² − 5]²",
+    "value": "1/200 at \\ensuremath{\\chi} = 0, -10; 1/98 at \\ensuremath{\\chi} = -5 \\ensuremath{\\mp} 3i",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.kappa_gap",
+      "Comparison.Formulas.kappa_gap_values",
+      "Comparison.System.prop_62",
+      "Comparison.System.S3_15"
+    ],
+    "source": "Supplemental Material, Part IV, record P13",
+    "unit": "1"
+  },
+  {
+    "id": "P14",
+    "quantity": "a circulation moves the leading zero",
+    "formula": "log 4u_c = ‖θ_cyc‖²/48 + O(θ⁴), 48 = 3Eℓ = 2(40 − 16)",
+    "value": "48",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.S3_17"
+    ],
+    "source": "Supplemental Material, Part IV, record P14",
+    "unit": "1"
+  },
+  {
+    "id": "P15",
+    "quantity": "the constant term",
+    "formula": "ε_abcd(𝓕^ab∧𝓕^cd − R^ab∧R^cd) = −(4/ℓ²)(R − 6/ℓ²) vol, 𝓕 = R − e∧e/ℓ²",
+    "value": "\\ensuremath{\\Lambda}\\ensuremath{\\ell}\\ensuremath{{}^{2}} = 3",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_61",
+      "Comparison.System.S3_15"
+    ],
+    "source": "Supplemental Material, Part IV, record P15",
+    "unit": "1"
+  },
+  {
+    "id": "P16",
+    "quantity": "the lapse couples to the rest energy",
+    "formula": "K_X(E, N) = K_X(E/N, 1): dE_X/dN = E_X(1) at N = 1",
+    "value": "1",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.lapse_displacement",
+      "Comparison.Formulas.lapse_rate"
+    ],
+    "source": "Supplemental Material, Part IV, record P16",
+    "unit": "1"
+  },
+  {
+    "id": "P17",
+    "quantity": "the first return and the mean return time",
+    "formula": "F(z) = z⁴(1 + z)/(16 − 8z − 3z² − 3z³): F(1) = 1, Eℓ = F′(1) = 16, Var ℓ = 156",
+    "value": "16, 156",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_29",
+      "Comparison.System.Completion.Num.El_eq",
+      "Comparison.System.Completion.Num.VarEll_eq",
+      "Comparison.System.S3_9"
+    ],
+    "source": "Supplemental Material, Part IV, record P17",
+    "unit": "1"
+  },
+  {
+    "id": "P18",
+    "quantity": "the signed first return",
+    "formula": "Φ(z) = −z⁴/(16 + 3z²): Φ(±1) = −1/19, Φ(±i) = −1/13",
+    "value": "-1/19, -1/13",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_30",
+      "Comparison.System.Completion.Num.Phi_closed",
+      "Comparison.System.Completion.Num.Phi_one",
+      "Comparison.System.Completion.Num.Phi_I"
+    ],
+    "source": "Supplemental Material, Part IV, record P18",
+    "unit": "1"
+  },
+  {
+    "id": "P19",
+    "quantity": "the visits of one excursion",
+    "formula": "E n_F = 10, E n_L = 5, Var n_F = 84, Var n_L = 12, Cov = 30; x_c = (√313 − 11)/6; F(1; x, 1) = x²/(4 − 3x): K = n_L − 2 has G(x) = 1/(4 − 3x), Pr(K = k) = (1/4)(3/4)^k, cumulants 3, 12, 84, 876",
+    "value": "10, 5, 84, 12, 30",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.EP_eq",
+      "Comparison.System.Completion.Num.EQ_eq",
+      "Comparison.System.Completion.Num.VarP_eq",
+      "Comparison.System.Completion.Num.VarQ_eq",
+      "Comparison.System.Completion.Num.Cov_eq",
+      "Comparison.System.Completion.Num.xc_root",
+      "Comparison.System.S3_10"
+    ],
+    "source": "Supplemental Material, Part IV, record P19",
+    "unit": "1"
+  },
+  {
+    "id": "P20",
+    "quantity": "the available transitions",
+    "formula": "74 directed edges, M = 296, C_h = 60, C_j = 59, 34 without h: c_L = 15/74, η = 295/296, σ = 75/74, R_ud = 17/37, E_H = 3",
+    "value": "296, 60, 59",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_31",
+      "Comparison.System.Completion.Num.Nlife_eq",
+      "Comparison.System.Completion.Num.M_eq",
+      "Comparison.System.Completion.Num.Ch_eq",
+      "Comparison.System.Completion.Num.Cj_eq",
+      "Comparison.System.Completion.Num.Nup_eq",
+      "Comparison.System.Completion.Num.cL_eq",
+      "Comparison.System.Completion.Num.eta_eq",
+      "Comparison.System.Completion.Num.sigma_eq",
+      "Comparison.System.Completion.Num.Rud_eq",
+      "Comparison.System.Completion.Num.EH_eq"
+    ],
+    "source": "Supplemental Material, Part IV, record P20",
+    "unit": "1"
+  },
+  {
+    "id": "P21",
+    "quantity": "the effective resistance b",
+    "formula": "b = G₀₀ + G_ff − 2G₀f, G = (5I − A)⁺ = (7I + A)/32 − 3J/128",
+    "value": "7/16",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.b_eq",
+      "Comparison.System.S3_11"
+    ],
+    "source": "Supplemental Material, Part IV, record P21",
+    "unit": "1"
+  },
+  {
+    "id": "P22",
+    "quantity": "the signed returns at the points",
+    "formula": "a = (1 − Φ(1))/8, χ_A = 1/(1 + Φ(i)), w_h = 1/(4χ_A), χ_h = w_h(1 − w_h)",
+    "value": "5/38, 13/12, 3/13, 30/169",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.a_eq",
+      "Comparison.System.Completion.Num.chiA_eq",
+      "Comparison.System.Completion.Num.wh_eq",
+      "Comparison.System.Completion.Num.chih_eq",
+      "Comparison.System.S3_14"
+    ],
+    "source": "Supplemental Material, Part IV, record P22",
+    "unit": "1"
+  },
+  {
+    "id": "P23",
+    "quantity": "the response against its own clock",
+    "formula": "J_DE/C_W = (\\|D\\|\\|E\\| − 5 tr P_DP_E)/72: g² = 1/72 = −Φ(1)/[4(1 + Φ(1))] = −Φ(i)/[6(1 + Φ(i))] = e_ℓ²/8",
+    "value": "1/72, 1/18, 1/12",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.sweep",
+      "Comparison.Formulas.sweep_ratios",
+      "Comparison.Formulas.crossing_g_sq",
+      "Comparison.System.S3_12"
+    ],
+    "source": "Supplemental Material, Part IV, record P23",
+    "unit": "1"
+  },
+  {
+    "id": "P24",
+    "quantity": "the weight of one transition",
+    "formula": "⟨Ω, (L + γ_h ⊗ γ_s)Ω⟩ = 6 + [s = h]: Σ over the available transitions = 6M + C_h = 1836",
+    "value": "1836",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.transitionSum_eq",
+      "Comparison.System.prop_78"
+    ],
+    "source": "Supplemental Material, Part IV, record P24",
+    "unit": "1"
+  },
+  {
+    "id": "P25",
+    "quantity": "the unit: one marked transition",
+    "formula": "D_θ(u) = D(u) + (e^(−iθ) − 1)uD′(u)/320: d arg 4u_c/dθ = 1/320 at θ = 0",
+    "value": "1/320",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.one_arc_explicit",
+      "Comparison.System.prop_203",
+      "Comparison.System.S3_13"
+    ],
+    "source": "Supplemental Material, Part IV, record P25",
+    "unit": "1"
+  },
+  {
+    "id": "P26",
+    "quantity": "the two-source coefficients at the plane hk",
+    "formula": "f = e²/N₂, ν = f/Eℓ",
+    "value": "9/250, 9/4000",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.f_eq",
+      "Comparison.System.Completion.Num.nu_eq",
+      "Comparison.System.prop_64"
+    ],
+    "source": "Supplemental Material, Part IV, record P26",
+    "unit": "1"
+  },
+  {
+    "id": "P27",
+    "quantity": "the clock's overlap",
+    "formula": "h = [M_Q(ν)M_Q(−ν)]^(−3/2), the ten gaps of the marks (0, 1, 2, 3, −1/Φ(1))/4, E_D = 2",
+    "value": "0.99997104933",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.h_closed",
+      "Comparison.Formulas.clock_sweep_limit",
+      "Comparison.System.prop_206"
+    ],
+    "source": "Supplemental Material, Part IV, record P27",
+    "unit": "1"
+  },
+  {
+    "id": "P28",
+    "quantity": "the repeated return along h",
+    "formula": "N_h = Re Σ_k h^k p_k, p_k = −Φ(4(i/4)^k) (k odd), F(4(i/4)^k) (k even)",
+    "value": "0.0770858406",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.Nh_eq_q",
+      "Comparison.System.prop_72"
+    ],
+    "source": "Supplemental Material, Part IV, record P28",
+    "unit": "1"
+  },
+  {
+    "id": "P29",
+    "quantity": "the contact interaction",
+    "formula": "x = νh/(M + 1 + N_h)",
+    "value": "7.573573 \\ensuremath{\\times} 10\\ensuremath{{}^{-6}}",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.x_eq_q"
+    ],
+    "source": "Supplemental Material, Part IV, record P29",
+    "unit": "1"
+  },
+  {
+    "id": "P30",
+    "quantity": "the weak contact's retained excursion",
+    "formula": "W_W = F(h)h⁻⁴(1 − 2b + 2bh)",
+    "value": "0.9996273896",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.WW_eq_q"
+    ],
+    "source": "Supplemental Material, Part IV, record P30",
+    "unit": "1"
+  },
+  {
+    "id": "P31",
+    "quantity": "the transmission factor W",
+    "formula": "W = t^(3Eℓ)η^(3E_H) = (2/5)⁴⁸(295/296)⁹ = det_C(t@{h,n}^Eℓ η^(E_H))",
+    "value": "W\\ensuremath{{}^{2}} = 5.906152 \\ensuremath{\\times} 10\\ensuremath{{}^{-39}}",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.W_closed",
+      "Comparison.Formulas.W_minor",
+      "Comparison.System.prop_66",
+      "Comparison.System.prop_83"
+    ],
+    "source": "Supplemental Material, Part IV, record P31",
+    "unit": "1"
+  },
+  {
+    "id": "P32",
+    "quantity": "the rule at every divided set",
+    "formula": "Ψ_S = −Φ(4w_S)/(16w_S²) = P/(L_S² + 3P), e_S = 1 − 2\\|w_S\\|, t_S = 2\\|w_S\\|",
+    "value": "1/28, -1/22, -1/6, 1/2",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.rule_signed_return",
+      "Comparison.Formulas.sqrt_three_rule",
+      "Comparison.System.prop_200",
+      "Comparison.System.S3_14"
+    ],
+    "source": "Supplemental Material, Part IV, record P32",
+    "unit": "1"
+  },
+  {
+    "id": "P33",
+    "quantity": "the clock's spread is the excursion's",
+    "formula": "Var D = [(Var n_F − Var n_L)² + 4Cov²]/(3Eℓ)² = 61/16, E_D = (Var n_F + Var n_L)/(3Eℓ) = 2",
+    "value": "61/16, 2",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.clock_spread_is_excursion",
+      "Comparison.Formulas.clock_sweep_limit",
+      "Comparison.System.prop_206"
+    ],
+    "source": "Supplemental Material, Part IV, record P33",
+    "unit": "1"
+  },
+  {
+    "id": "P34",
+    "quantity": "the Gram-determinant term",
+    "formula": "det F₀ = t@{} = 2/5, F₀ = (4/5)G, G the Gram of the pairings 1, −P, −E; (1/6) log(5/2) in m_p/m_e",
+    "value": "2/5",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.detF0_is_transmission",
+      "Comparison.System.Completion.Num.protonPole_closed",
+      "Comparison.System.prop_80",
+      "Comparison.System.prop_81",
+      "Comparison.System.prop_82"
+    ],
+    "source": "Supplemental Material, Part IV, record P34",
+    "unit": "1"
+  },
+  {
+    "id": "P35",
+    "quantity": "the neutral contrasts",
+    "formula": "the step graph of the symmetric states is the Petersen graph: Σ a^(2Δ) = 5a⁴ + 4a¹⁰",
+    "value": "5a\\ensuremath{{}^{4}} + 4a\\ensuremath{{}^{10}}",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.Completion.Num.neutronExponent_closed",
+      "Comparison.System.prop_73"
+    ],
+    "source": "Supplemental Material, Part IV, record P35",
+    "unit": "1"
+  },
+  {
+    "id": "P36",
+    "quantity": "the projected nucleon",
+    "formula": "P_N = P_sym(15/4 − S²)/3 of rank 4: ⟨p↑\\|Σ_r σ_zτ_z\\|p↑⟩ = 5/3",
+    "value": "5/3",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.Formulas.Nucleon.rank_PN",
+      "Comparison.Formulas.Nucleon.axial_Pp",
+      "Comparison.System.prop_120"
+    ],
+    "source": "Supplemental Material, Part IV, record P36",
+    "unit": "1"
+  },
+  {
+    "id": "P37",
+    "quantity": "no strong phase",
+    "formula": "(1 + 4u²) − uA_U ⪰ (1 − u)(1 − 4u) for every unitary connection, 0 ≤ u < 1/4",
+    "value": "\\ensuremath{\\bar{\\theta}} = 0",
+    "comparison": "Exact finite identity",
+    "residual": "--",
+    "operation": "Computed finite identity.",
+    "theorems": [
+      "Comparison.System.prop_115",
+      "Comparison.System.S3_8"
+    ],
+    "source": "Supplemental Material, Part IV, record P37",
+    "unit": "1"
+  },
+  {
+    "id": "D01",
+    "quantity": "strong coupling alpha_s(M_Z)",
+    "formula": "coefficient: two-source coefficient at the colour divided set C: α_s = (e_t²/N)^(1/2) = ((1/3)²/8)^(1/2), N = 8 colour rotations",
+    "value": "0.117851130197758",
+    "comparison": "0.118 +0.0009/-0.0009 [PDG 2024]",
+    "residual": "-0.165",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D01"
+    ],
+    "source": "Supplemental Material, Part IV, record D01",
+    "unit": "1",
+    "measurement": {
+      "central": 0.118,
+      "upper_sigma": 0.0009,
+      "lower_sigma": 0.0009,
+      "source": "0.118 +0.0009/-0.0009 [PDG 2024]"
+    }
+  },
+  {
+    "id": "D02",
+    "quantity": "inverse electric coupling 1/alpha",
+    "formula": "residue: inverse of the photon's residue at zero transfer: 1/α = (1 − x)/(c_L f)",
+    "value": "137.035999177096",
+    "comparison": "137.035999177 +2.1e-08/-2.1e-08 [CODATA 2022]",
+    "residual": "+0.005",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D02"
+    ],
+    "source": "Supplemental Material, Part IV, record D02",
+    "unit": "1",
+    "measurement": {
+      "central": 137.035999177,
+      "upper_sigma": 2.1e-08,
+      "lower_sigma": 2.1e-08,
+      "source": "137.035999177 +2.1e-08/-2.1e-08 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "L19",
+    "quantity": "clock-independent lower bound on inverse alpha",
+    "formula": "residue: inverse of the photon's residue at the clock endpoint h = 1",
+    "value": "137.035999147056",
+    "comparison": "bound for every clock",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L19"
+    ],
+    "source": "Supplemental Material, Part IV, record L19",
+    "unit": "1"
+  },
+  {
+    "id": "D03",
+    "quantity": "Fermi coefficient G_F",
+    "formula": "coefficient: two-source coefficient at h, the closed contact interaction: G_F m_p² = (1 − 1/10)(1/M)(1/M)W_W",
+    "value": "1.16637885870644",
+    "comparison": "1.1663787 +6e-07/-6e-07 [CODATA 2022]",
+    "residual": "+0.265",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D03"
+    ],
+    "source": "Supplemental Material, Part IV, record D03",
+    "unit": "10^-5 GeV^-2",
+    "measurement": {
+      "central": 1.1663787,
+      "upper_sigma": 6e-07,
+      "lower_sigma": 6e-07,
+      "source": "1.1663787 +6e-07/-6e-07 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "D04",
+    "quantity": "gravitational coupling G m_p^2/(hbar c)",
+    "formula": "coefficient: two-source coefficient of the frame, closed and complete: G m_p²/ħc = W·W",
+    "value": "5.90615249377149",
+    "comparison": "5.90614943 +0.000133/-0.000133 [CODATA 2022 G]",
+    "residual": "+0.023",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D04"
+    ],
+    "source": "Supplemental Material, Part IV, record D04",
+    "unit": "10^-39",
+    "measurement": {
+      "central": 5.90614943,
+      "upper_sigma": 0.000133,
+      "lower_sigma": 0.000133,
+      "source": "5.90614943 +0.000133/-0.000133 [CODATA 2022 G]"
+    }
+  },
+  {
+    "id": "D05",
+    "quantity": "Planck mass, m_p over the square root of the gravitational coupling",
+    "formula": "coefficient: coefficient of the frame's curvature term, M_Pl²/16π: M_Pl = m_p/W",
+    "value": "1.22088981188542",
+    "comparison": "1.22089 +1.4e-05/-1.4e-05 [CODATA 2022]",
+    "residual": "-0.013",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D05"
+    ],
+    "source": "Supplemental Material, Part IV, record D05",
+    "unit": "10^19 GeV",
+    "measurement": {
+      "central": 1.22089,
+      "upper_sigma": 1.4e-05,
+      "lower_sigma": 1.4e-05,
+      "source": "1.22089 +1.4e-05/-1.4e-05 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "J01",
+    "quantity": "m_p/m_e",
+    "formula": "R_p = m_p/m_e, as B12",
+    "value": "1836.15267341205",
+    "comparison": "1836.152673426 +3.2e-08 / -3.2e-08 [CODATA 2022]",
+    "residual": "-0.435882",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J01"
+    ],
+    "source": "Supplemental Material, Part IV, record J01",
+    "unit": "1",
+    "measurement": {
+      "central": 1836.152673426,
+      "upper_sigma": 3.2e-08,
+      "lower_sigma": 3.2e-08,
+      "source": "1836.152673426 +3.2e-08 / −3.2e-08 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "B12",
+    "quantity": "proton/electron m_p/m_e",
+    "formula": "pole: rest pole of the first return to the singlet: 6M + C_h + (1/6)ln k₀(−1/4) − a⁵ − ba⁶, the available transitions, the Gram-determinant term and the two signed-volume terms",
+    "value": "1836.15267341205",
+    "comparison": "1836.152673426 +3.2e-08/-3.2e-08 [CODATA 2022]",
+    "residual": "-0.436",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B12"
+    ],
+    "source": "Supplemental Material, Part IV, record B12",
+    "unit": "1",
+    "measurement": {
+      "central": 1836.152673426,
+      "upper_sigma": 3.2e-08,
+      "lower_sigma": 3.2e-08,
+      "source": "1836.152673426 +3.2e-08/-3.2e-08 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "M1",
+    "quantity": "proton mass MeV",
+    "formula": "R_p m_e, R_p = m_p/m_e",
+    "value": "938.272089420197",
+    "comparison": "938.27208943 \\ensuremath{\\pm} 2.9e-07 [CODATA 2022]",
+    "residual": "-0.0338046",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_M1"
+    ],
+    "source": "Supplemental Material, Part IV, record M1",
+    "unit": "MeV",
+    "measurement": {
+      "central": 938.27208943,
+      "upper_sigma": 2.9e-07,
+      "lower_sigma": 2.9e-07,
+      "source": "938.27208943 ± 2.9e-07 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "B13",
+    "quantity": "neutron/proton m_n/m_p",
+    "formula": "pole: pole quotient m_n/m_p = k₀(−1/4)^(5a⁴+4a¹⁰+10c_L b a⁶): the neutral pole spread over the ten symmetric states",
+    "value": "1.00137841956462",
+    "comparison": "1.00137841946 +4e-10/-4e-10 [CODATA 2022]",
+    "residual": "+0.262",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B13"
+    ],
+    "source": "Supplemental Material, Part IV, record B13",
+    "unit": "1",
+    "measurement": {
+      "central": 1.00137841946,
+      "upper_sigma": 4e-10,
+      "lower_sigma": 4e-10,
+      "source": "1.00137841946 +4e-10/-4e-10 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "J02",
+    "quantity": "m_n/m_p",
+    "formula": "R_n = m_n/m_p, as B13",
+    "value": "1.00137841956462",
+    "comparison": "1.00137841946 +4e-10 / -4e-10 [CODATA 2022]",
+    "residual": "+0.261549",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J02"
+    ],
+    "source": "Supplemental Material, Part IV, record J02",
+    "unit": "1",
+    "measurement": {
+      "central": 1.00137841946,
+      "upper_sigma": 4e-10,
+      "lower_sigma": 4e-10,
+      "source": "1.00137841946 +4e-10 / −4e-10 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "B14",
+    "quantity": "neutron/electron m_n/m_e",
+    "formula": "pole: the neutron pole in m_e: (m_p/m_e)(m_n/m_p)",
+    "value": "1838.68366218071",
+    "comparison": "1838.683662 +7.4e-07/-7.4e-07 [CODATA 2022]",
+    "residual": "+0.244",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B14"
+    ],
+    "source": "Supplemental Material, Part IV, record B14",
+    "unit": "1",
+    "measurement": {
+      "central": 1838.683662,
+      "upper_sigma": 7.4e-07,
+      "lower_sigma": 7.4e-07,
+      "source": "1838.683662 +7.4e-07/-7.4e-07 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "M2",
+    "quantity": "neutron mass MeV",
+    "formula": "R_n R_p m_e",
+    "value": "939.56542202519",
+    "comparison": "939.56542194 \\ensuremath{\\pm} 4.8e-07 [CODATA 2022]",
+    "residual": "+0.177479",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_M2"
+    ],
+    "source": "Supplemental Material, Part IV, record M2",
+    "unit": "MeV",
+    "measurement": {
+      "central": 939.56542194,
+      "upper_sigma": 4.8e-07,
+      "lower_sigma": 4.8e-07,
+      "source": "939.56542194 ± 4.8e-07 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "B01",
+    "quantity": "muon/electron",
+    "formula": "pole: rest pole of the symmetric-state block at the sign of {a,b}: m_μ/m_e = exp Tr(Π_F H₁) = 3⁵e^(−9/56)M_Q(ν)^(1/6)",
+    "value": "206.768283945476",
+    "comparison": "206.7682827 +4.6e-06/-4.6e-06 [CODATA 2022]",
+    "residual": "+0.271",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B01"
+    ],
+    "source": "Supplemental Material, Part IV, record B01",
+    "unit": "1",
+    "measurement": {
+      "central": 206.7682827,
+      "upper_sigma": 4.6e-06,
+      "lower_sigma": 4.6e-06,
+      "source": "206.7682827 +4.6e-06/-4.6e-06 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "B02",
+    "quantity": "tau/muon",
+    "formula": "pole: rest pole of the vector-state block at the sign of {a,b}: m_τ/m_μ = exp Tr(Π_L H₁) = 3^(5/2)e^(1/14+2ν)",
+    "value": "16.8181606410583",
+    "comparison": "16.817691845 +0.000852/-0.000852 [PDG 2024 m\\_\\allowbreak{}tau]",
+    "residual": "+0.550",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B02"
+    ],
+    "source": "Supplemental Material, Part IV, record B02",
+    "unit": "1",
+    "measurement": {
+      "central": 16.817691845,
+      "upper_sigma": 0.000852,
+      "lower_sigma": 0.000852,
+      "source": "16.817691845 +0.000852/-0.000852 [PDG 2024 m_tau]"
+    }
+  },
+  {
+    "id": "L01",
+    "quantity": "tau pole mass",
+    "formula": "pole: the τ pole: m_e·R_μ·R_τ",
+    "value": "1776.9795428632",
+    "comparison": "from B01 and B02",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L01"
+    ],
+    "source": "Supplemental Material, Part IV, record L01",
+    "unit": "MeV"
+  },
+  {
+    "id": "B03",
+    "quantity": "Koide statistic",
+    "formula": "pole: C[Koide's form] of the two charged poles B01, B02",
+    "value": "0.666667259761091",
+    "comparison": "0.6666645 +6.8e-06/-6.8e-06 [PDG masses]",
+    "residual": "+0.406",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B03"
+    ],
+    "source": "Supplemental Material, Part IV, record B03",
+    "unit": "1",
+    "measurement": {
+      "central": 0.6666645,
+      "upper_sigma": 6.8e-06,
+      "lower_sigma": 6.8e-06,
+      "source": "0.6666645 +6.8e-06/-6.8e-06 [PDG masses]"
+    }
+  },
+  {
+    "id": "L17",
+    "quantity": "Koide discrimination",
+    "formula": "pole: C[Koide's form] of the two charged poles",
+    "value": "0.666667259761091",
+    "comparison": "from B03",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L17"
+    ],
+    "source": "Supplemental Material, Part IV, record L17",
+    "unit": "1"
+  },
+  {
+    "id": "L04",
+    "quantity": "number of charged families",
+    "formula": "pole: number of charged rest poles: the even grades 0, 2, 4 of the two-spinor states",
+    "value": "3",
+    "comparison": "prediction: no fourth family",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L04",
+      "Comparison.System.row_L04_pairings"
+    ],
+    "source": "Supplemental Material, Part IV, record L04",
+    "unit": "1"
+  },
+  {
+    "id": "L05",
+    "quantity": "forbidden charged-lepton threshold",
+    "formula": "pole: no pole: the vector-state block's main term alone, 3^(5/2)m_e, carries no rest pole",
+    "value": "7.96568530688517",
+    "comparison": "prediction: no charged lepton at this threshold",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L05"
+    ],
+    "source": "Supplemental Material, Part IV, record L05",
+    "unit": "MeV"
+  },
+  {
+    "id": "B04",
+    "quantity": "strange/down",
+    "formula": "pole: pole quotient m_s/m_d = p_q, the coloured symmetric-state block (the available transitions held open on d and s)",
+    "value": "19.9616523937784",
+    "comparison": "19.946 +0.335/-0.335 [FLAG 2021 N\\_\\allowbreak{}f = 2+1+1, m\\_\\allowbreak{}s/m\\_\\allowbreak{}ud = 27.23(10) times (1 + m\\_\\allowbreak{}u/m\\_\\allowbreak{}d)/2 with m\\_\\allowbreak{}u/m\\_\\allowbreak{}d = 0.465(24)]",
+    "residual": "+0.047",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B04"
+    ],
+    "source": "Supplemental Material, Part IV, record B04",
+    "unit": "1",
+    "measurement": {
+      "central": 19.946,
+      "upper_sigma": 0.335,
+      "lower_sigma": 0.335,
+      "source": "19.946 +0.335/-0.335 [FLAG 2021 N_f = 2+1+1, m_s/m_ud = 27.23(10) times (1 + m_u/m_d)/2 with m_u/m_d = 0.465(24)]"
+    }
+  },
+  {
+    "id": "B05",
+    "quantity": "bottom/strange",
+    "formula": "pole: pole quotient m_b/m_s = q_qη: the coloured vector-state block times the open level's share η of the available transitions",
+    "value": "53.9210868808146",
+    "comparison": "53.88 +0.12/-0.12 [PDG 2026]",
+    "residual": "+0.34",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B05"
+    ],
+    "source": "Supplemental Material, Part IV, record B05",
+    "unit": "1",
+    "measurement": {
+      "central": 53.88,
+      "upper_sigma": 0.12,
+      "lower_sigma": 0.12,
+      "source": "53.88 +0.12/-0.12 [PDG 2026]"
+    }
+  },
+  {
+    "id": "B06",
+    "quantity": "down statistic m_b^2 m_d/m_s^3",
+    "formula": "pole: pole quotient m_b²m_d/m_s³ = q_q²η²/p_q",
+    "value": "145.653453584562",
+    "comparison": "145.45 +2.63/-2.63 [(m\\_\\allowbreak{}b/m\\_\\allowbreak{}s)\\textasciicircum{}2 (m\\_\\allowbreak{}d/m\\_\\allowbreak{}s) of the two FLAG ratios above]",
+    "residual": "+0.08",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B06"
+    ],
+    "source": "Supplemental Material, Part IV, record B06",
+    "unit": "1",
+    "measurement": {
+      "central": 145.45,
+      "upper_sigma": 2.63,
+      "lower_sigma": 2.63,
+      "source": "145.45 +2.63/-2.63 [(m_b/m_s)^2 (m_d/m_s) of the two FLAG ratios above]"
+    }
+  },
+  {
+    "id": "B07",
+    "quantity": "up statistic m_t^2 m_u/m_c^3",
+    "formula": "pole: pole quotient m_t²m_u/m_c³ = q_q²η²/p_q; R_ud and κ cancel",
+    "value": "145.653453584562",
+    "comparison": "144.156 +6.06/-5.72 [PDG 2026 masses, four-loop running to m\\_\\allowbreak{}t(m\\_\\allowbreak{}t)]",
+    "residual": "+0.25",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B07"
+    ],
+    "source": "Supplemental Material, Part IV, record B07",
+    "unit": "1",
+    "measurement": {
+      "central": 144.156,
+      "upper_sigma": 6.06,
+      "lower_sigma": 5.72,
+      "source": "144.156 +6.06/-5.72 [PDG 2026 masses, four-loop running to m_t(m_t)]"
+    }
+  },
+  {
+    "id": "B08",
+    "quantity": "lepton/quark symmetric-state quotient",
+    "formula": "pole quotient: the symmetric-state block at its two signs, R_μ/p_q",
+    "value": "10.3582749497192",
+    "comparison": "10.3664 +0.174/-0.174 [CODATA m\\_\\allowbreak{}mu/m\\_\\allowbreak{}e over the FLAG strange/down ratio]",
+    "residual": "-0.047",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B08"
+    ],
+    "source": "Supplemental Material, Part IV, record B08",
+    "unit": "1",
+    "measurement": {
+      "central": 10.3664,
+      "upper_sigma": 0.174,
+      "lower_sigma": 0.174,
+      "source": "10.3664 +0.174/-0.174 [CODATA m_mu/m_e over the FLAG strange/down ratio]"
+    }
+  },
+  {
+    "id": "B09",
+    "quantity": "up/down m_u/m_d",
+    "formula": "pole: pole quotient m_u/m_d = R_ud = 34/74, the stationary share of the directed edges whose state does not contain h",
+    "value": "0.459459459459459",
+    "comparison": "0.4595745 +0.01/-0.01 [PDG 2.16/4.70]",
+    "residual": "-0.012",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B09"
+    ],
+    "source": "Supplemental Material, Part IV, record B09",
+    "unit": "1",
+    "measurement": {
+      "central": 0.4595745,
+      "upper_sigma": 0.01,
+      "lower_sigma": 0.01,
+      "source": "0.4595745 +0.01/-0.01 [PDG 2.16/4.70]"
+    }
+  },
+  {
+    "id": "B10",
+    "quantity": "up factor per visit to a symmetric state, kappa",
+    "formula": "pole: factor of the up pole per visit to a symmetric state: (e/t)^(Eℓ/E n_F) = (3/2)^(8/5)",
+    "value": "1.91313675093869",
+    "comparison": "1.9131 +0.0062/-0.0062 [up-sector masses]",
+    "residual": "+0.006",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B10"
+    ],
+    "source": "Supplemental Material, Part IV, record B10",
+    "unit": "1",
+    "measurement": {
+      "central": 1.9131,
+      "upper_sigma": 0.0062,
+      "lower_sigma": 0.0062,
+      "source": "1.9131 +0.0062/-0.0062 [up-sector masses]"
+    }
+  },
+  {
+    "id": "B11",
+    "quantity": "charm/strange",
+    "formula": "pole: pole quotient m_c/m_s = R_ud κ⁵",
+    "value": "11.7754434121621",
+    "comparison": "11.761 +0.028/-0.028 [PDG 2026 m\\_\\allowbreak{}c/m\\_\\allowbreak{}s]",
+    "residual": "+0.516",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_B11"
+    ],
+    "source": "Supplemental Material, Part IV, record B11",
+    "unit": "1",
+    "measurement": {
+      "central": 11.761,
+      "upper_sigma": 0.028,
+      "lower_sigma": 0.028,
+      "source": "11.761 +0.028/-0.028 [PDG 2026 m_c/m_s]"
+    }
+  },
+  {
+    "id": "D15",
+    "quantity": "electroweak scale v = (sqrt2 G_F)^-1/2",
+    "formula": "coefficient: Fermi's scale of the closed contact interaction: v = (√2 G_F)^(−1/2)",
+    "value": "246.219634042871",
+    "comparison": "246.219650794 +6.33293e-05/-6.33293e-05 [$(\\sqrt2G_F)^{-1/2}$ from CODATA 2022 $G_F=1.1663787(6)\\times10^{-5}\\,\\mathrm{GeV}^{-2}$, the same record as D03]",
+    "residual": "-0.265",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D15"
+    ],
+    "source": "Supplemental Material, Part IV, record D15",
+    "unit": "GeV",
+    "measurement": {
+      "central": 246.219650794,
+      "upper_sigma": 6.33293e-05,
+      "lower_sigma": 6.33293e-05,
+      "source": "246.219650794 +6.33293e-05/-6.33293e-05 [$(\\sqrt2G_F)^{-1/2}$ from CODATA 2022 $G_F=1.1663787(6)\\times10^{-5}\\,\\mathrm{GeV}^{-2}$, the same record as D03]"
+    }
+  },
+  {
+    "id": "D08",
+    "quantity": "MSbar weak angle 3 N_h",
+    "formula": "eigenvector: angle of the neutral block's eigenvectors at its poles, MS-bar convention: 3N_h = 3Σ_k h^k p_k",
+    "value": "0.231257521689422",
+    "comparison": "0.23122 +6e-05/-6e-05 [PDG 2026, top decoupled]",
+    "residual": "+0.625",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D08"
+    ],
+    "source": "Supplemental Material, Part IV, record D08",
+    "unit": "1",
+    "measurement": {
+      "central": 0.23122,
+      "upper_sigma": 6e-05,
+      "lower_sigma": 6e-05,
+      "source": "0.23122 +6e-05/-6e-05 [PDG 2026, top decoupled]"
+    }
+  },
+  {
+    "id": "D10",
+    "quantity": "on-shell weak angle 3 N_h/(1 + f)",
+    "formula": "eigenvector: the same angle, on-shell convention: s²_OS = 3N_h/(1 + f)",
+    "value": "0.223221546032261",
+    "comparison": "0.2233373 +0.000153/-0.000153 [direct M\\_\\allowbreak{}W/M\\_\\allowbreak{}Z]",
+    "residual": "-0.758",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D10"
+    ],
+    "source": "Supplemental Material, Part IV, record D10",
+    "unit": "1",
+    "measurement": {
+      "central": 0.2233373,
+      "upper_sigma": 0.000153,
+      "lower_sigma": 0.000153,
+      "source": "0.2233373 +0.000153/-0.000153 [direct M_W/M_Z]"
+    }
+  },
+  {
+    "id": "L20",
+    "quantity": "clock-independent upper bound on the MS-bar weak angle",
+    "formula": "eigenvector: the MS-bar angle at the clock endpoint h = 1",
+    "value": "0.231264231357674",
+    "comparison": "bound for every clock",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L20"
+    ],
+    "source": "Supplemental Material, Part IV, record L20",
+    "unit": "1"
+  },
+  {
+    "id": "D09",
+    "quantity": "effective weak angle 3 N_con",
+    "formula": "eigenvector: the same angle, effective convention: 3N_con",
+    "value": "0.231550233937853",
+    "comparison": "0.23153 +0.00016/-0.00016 [LEP/SLD, Phys. Rep. 427, 257 (2006)]",
+    "residual": "+0.126",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D09"
+    ],
+    "source": "Supplemental Material, Part IV, record D09",
+    "unit": "1",
+    "measurement": {
+      "central": 0.23153,
+      "upper_sigma": 0.00016,
+      "lower_sigma": 0.00016,
+      "source": "0.23153 +0.00016/-0.00016 [LEP/SLD, Phys. Rep. 427, 257 (2006)]"
+    }
+  },
+  {
+    "id": "D14",
+    "quantity": "weak correction delta_inv = f",
+    "formula": "coefficient: two-source coefficient at the plane hk: f = e_{t,n}²/N = (3/5)²/10, N = 10 symmetric states",
+    "value": "0.036",
+    "comparison": "0.03641 +0.00046/-0.00046 [1 - pi alpha/(sqrt2 G\\_\\allowbreak{}F M\\_\\allowbreak{}W\\textasciicircum{}2 s2\\_\\allowbreak{}OS) of the records of 1/alpha, G\\_\\allowbreak{}F, M\\_\\allowbreak{}W and M\\_\\allowbreak{}Z]",
+    "residual": "-0.891",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D14"
+    ],
+    "source": "Supplemental Material, Part IV, record D14",
+    "unit": "1",
+    "measurement": {
+      "central": 0.03641,
+      "upper_sigma": 0.00046,
+      "lower_sigma": 0.00046,
+      "source": "0.03641 +0.00046/-0.00046 [1 - pi alpha/(sqrt2 G_F M_W^2 s2_OS) of the records of 1/alpha, G_F, M_W and M_Z]"
+    }
+  },
+  {
+    "id": "D11",
+    "quantity": "W mass",
+    "formula": "pole: charged weak pole: M_W² = πα v²/((1 − f)s²_OS)",
+    "value": "80.3662510403325",
+    "comparison": "80.3625 +0.0077/-0.0077 [PDG 2026 evaluation without the CDF II measurement]",
+    "residual": "+0.487",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D11"
+    ],
+    "source": "Supplemental Material, Part IV, record D11",
+    "unit": "GeV",
+    "measurement": {
+      "central": 80.3625,
+      "upper_sigma": 0.0077,
+      "lower_sigma": 0.0077,
+      "source": "80.3625 +0.0077/-0.0077 [PDG 2026 evaluation without the CDF II measurement]"
+    }
+  },
+  {
+    "id": "L15",
+    "quantity": "W pole mass test",
+    "formula": "pole: charged weak pole: M_W² = πα v²/((1 − f)s²_OS)",
+    "value": "80.3662510403325",
+    "comparison": "80.3570(60) GeV [PDG 2026 SM indirect determination]",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L15"
+    ],
+    "source": "Supplemental Material, Part IV, record L15",
+    "unit": "GeV",
+    "measurement": {
+      "central": 80.357,
+      "upper_sigma": 0.006,
+      "lower_sigma": 0.006,
+      "source": "80.3570(60) GeV [PDG 2026 SM indirect determination]"
+    }
+  },
+  {
+    "id": "D12",
+    "quantity": "Z mass",
+    "formula": "pole: massive pole of the neutral block: M_Z = M_W(1 − s²_OS)^(−1/2)",
+    "value": "91.1853615183457",
+    "comparison": "91.1879 +0.002/-0.002 [PDG 2026 world average (LEP 1, CDF, LHCb), running-width convention]",
+    "residual": "-1.269",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D12"
+    ],
+    "source": "Supplemental Material, Part IV, record D12",
+    "unit": "GeV",
+    "measurement": {
+      "central": 91.1879,
+      "upper_sigma": 0.002,
+      "lower_sigma": 0.002,
+      "source": "91.1879 +0.002/-0.002 [PDG 2026 world average (LEP 1, CDF, LHCb), running-width convention]"
+    }
+  },
+  {
+    "id": "D13",
+    "quantity": "W/Z mass ratio",
+    "formula": "eigenvector: component of the neutral eigenvector at the Z pole: M_W/M_Z = cos θ = (1 − s²_OS)^(1/2)",
+    "value": "0.881350358238844",
+    "comparison": "0.88128469 +8.66e-05/-8.66e-05 [direct masses]",
+    "residual": "+0.758",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D13"
+    ],
+    "source": "Supplemental Material, Part IV, record D13",
+    "unit": "1",
+    "measurement": {
+      "central": 0.88128469,
+      "upper_sigma": 8.66e-05,
+      "lower_sigma": 8.66e-05,
+      "source": "0.88128469 +8.66e-05/-8.66e-05 [direct masses]"
+    }
+  },
+  {
+    "id": "D16",
+    "quantity": "scalar mass m_H",
+    "formula": "pole: radial pole of h: m_H = v(2πα/χ_h)^(1/2), χ_h = 30/169",
+    "value": "125.134771593402",
+    "comparison": "125.13 +0.11/-0.11 [PDG 2026 average, error with scale factor S = 1.5]",
+    "residual": "+0.043",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D16"
+    ],
+    "source": "Supplemental Material, Part IV, record D16",
+    "unit": "GeV",
+    "measurement": {
+      "central": 125.13,
+      "upper_sigma": 0.11,
+      "lower_sigma": 0.11,
+      "source": "125.13 +0.11/-0.11 [PDG 2026 average, error with scale factor S = 1.5]"
+    }
+  },
+  {
+    "id": "D17",
+    "quantity": "top mass",
+    "formula": "pole: rest pole of the top on the available transitions at the half power of h: v(η/(2σ))^(1/2)",
+    "value": "172.646613614442",
+    "comparison": "172.6 +0.27/-0.27 [PDG 2026 average of direct measurements, error with scale factor S = 1.5]",
+    "residual": "+0.173",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D17"
+    ],
+    "source": "Supplemental Material, Part IV, record D17",
+    "unit": "GeV",
+    "measurement": {
+      "central": 172.6,
+      "upper_sigma": 0.27,
+      "lower_sigma": 0.27,
+      "source": "172.6 +0.27/-0.27 [PDG 2026 average of direct measurements, error with scale factor S = 1.5]"
+    }
+  },
+  {
+    "id": "S07",
+    "quantity": "top mass, second construction",
+    "formula": "pole: rest pole of the top, second construction: m_p²/(E n_F m_e)",
+    "value": "172.281080537681",
+    "comparison": "172.57 +0.29/-0.29 [PDG 2024 direct]",
+    "residual": "-0.996",
+    "operation": "Second construction; its factor was chosen with the measured value available.",
+    "theorems": [
+      "Comparison.System.row_S07"
+    ],
+    "source": "Supplemental Material, Part IV, record S07",
+    "unit": "GeV",
+    "measurement": {
+      "central": 172.57,
+      "upper_sigma": 0.29,
+      "lower_sigma": 0.29,
+      "source": "172.57 +0.29/-0.29 [PDG 2024 direct]"
+    }
+  },
+  {
+    "id": "C01",
+    "quantity": "first quark mixing s12",
+    "formula": "eigenvector: overlap of the up-type and down-type eigenvectors at their poles, the singlet to a symmetric state: s₁₂ = (Var n_F − Cov²/Var n_L)/(Eℓ·5/2) = 9/40",
+    "value": "0.225",
+    "comparison": "0.22517 +0.00068/-0.00068 [PDG 2026 CKM global fit]",
+    "residual": "-0.250",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C01"
+    ],
+    "source": "Supplemental Material, Part IV, record C01",
+    "unit": "1",
+    "measurement": {
+      "central": 0.22517,
+      "upper_sigma": 0.00068,
+      "lower_sigma": 0.00068,
+      "source": "0.22517 +0.00068/-0.00068 [PDG 2026 CKM global fit]"
+    }
+  },
+  {
+    "id": "C02",
+    "quantity": "second quark mixing s23",
+    "formula": "eigenvector: overlap, a symmetric state to a vector state: s₂₃ = 4/Tr L² = 1/24",
+    "value": "0.0416666666666667",
+    "comparison": "0.04189 +0.00081/-0.00069 [PDG 2026 CKM fit]",
+    "residual": "-0.324",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C02"
+    ],
+    "source": "Supplemental Material, Part IV, record C02",
+    "unit": "1",
+    "measurement": {
+      "central": 0.04189,
+      "upper_sigma": 0.00081,
+      "lower_sigma": 0.00069,
+      "source": "0.04189 +0.00081/-0.00069 [PDG 2026 CKM fit]"
+    }
+  },
+  {
+    "id": "C03",
+    "quantity": "far quark mixing s13",
+    "formula": "eigenvector: overlap, the singlet to a vector state: s₁₃ = t·s₁₂s₂₃ = 3/800",
+    "value": "0.00375",
+    "comparison": "0.003763 +8.8e-05/-8.3e-05 [PDG 2026 CKM fit]",
+    "residual": "-0.157",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C03"
+    ],
+    "source": "Supplemental Material, Part IV, record C03",
+    "unit": "1",
+    "measurement": {
+      "central": 0.003763,
+      "upper_sigma": 8.8e-05,
+      "lower_sigma": 8.3e-05,
+      "source": "0.003763 +8.8e-05/-8.3e-05 [PDG 2026 CKM fit]"
+    }
+  },
+  {
+    "id": "C04",
+    "quantity": "quark phase delta_q",
+    "formula": "eigenvector: phase of the eigenvector overlaps: δ_q = arg(b + i), the complex weight b + i",
+    "value": "1.15838588519751",
+    "comparison": "1.154 +0.025/-0.025 [PDG 2026 CKM fit]",
+    "residual": "+0.175",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C04"
+    ],
+    "source": "Supplemental Material, Part IV, record C04",
+    "unit": "rad",
+    "measurement": {
+      "central": 1.154,
+      "upper_sigma": 0.025,
+      "lower_sigma": 0.025,
+      "source": "1.154 +0.025/-0.025 [PDG 2026 CKM fit]"
+    }
+  },
+  {
+    "id": "C05",
+    "quantity": "quark quartet J_q",
+    "formula": "eigenvector: C[Jarlskog's form ×10⁵] of the eigenvector matrix V_q",
+    "value": "3.13550917578981",
+    "comparison": "3.16 +0.13/-0.11 [PDG]",
+    "residual": "-0.223",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C05"
+    ],
+    "source": "Supplemental Material, Part IV, record C05",
+    "unit": "10^-5",
+    "measurement": {
+      "central": 3.16,
+      "upper_sigma": 0.13,
+      "lower_sigma": 0.11,
+      "source": "3.16 +0.13/-0.11 [PDG]"
+    }
+  },
+  {
+    "id": "C06",
+    "quantity": "triangle angle alpha",
+    "formula": "eigenvector: C[triangle angle α] of V_q",
+    "value": "90.713773064338",
+    "comparison": "91.04 +1.61/-1.6 [PDG-derived]",
+    "residual": "-0.204",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C06"
+    ],
+    "source": "Supplemental Material, Part IV, record C06",
+    "unit": "degree",
+    "measurement": {
+      "central": 91.04,
+      "upper_sigma": 1.61,
+      "lower_sigma": 1.6,
+      "source": "91.04 +1.61/-1.6 [PDG-derived]"
+    }
+  },
+  {
+    "id": "C07",
+    "quantity": "triangle angle beta",
+    "formula": "eigenvector: C[triangle angle β] of V_q",
+    "value": "22.9511439353888",
+    "comparison": "22.86 +0.71/-0.7 [PDG-derived]",
+    "residual": "+0.128",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C07"
+    ],
+    "source": "Supplemental Material, Part IV, record C07",
+    "unit": "degree",
+    "measurement": {
+      "central": 22.86,
+      "upper_sigma": 0.71,
+      "lower_sigma": 0.7,
+      "source": "22.86 +0.71/-0.7 [PDG-derived]"
+    }
+  },
+  {
+    "id": "C08",
+    "quantity": "triangle angle gamma",
+    "formula": "eigenvector: C[triangle angle γ] of V_q",
+    "value": "66.3350830002732",
+    "comparison": "66.09 +1.43/-1.43 [PDG-derived]",
+    "residual": "+0.171",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C08"
+    ],
+    "source": "Supplemental Material, Part IV, record C08",
+    "unit": "degree",
+    "measurement": {
+      "central": 66.09,
+      "upper_sigma": 1.43,
+      "lower_sigma": 1.43,
+      "source": "66.09 +1.43/-1.43 [PDG-derived]"
+    }
+  },
+  {
+    "id": "C09",
+    "quantity": "two-row W current sum",
+    "formula": "eigenvector: C[two rows of V_q, Σ\\|V\\|²]: unitary eigenvectors give 2",
+    "value": "2",
+    "comparison": "1.984 +0.021/-0.021 [CMS 2022, Phys. Rev. D 105, 072008]",
+    "residual": "+0.762",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C09"
+    ],
+    "source": "Supplemental Material, Part IV, record C09",
+    "unit": "1",
+    "measurement": {
+      "central": 1.984,
+      "upper_sigma": 0.021,
+      "lower_sigma": 0.021,
+      "source": "1.984 +0.021/-0.021 [CMS 2022, Phys. Rev. D 105, 072008]"
+    }
+  },
+  {
+    "id": "K05",
+    "quantity": "diagonal quark current",
+    "formula": "eigenvector: C[Σ\\|V_ii\\|²] of the quark eigenvector matrix",
+    "value": "2.89531084487576",
+    "comparison": ">= 2.84295 [direct current rows]",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_K05"
+    ],
+    "source": "Supplemental Material, Part IV, record K05",
+    "unit": "1"
+  },
+  {
+    "id": "C10",
+    "quantity": "solar lepton angle s^2_12",
+    "formula": "eigenvector: lepton eigenvector overlaps U_l, C[angle form s²₁₂]",
+    "value": "0.305089610922635",
+    "comparison": "0.3036 +0.0064/-0.0064 [JUNO 2026, Ref.~\\cite{JUNO2026}]",
+    "residual": "+0.233",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C10"
+    ],
+    "source": "Supplemental Material, Part IV, record C10",
+    "unit": "1",
+    "measurement": {
+      "central": 0.3036,
+      "upper_sigma": 0.0064,
+      "lower_sigma": 0.0064,
+      "source": "0.3036 +0.0064/-0.0064 [JUNO 2026]"
+    }
+  },
+  {
+    "id": "C11",
+    "quantity": "reactor angle s^2_13",
+    "formula": "eigenvector: lepton eigenvector overlap \\|U_e3\\|² = b s₁₂²",
+    "value": "0.0221484375",
+    "comparison": "0.02215 +0.00056/-0.00058 [NuFIT 6.0, normal ordering, IC24 with SK atmospheric data, Ref.~\\cite{NuFIT6}]",
+    "residual": "-0.003",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C11"
+    ],
+    "source": "Supplemental Material, Part IV, record C11",
+    "unit": "1",
+    "measurement": {
+      "central": 0.02215,
+      "upper_sigma": 0.00056,
+      "lower_sigma": 0.00058,
+      "source": "0.02215 +0.00056/-0.00058 [NuFIT 6.0]"
+    }
+  },
+  {
+    "id": "C12",
+    "quantity": "reactor angle sin^2 2theta_13",
+    "formula": "eigenvector: C[4s²(1 − s²)] of \\|U_e3\\|²",
+    "value": "0.0866315368652343",
+    "comparison": "0.0833 +0.0022/-0.0022 [Daya Bay, Phys. Rev. Lett. 133, 151801 (2024)]",
+    "residual": "+1.514",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C12"
+    ],
+    "source": "Supplemental Material, Part IV, record C12",
+    "unit": "1",
+    "measurement": {
+      "central": 0.0833,
+      "upper_sigma": 0.0022,
+      "lower_sigma": 0.0022,
+      "source": "0.0833 +0.0022/-0.0022 [Daya Bay, Phys. Rev. Lett. 133, 151801 (2024)]"
+    }
+  },
+  {
+    "id": "C13",
+    "quantity": "atmospheric angle s^2_23",
+    "formula": "eigenvector: lepton eigenvector overlaps U_l, C[angle form s²₂₃]",
+    "value": "0.488674949067231",
+    "comparison": "0.47 +0.017/-0.013 [NuFIT 6.0, normal ordering, IC24 with SK atmospheric data, Ref.~\\cite{NuFIT6}]",
+    "residual": "+1.099",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C13"
+    ],
+    "source": "Supplemental Material, Part IV, record C13",
+    "unit": "1",
+    "measurement": {
+      "central": 0.47,
+      "upper_sigma": 0.017,
+      "lower_sigma": 0.013,
+      "source": "0.47 +0.017/-0.013 [NuFIT 6.0]"
+    }
+  },
+  {
+    "id": "C14",
+    "quantity": "lepton phase delta_l",
+    "formula": "eigenvector: phase of the lepton overlaps: arg i(b − i), the same complex weight from the other end",
+    "value": "205.584225835201",
+    "comparison": "212 +26/-41 [NuFIT 6.0, normal ordering, IC24 with SK atmospheric data, Ref.~\\cite{NuFIT6}]",
+    "residual": "-0.156",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C14"
+    ],
+    "source": "Supplemental Material, Part IV, record C14",
+    "unit": "degree",
+    "measurement": {
+      "central": 212.0,
+      "upper_sigma": 26.0,
+      "lower_sigma": 41.0,
+      "source": "212 +26/-41 [NuFIT 6.0]"
+    }
+  },
+  {
+    "id": "T06",
+    "quantity": "lepton quartet J_l",
+    "formula": "eigenvector: C[Jarlskog's form] of the lepton eigenvector matrix U_l",
+    "value": "-0.0144644347463475",
+    "comparison": "prediction",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_T06"
+    ],
+    "source": "Supplemental Material, Part IV, record T06",
+    "unit": "1"
+  },
+  {
+    "id": "E07",
+    "quantity": "light neutrino channels",
+    "formula": "residue: residues at the three light poles: Σ_i ((X_R + x_i)/(X_R + 2x_i))²(1 − 4x_i²m_p²/M_Z²)^(3/2)",
+    "value": "3",
+    "comparison": "2.9963 +0.0074/-0.0074 [Janot and Jadach, Phys. Lett. B 803, 135319 (2020)]",
+    "residual": "+0.500",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_E07"
+    ],
+    "source": "Supplemental Material, Part IV, record E07",
+    "unit": "1",
+    "measurement": {
+      "central": 2.9963,
+      "upper_sigma": 0.0074,
+      "lower_sigma": 0.0074,
+      "source": "2.9963 +0.0074/-0.0074 [Janot and Jadach, Phys. Lett. B 803, 135319 (2020)]"
+    }
+  },
+  {
+    "id": "E01",
+    "quantity": "solar splitting Delta m^2_21",
+    "formula": "pole: m₂² − m₁² of the light zeros of det[[x, δ], [δ, X_R + x]]",
+    "value": "7.41781185257392",
+    "comparison": "7.388 +0.078/-0.078 [JUNO 2026, Ref.~\\cite{JUNO2026}]",
+    "residual": "+0.382",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_E01"
+    ],
+    "source": "Supplemental Material, Part IV, record E01",
+    "unit": "10^-5 eV^2",
+    "measurement": {
+      "central": 7.388,
+      "upper_sigma": 0.078,
+      "lower_sigma": 0.078,
+      "source": "7.388 +0.078/-0.078 [JUNO 2026]"
+    }
+  },
+  {
+    "id": "E02",
+    "quantity": "splitting Delta m^2_31",
+    "formula": "pole: m₃² of the light zero",
+    "value": "2.5198724299426",
+    "comparison": "2.509 +0.027/-0.025 [JUNO 2026 with Daya Bay constraint, Ref.~\\cite{JUNO2026}]",
+    "residual": "+0.403",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_E02"
+    ],
+    "source": "Supplemental Material, Part IV, record E02",
+    "unit": "10^-3 eV^2",
+    "measurement": {
+      "central": 2.509,
+      "upper_sigma": 0.027,
+      "lower_sigma": 0.025,
+      "source": "2.509 +0.027/-0.025 [JUNO 2026]"
+    }
+  },
+  {
+    "id": "E03",
+    "quantity": "splitting Delta m^2_32",
+    "formula": "pole: m₃² − m₂² of the light zeros",
+    "value": "2.44569431141686",
+    "comparison": "2.438 +0.021/-0.019 [NuFIT 6.0]",
+    "residual": "+0.366",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_E03"
+    ],
+    "source": "Supplemental Material, Part IV, record E03",
+    "unit": "10^-3 eV^2",
+    "measurement": {
+      "central": 2.438,
+      "upper_sigma": 0.021,
+      "lower_sigma": 0.019,
+      "source": "2.438 +0.021/-0.019 [NuFIT 6.0]"
+    }
+  },
+  {
+    "id": "E04",
+    "quantity": "neutrino mass ratio m_2/m_3",
+    "formula": "pole: pole quotient x₂/x₃, the contrast tan²(π/8) of the vector-state factor at u = i/4, in the light limit",
+    "value": "0.17157287525381",
+    "comparison": "0.172645 +0.00229/-0.00229 [NuFIT 6.0-derived, m\\_\\allowbreak{}1 = 0]",
+    "residual": "-0.469",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_E04"
+    ],
+    "source": "Supplemental Material, Part IV, record E04",
+    "unit": "1",
+    "measurement": {
+      "central": 0.172645,
+      "upper_sigma": 0.00229,
+      "lower_sigma": 0.00229,
+      "source": "0.172645 +0.00229/-0.00229 [NuFIT 6.0-derived, m_1 = 0]"
+    }
+  },
+  {
+    "id": "E05",
+    "quantity": "splitting ratio Delta m^2_31/Delta m^2_21",
+    "formula": "pole: pole quotient Δm²₃₁/Δm²₂₁",
+    "value": "33.9705627484772",
+    "comparison": "33.55 +0.94/-0.94 [PDG-derived]",
+    "residual": "+0.447",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_E05"
+    ],
+    "source": "Supplemental Material, Part IV, record E05",
+    "unit": "1",
+    "measurement": {
+      "central": 33.55,
+      "upper_sigma": 0.94,
+      "lower_sigma": 0.94,
+      "source": "33.55 +0.94/-0.94 [PDG-derived]"
+    }
+  },
+  {
+    "id": "E06",
+    "quantity": "heaviest light neutrino m_3",
+    "formula": "pole: light zero m₃ = 2δ²/(X_R + (X_R² + 4δ²)^(1/2))",
+    "value": "50.1983309477775",
+    "comparison": "50.09 +0.269/-0.25 [square root of the JUNO 2026 atmospheric splitting with Daya Bay constraint, Ref.~\\cite{JUNO2026}]",
+    "residual": "+0.403",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_E06"
+    ],
+    "source": "Supplemental Material, Part IV, record E06",
+    "unit": "meV",
+    "measurement": {
+      "central": 50.09,
+      "upper_sigma": 0.269,
+      "lower_sigma": 0.25,
+      "source": "50.09 +0.269/-0.25 [sqrt Delta m^2_31 of JUNO 2026]"
+    }
+  },
+  {
+    "id": "K02",
+    "quantity": "neutrino mass sum",
+    "formula": "pole: sum of the three light poles",
+    "value": "0.05881100292143 (58.8 meV)",
+    "comparison": "$<0.081\\eV$ [SPT-3G D1 + DESI, $95\\%$ confidence, $\\Lambda$CDM+$\\sum m_\\nu$]",
+    "residual": "below this 81 meV bound; the stronger 55 meV combined-CMB bound in K03 lies below the calculated sum",
+    "operation": "calculated sum; observational bound from Ref.~\\cite{Camphuis}.",
+    "theorems": [
+      "Comparison.System.row_K02"
+    ],
+    "source": "Supplemental Material, Part IV, record K02",
+    "unit": "eV"
+  },
+  {
+    "id": "K03",
+    "quantity": "neutrino mass sum",
+    "formula": "pole: sum of the three light poles",
+    "value": "0.05881100292143 (58.8 meV)",
+    "comparison": "$<0.055\\eV$ [CMB-SPA + DESI, $95\\%$ confidence, $\\Lambda$CDM+$\\sum m_\\nu$]",
+    "residual": "3.811 meV above the upper bound",
+    "operation": "calculated sum; observational bound from Ref.~\\cite{Camphuis}.",
+    "theorems": [
+      "Comparison.System.row_K03"
+    ],
+    "source": "Supplemental Material, Part IV, record K03",
+    "unit": "eV"
+  },
+  {
+    "id": "L03",
+    "quantity": "light-limit neutrino splitting ratio",
+    "formula": "pole: pole quotient in the light limit: ρ_ν^(−2), ρ_ν = tan²(π/8)",
+    "value": "33.9705627484771",
+    "comparison": "prediction",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L03"
+    ],
+    "source": "Supplemental Material, Part IV, record L03",
+    "unit": "1"
+  },
+  {
+    "id": "T01",
+    "quantity": "heavy neutral threshold M_R",
+    "formula": "pole: heavy neutral pole: M_R = M_Pl/3⁹, the nine colour rotations within the two sides a third each",
+    "value": "620276285060925",
+    "comparison": "threshold",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_T01"
+    ],
+    "source": "Supplemental Material, Part IV, record T01",
+    "unit": "GeV"
+  },
+  {
+    "id": "T02",
+    "quantity": "heavy threshold M_off of the rotations mixing the three-plus-two split",
+    "formula": "pole: heavy pole of the six rotations that mix the three-plus-two split: M_off = M_Pl/3⁶, a third each",
+    "value": "1.6747459696645e+16",
+    "comparison": "threshold",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_T02"
+    ],
+    "source": "Supplemental Material, Part IV, record T02",
+    "unit": "GeV"
+  },
+  {
+    "id": "S01",
+    "quantity": "axial coupling g_A",
+    "formula": "residue: axial residue at the nucleon pole: g_A = (5/3)t^(2b/3) = (5/3)(2/5)^(7/24)",
+    "value": "1.27580092811547",
+    "comparison": "1.2753 +0.0013/-0.0013 [PDG 2026]",
+    "residual": "+0.385",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_S01"
+    ],
+    "source": "Supplemental Material, Part IV, record S01",
+    "unit": "1",
+    "measurement": {
+      "central": 1.2753,
+      "upper_sigma": 0.0013,
+      "lower_sigma": 0.0013,
+      "source": "1.2753 +0.0013/-0.0013 [PDG 2026]"
+    }
+  },
+  {
+    "id": "S05",
+    "quantity": "neutron lifetime",
+    "formula": "residue: C[neutron decay normalization] of g_A and \\|V_ud\\|",
+    "value": "878.051411826579",
+    "comparison": "878.3 +0.4/-0.4 [PDG 2026 neutron listing]",
+    "residual": "-0.621",
+    "operation": "computed, with the classical normalization 5099.33 s/1.03983, which carries the measured G\\_\\allowbreak{}F.",
+    "theorems": [
+      "Comparison.System.row_S05"
+    ],
+    "source": "Supplemental Material, Part IV, record S05",
+    "unit": "s",
+    "measurement": {
+      "central": 878.3,
+      "upper_sigma": 0.4,
+      "lower_sigma": 0.4,
+      "source": "878.3 +0.4/-0.4 [PDG 2026 neutron listing]"
+    }
+  },
+  {
+    "id": "S02",
+    "quantity": "axial radius squared",
+    "formula": "residue: axial radius of the nucleon pole, squared: (3ħ/(m_p c))²",
+    "value": "0.398068538829894",
+    "comparison": "0.339 +0.0484/-0.0484 [ETMC 2024 lattice; errors 0.048 and 0.006]",
+    "residual": "+1.221",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_S02"
+    ],
+    "source": "Supplemental Material, Part IV, record S02",
+    "unit": "fm^2",
+    "measurement": {
+      "central": 0.339,
+      "upper_sigma": 0.0484,
+      "lower_sigma": 0.0484,
+      "source": "0.339 +0.0484/-0.0484 [ETMC 2024 lattice; errors 0.048 and 0.006]"
+    }
+  },
+  {
+    "id": "S03",
+    "quantity": "axial radius",
+    "formula": "residue: axial radius of the nucleon pole: 3ħ/(m_p c)",
+    "value": "0.630926730159607",
+    "comparison": "construction (S02 is its square)",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_S03"
+    ],
+    "source": "Supplemental Material, Part IV, record S03",
+    "unit": "fm"
+  },
+  {
+    "id": "G03",
+    "quantity": "proton moment mu_p",
+    "formula": "residue: magnetic residue of the proton pole: ((Var ℓ/20)S_μ)^(1/2)",
+    "value": "2.79284734529616",
+    "comparison": "2.79284734463 +8.2e-10/-8.2e-10 [CODATA 2022]",
+    "residual": "+0.812",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G03"
+    ],
+    "source": "Supplemental Material, Part IV, record G03",
+    "unit": "nuclear magneton",
+    "measurement": {
+      "central": 2.79284734463,
+      "upper_sigma": 8.2e-10,
+      "lower_sigma": 8.2e-10,
+      "source": "2.79284734463 +8.2e-10/-8.2e-10 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "G04",
+    "quantity": "neutron moment mu_n",
+    "formula": "residue: magnetic residue of the neutron pole: −(44/23)S_μ^(1/2)",
+    "value": "-1.91304302380603",
+    "comparison": "-1.91304276 +4.5e-07/-4.5e-07 [CODATA 2022]",
+    "residual": "-0.586",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G04"
+    ],
+    "source": "Supplemental Material, Part IV, record G04",
+    "unit": "nuclear magneton",
+    "measurement": {
+      "central": -1.91304276,
+      "upper_sigma": 4.5e-07,
+      "lower_sigma": 4.5e-07,
+      "source": "-1.91304276 +4.5e-07/-4.5e-07 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "G05",
+    "quantity": "moment ratio mu_n/mu_p",
+    "formula": "residue: residue quotient μ_n/μ_p",
+    "value": "-0.684979444733371",
+    "comparison": "-0.68497935 +1.6e-07/-1.6e-07 [CODATA 2022]",
+    "residual": "-0.592",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G05"
+    ],
+    "source": "Supplemental Material, Part IV, record G05",
+    "unit": "1",
+    "measurement": {
+      "central": -0.68497935,
+      "upper_sigma": 1.6e-07,
+      "lower_sigma": 1.6e-07,
+      "source": "-0.68497935 +1.6e-07/-1.6e-07 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "G13",
+    "quantity": "deuteron moment mu_d",
+    "formula": "residue: magnetic residue of the deuteron pole: μ_S − (μ_S − g_L)[(3/2)p_D + bound current]",
+    "value": "0.857438233518713",
+    "comparison": "0.8574382335 +2.2e-09/-2.2e-09 [CODATA 2022]",
+    "residual": "+0.009",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G13"
+    ],
+    "source": "Supplemental Material, Part IV, record G13",
+    "unit": "nuclear magneton",
+    "measurement": {
+      "central": 0.8574382335,
+      "upper_sigma": 2.2e-09,
+      "lower_sigma": 2.2e-09,
+      "source": "0.8574382335 +2.2e-09/-2.2e-09 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "G01",
+    "quantity": "proton charge radius",
+    "formula": "residue: charge radius of the proton pole, one excursion as an amplitude: √(Eℓ)·ħ/(m_p c)",
+    "value": "0.84123564021281",
+    "comparison": "0.84075 +0.00064/-0.00064 [CODATA 2022]",
+    "residual": "+0.759",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G01"
+    ],
+    "source": "Supplemental Material, Part IV, record G01",
+    "unit": "fm",
+    "measurement": {
+      "central": 0.84075,
+      "upper_sigma": 0.00064,
+      "lower_sigma": 0.00064,
+      "source": "0.84075 +0.00064/-0.00064 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "S04",
+    "quantity": "pion charge radius",
+    "formula": "residue: charge radius of the pion pole: √(E n_F)·ħ/(m_p c)",
+    "value": "0.665055167995603",
+    "comparison": "0.659 +0.004/-0.004 [PDG]",
+    "residual": "+1.514",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_S04"
+    ],
+    "source": "Supplemental Material, Part IV, record S04",
+    "unit": "fm",
+    "measurement": {
+      "central": 0.659,
+      "upper_sigma": 0.004,
+      "lower_sigma": 0.004,
+      "source": "0.659 +0.004/-0.004 [PDG]"
+    }
+  },
+  {
+    "id": "G08",
+    "quantity": "pion decay constant f_pi",
+    "formula": "residue: axial residue at the pion pole: f_π = η m_p√6/(2πμ_p)",
+    "value": "130.529195478157",
+    "comparison": "130.56 +0.138/-0.138 [PDG, (2)(4)(13) combined]",
+    "residual": "-0.224",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G08"
+    ],
+    "source": "Supplemental Material, Part IV, record G08",
+    "unit": "MeV",
+    "measurement": {
+      "central": 130.56,
+      "upper_sigma": 0.138,
+      "lower_sigma": 0.138,
+      "source": "130.56 +0.138/-0.138 [PDG, (2)(4)(13) combined]"
+    }
+  },
+  {
+    "id": "G09",
+    "quantity": "pion constant times V_ud",
+    "formula": "residue: axial residue at the pion pole times the eigenvector entry \\|V_ud\\|",
+    "value": "127.181371252679",
+    "comparison": "127.13 +0.13/-0.13 [PDG, (1)(13) combined]",
+    "residual": "+0.394",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G09"
+    ],
+    "source": "Supplemental Material, Part IV, record G09",
+    "unit": "MeV",
+    "measurement": {
+      "central": 127.13,
+      "upper_sigma": 0.13,
+      "lower_sigma": 0.13,
+      "source": "127.13 +0.13/-0.13 [PDG, (1)(13) combined]"
+    }
+  },
+  {
+    "id": "A002",
+    "quantity": "pion decay constant, second construction 5m_p/36",
+    "formula": "residue: axial residue at the pion pole, second construction: f_π = 5m_p/36",
+    "value": "130.315567975027",
+    "comparison": "130.2 +0.8/-0.8 [FLAG 2+1]",
+    "residual": "+0.144",
+    "operation": "Second construction; its factor was chosen with the measured value available.",
+    "theorems": [
+      "Comparison.System.row_A002"
+    ],
+    "source": "Supplemental Material, Part IV, record A002",
+    "unit": "MeV",
+    "measurement": {
+      "central": 130.2,
+      "upper_sigma": 0.8,
+      "lower_sigma": 0.8,
+      "source": "130.2 +0.8/-0.8 [FLAG 2+1]"
+    }
+  },
+  {
+    "id": "A003",
+    "quantity": "pion current product, second construction 5m_p/36",
+    "formula": "residue: axial residue 5m_p/36 times the eigenvector entry \\|V_ud\\|",
+    "value": "126.97322288644",
+    "comparison": "127.13 +0.13/-0.13 [PDG inclusive pion decay; correlated with lifetime]",
+    "residual": "-1.202",
+    "operation": "Second construction; its factor was chosen with the measured value available.",
+    "theorems": [
+      "Comparison.System.row_A003"
+    ],
+    "source": "Supplemental Material, Part IV, record A003",
+    "unit": "MeV",
+    "measurement": {
+      "central": 127.13,
+      "upper_sigma": 0.13,
+      "lower_sigma": 0.13,
+      "source": "127.13 +0.13/-0.13 [PDG inclusive pion decay; correlated with lifetime]"
+    }
+  },
+  {
+    "id": "K01",
+    "quantity": "strong phase theta",
+    "formula": "stationary: the positive branch: arg det K(u) = 0 for 0 ≤ u < 1/4, θ̄ = 0",
+    "value": "0",
+    "comparison": "\\ensuremath{|}\\ensuremath{\\theta}\\ensuremath{|} < 1e-10 [neutron EDM]",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_K01"
+    ],
+    "source": "Supplemental Material, Part IV, record K01",
+    "unit": "1"
+  },
+  {
+    "id": "L16",
+    "quantity": "strong phase",
+    "formula": "stationary: the positive branch: θ̄ = 0",
+    "value": "0",
+    "comparison": "\\ensuremath{|}\\ensuremath{\\bar{\\theta}}\\ensuremath{|} < 1e-10 [neutron EDM]",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L16"
+    ],
+    "source": "Supplemental Material, Part IV, record L16",
+    "unit": "1"
+  },
+  {
+    "id": "L14",
+    "quantity": "colour component count N",
+    "formula": "coefficient: number of components of the colour term at the two-source response: N = 8",
+    "value": "8",
+    "comparison": "identity",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L14"
+    ],
+    "source": "Supplemental Material, Part IV, record L14",
+    "unit": "1"
+  },
+  {
+    "id": "S16",
+    "quantity": "five-flavour one-loop scale marker",
+    "formula": "coefficient: C[one-loop length 2π/(b₀α_s)] of α_s: 18π√8/23",
+    "value": "87.0577778264853",
+    "comparison": "one-loop convention",
+    "residual": "-",
+    "operation": "computed, with the one-loop coefficient \\ensuremath{\\beta}\\ensuremath{{}_{0}} = 23/3.",
+    "theorems": [
+      "Comparison.System.row_S16"
+    ],
+    "source": "Supplemental Material, Part IV, record S16",
+    "unit": "MeV"
+  },
+  {
+    "id": "I08",
+    "quantity": "topological curvature chi/(F_pi^2 m_pi0^2)",
+    "formula": "pole: C[chiral form 1/[λ_min(1/m_u + 1/m_d + 1/m_s)]] of the three light coloured poles",
+    "value": "0.212911371927165",
+    "comparison": "0.21054 +0.0224/-0.0224 [lattice, Borsanyi et al., Nature 539, 69 (2016)]",
+    "residual": "+0.106",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_I08"
+    ],
+    "source": "Supplemental Material, Part IV, record I08",
+    "unit": "1",
+    "measurement": {
+      "central": 0.21054,
+      "upper_sigma": 0.0224,
+      "lower_sigma": 0.0224,
+      "source": "0.21054 +0.0224/-0.0224 [lattice, Borsanyi et al., Nature 539, 69 (2016)]"
+    }
+  },
+  {
+    "id": "I09",
+    "quantity": "fourth strong cumulant b_2",
+    "formula": "pole: C[chiral form −Σm⁻³/(12(Σ1/m)³)] of the three light coloured poles",
+    "value": "-0.0280584730987574",
+    "comparison": "-0.029 +0.002/-0.002 [NLO chiral, Grilli di Cortona et al., JHEP 01 (2016) 034]",
+    "residual": "+0.471",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_I09"
+    ],
+    "source": "Supplemental Material, Part IV, record I09",
+    "unit": "1",
+    "measurement": {
+      "central": -0.029,
+      "upper_sigma": 0.002,
+      "lower_sigma": 0.002,
+      "source": "-0.029 +0.002/-0.002 [NLO chiral, Grilli di Cortona et al., JHEP 01 (2016) 034]"
+    }
+  },
+  {
+    "id": "K06",
+    "quantity": "proton partial lifetime tau/B(e pi)",
+    "formula": "pole: width of the proton pole through the six rotations that mix the three-plus-two split: τ = ħ(M_off/m_p)⁴/(α_s⁴m_p)",
+    "value": "1.16971098945626e+37",
+    "comparison": "> 2.4e34 yr [Super-Kamiokande]",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_K06"
+    ],
+    "source": "Supplemental Material, Part IV, record K06",
+    "unit": "year"
+  },
+  {
+    "id": "L12",
+    "quantity": "proton partial lifetime",
+    "formula": "pole: width of the proton pole through the six rotations that mix the three-plus-two split",
+    "value": "1.16971098945626e+37",
+    "comparison": "> 2.4e34 yr [Super-Kamiokande]",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L12"
+    ],
+    "source": "Supplemental Material, Part IV, record L12",
+    "unit": "year"
+  },
+  {
+    "id": "F01",
+    "quantity": "baryons per photon eta_B",
+    "formula": "stationary: stationary weight of the sign-reversing return on the eleven states of positive comparison value: η_B = 3a¹¹",
+    "value": "6.14004762346375",
+    "comparison": "6.12 +0.04/-0.04 [PDG 2024 BBN review, Planck omega\\_\\allowbreak{}b = 0.02237(15)]",
+    "residual": "+0.501",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_F01"
+    ],
+    "source": "Supplemental Material, Part IV, record F01",
+    "unit": "10^-10",
+    "measurement": {
+      "central": 6.12,
+      "upper_sigma": 0.04,
+      "lower_sigma": 0.04,
+      "source": "6.12 +0.04/-0.04 [PDG 2024 BBN review, Planck omega_b = 0.02237(15)]"
+    }
+  },
+  {
+    "id": "C15",
+    "quantity": "scalar tilt n_s",
+    "formula": "stationary: tilt of the stationary spectrum: n_s = 1 − t/Eℓ = 39/40",
+    "value": "0.975",
+    "comparison": "0.9752 +0.003/-0.003 [P-ACT-LB2, Ref.~\\cite{ACT2025}, Table 5]",
+    "residual": "-0.067",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_C15"
+    ],
+    "source": "Supplemental Material, Part IV, record C15",
+    "unit": "1",
+    "measurement": {
+      "central": 0.9752,
+      "upper_sigma": 0.003,
+      "lower_sigma": 0.003,
+      "source": "0.9752 +0.003/-0.003 [P-ACT-LB2]"
+    }
+  },
+  {
+    "id": "C16",
+    "quantity": "running of the tilt dn_s/dlnk",
+    "formula": "stationary: the tilt does not run, 0",
+    "value": "0",
+    "comparison": "-0.0045 +0.0067/-0.0067 [Planck 2018]",
+    "residual": "+0.672",
+    "operation": "continuum value.",
+    "theorems": [
+      "Comparison.System.row_C16"
+    ],
+    "source": "Supplemental Material, Part IV, record C16",
+    "unit": "1",
+    "measurement": {
+      "central": -0.0045,
+      "upper_sigma": 0.0067,
+      "lower_sigma": 0.0067,
+      "source": "-0.0045 +0.0067/-0.0067 [Planck 2018]"
+    }
+  },
+  {
+    "id": "L06",
+    "quantity": "scalar-index running",
+    "formula": "stationary: the tilt does not run, 0",
+    "value": "0",
+    "comparison": "prediction",
+    "residual": "-",
+    "operation": "continuum value.",
+    "theorems": [
+      "Comparison.System.row_L06"
+    ],
+    "source": "Supplemental Material, Part IV, record L06",
+    "unit": "1"
+  },
+  {
+    "id": "F03",
+    "quantity": "primordial amplitude ln(1e10 A_s)",
+    "formula": "stationary: the curvature 12 on the same stationary volume: 12a¹¹, then C[pivot]",
+    "value": "3.06130986015343",
+    "comparison": "3.056 +0.013/-0.013 [P-ACT, Ref.~\\cite{ACT2025}, Table 5]",
+    "residual": "+0.408",
+    "operation": "computed, at the pivot k\\_\\allowbreak{}* = 0.05 Mpc\\ensuremath{{}^{-1}} of the measurement.",
+    "theorems": [
+      "Comparison.System.row_F03"
+    ],
+    "source": "Supplemental Material, Part IV, record F03",
+    "unit": "1",
+    "measurement": {
+      "central": 3.056,
+      "upper_sigma": 0.013,
+      "lower_sigma": 0.013,
+      "source": "3.056 +0.013/-0.013 [P-ACT]"
+    }
+  },
+  {
+    "id": "S08",
+    "quantity": "primordial amplitude, second construction",
+    "formula": "stationary: stationary amplitude, second construction: b²⁴ at the pivot",
+    "value": "2.10257562469885",
+    "comparison": "2.099 +0.029/-0.029 [Planck 2018]",
+    "residual": "+0.123",
+    "operation": "Second construction; its factor was chosen with the measured value available.",
+    "theorems": [
+      "Comparison.System.row_S08"
+    ],
+    "source": "Supplemental Material, Part IV, record S08",
+    "unit": "10^-9",
+    "measurement": {
+      "central": 2.099,
+      "upper_sigma": 0.029,
+      "lower_sigma": 0.029,
+      "source": "2.099 +0.029/-0.029 [Planck 2018]"
+    }
+  },
+  {
+    "id": "L11",
+    "quantity": "tensor-to-scalar ratio in the de Sitter convention",
+    "formula": "coefficient: the constant term over the population term: 16Λℓ_P²/(3π·12a¹¹)",
+    "value": "1.97359117549973e-113",
+    "comparison": "prediction",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L11"
+    ],
+    "source": "Supplemental Material, Part IV, record L11",
+    "unit": "1"
+  },
+  {
+    "id": "D06",
+    "quantity": "cosmological constant Lambda l_P^2",
+    "formula": "coefficient: constant term of the frame: Λℓ_P² = 3(W³τ)(W³s³), τ = 2π/(16 m_p/m_e) the electron's phase during one sixteenth of a proton Compton period, s = 3/50 one arrival at a symmetric state",
+    "value": "2.85522324300807",
+    "comparison": "2.8451 +0.076/-0.076 [Planck 2018 base model, 3 Omega\\_\\allowbreak{}Lambda H\\_\\allowbreak{}0\\textasciicircum{}2 l\\_\\allowbreak{}P\\textasciicircum{}2/c\\textasciicircum{}2 with Omega\\_\\allowbreak{}Lambda = 0.6847 and H\\_\\allowbreak{}0 = 67.36]",
+    "residual": "+0.133",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_D06"
+    ],
+    "source": "Supplemental Material, Part IV, record D06",
+    "unit": "10^-122",
+    "measurement": {
+      "central": 2.8451,
+      "upper_sigma": 0.076,
+      "lower_sigma": 0.076,
+      "source": "2.8451 +0.076/-0.076 [Planck 2018 base model, 3 Omega_Lambda H_0^2 l_P^2/c^2 with Omega_Lambda = 0.6847 and H_0 = 67.36]"
+    }
+  },
+  {
+    "id": "T03",
+    "quantity": "de Sitter radius",
+    "formula": "coefficient: C[de Sitter convention: radius in Mpc] of the constant term",
+    "value": "5369.08213305099",
+    "comparison": "de Sitter convention",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_T03"
+    ],
+    "source": "Supplemental Material, Part IV, record T03",
+    "unit": "Mpc"
+  },
+  {
+    "id": "T04",
+    "quantity": "de Sitter temperature",
+    "formula": "coefficient: C[de Sitter convention: temperature] of the constant term",
+    "value": "1.89564063245871e-34",
+    "comparison": "de Sitter convention",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_T04"
+    ],
+    "source": "Supplemental Material, Part IV, record T04",
+    "unit": "eV"
+  },
+  {
+    "id": "L10",
+    "quantity": "de Sitter horizon entropy",
+    "formula": "coefficient: the constant term as horizon entropy: 3π/(Λℓ_P²)",
+    "value": "3.30089003858068e+122",
+    "comparison": "identity with D06",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L10"
+    ],
+    "source": "Supplemental Material, Part IV, record L10",
+    "unit": "1"
+  },
+  {
+    "id": "L08",
+    "quantity": "the equation of state of the constant term",
+    "formula": "coefficient: the constant term carries no stress: w = −1",
+    "value": "-1",
+    "comparison": "prediction",
+    "residual": "-",
+    "operation": "continuum value.",
+    "theorems": [
+      "Comparison.System.row_L08"
+    ],
+    "source": "Supplemental Material, Part IV, record L08",
+    "unit": "1"
+  },
+  {
+    "id": "F04",
+    "quantity": "effective neutrinos N_eff",
+    "formula": "stationary: the stationary shares of the available transitions along h: N_eff = 3ησ^(4/3)",
+    "value": "3.04385727361762",
+    "comparison": "2.99 +0.17/-0.17 [Planck + BAO]",
+    "residual": "+0.317",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_F04"
+    ],
+    "source": "Supplemental Material, Part IV, record F04",
+    "unit": "1",
+    "measurement": {
+      "central": 2.99,
+      "upper_sigma": 0.17,
+      "lower_sigma": 0.17,
+      "source": "2.99 +0.17/-0.17 [Planck + BAO]"
+    }
+  },
+  {
+    "id": "F13",
+    "quantity": "spatial curvature Omega_k",
+    "formula": "stationary: the stationary frame is flat, Ω_k = 0",
+    "value": "0",
+    "comparison": "0.0007 +0.0019/-0.0019 [Planck + BAO]",
+    "residual": "-0.368",
+    "operation": "continuum value.",
+    "theorems": [
+      "Comparison.System.row_F13"
+    ],
+    "source": "Supplemental Material, Part IV, record F13",
+    "unit": "1",
+    "measurement": {
+      "central": 0.0007,
+      "upper_sigma": 0.0019,
+      "lower_sigma": 0.0019,
+      "source": "0.0007 +0.0019/-0.0019 [Planck + BAO]"
+    }
+  },
+  {
+    "id": "L07",
+    "quantity": "spatial curvature fraction",
+    "formula": "stationary: the stationary frame is flat, Ω_k = 0",
+    "value": "0",
+    "comparison": "prediction",
+    "residual": "-",
+    "operation": "continuum value.",
+    "theorems": [
+      "Comparison.System.row_L07"
+    ],
+    "source": "Supplemental Material, Part IV, record L07",
+    "unit": "1"
+  },
+  {
+    "id": "S09",
+    "quantity": "cold/baryon count, second construction",
+    "formula": "stationary: stationary count, second construction: 74/(2·7) = 37/7",
+    "value": "5.28571428571429",
+    "comparison": "5.3643 +0.0646/-0.0646 [Planck 2018 ratio]",
+    "residual": "-1.216",
+    "operation": "Second construction; its factor was chosen with the measured value available.",
+    "theorems": [
+      "Comparison.System.row_S09"
+    ],
+    "source": "Supplemental Material, Part IV, record S09",
+    "unit": "1",
+    "measurement": {
+      "central": 5.3643,
+      "upper_sigma": 0.0646,
+      "lower_sigma": 0.0646,
+      "source": "5.3643 +0.0646/-0.0646 [Planck 2018 ratio]"
+    }
+  },
+  {
+    "id": "D07",
+    "quantity": "d log alpha / d(Phi/c^2)",
+    "formula": "stationary: α is a coefficient of Γ, the same at every location: d log α/d(Φ/c²) = 0",
+    "value": "0",
+    "comparison": "14 +11/-11 [atomic clocks, Lange et al., Phys. Rev. Lett. 126, 011102 (2021)]",
+    "residual": "-1.273",
+    "operation": "continuum value.",
+    "theorems": [
+      "Comparison.System.row_D07"
+    ],
+    "source": "Supplemental Material, Part IV, record D07",
+    "unit": "1",
+    "measurement": {
+      "central": 14.0,
+      "upper_sigma": 11.0,
+      "lower_sigma": 11.0,
+      "source": "14 +11/-11 [atomic clocks, Lange et al., Phys. Rev. Lett. 126, 011102 (2021)]"
+    }
+  },
+  {
+    "id": "L09",
+    "quantity": "a recorded electric fact does not drift",
+    "formula": "stationary: the electric coupling is a coefficient of Γ and does not drift, 0",
+    "value": "0",
+    "comparison": "prediction",
+    "residual": "-",
+    "operation": "continuum value.",
+    "theorems": [
+      "Comparison.System.row_L09"
+    ],
+    "source": "Supplemental Material, Part IV, record L09",
+    "unit": "1"
+  },
+  {
+    "id": "H01",
+    "quantity": "light bending 1 + gamma",
+    "formula": "stationary: the frame term's field equation, last step: 1 + γ = 2",
+    "value": "2",
+    "comparison": "2.000021 +2.3e-05/-2.3e-05 [Cassini, Bertotti et al., Nature 425, 374 (2003)]",
+    "residual": "-0.913",
+    "operation": "statement: read off the classical field equation.",
+    "theorems": [
+      "Comparison.System.row_H01"
+    ],
+    "source": "Supplemental Material, Part IV, record H01",
+    "unit": "1",
+    "measurement": {
+      "central": 2.000021,
+      "upper_sigma": 2.3e-05,
+      "lower_sigma": 2.3e-05,
+      "source": "2.000021 +2.3e-05/-2.3e-05 [Cassini, Bertotti et al., Nature 425, 374 (2003)]"
+    }
+  },
+  {
+    "id": "H02",
+    "quantity": "geodetic drift / its Einstein value",
+    "formula": "stationary: the frame term's field equation, last step: geodetic drift over Einstein's, 1",
+    "value": "1",
+    "comparison": "0.99934908645 +0.00277/-0.00277 [Gravity Probe B, Everitt et al., Phys. Rev. Lett. 106, 221101 (2011)]",
+    "residual": "+0.235",
+    "operation": "statement: read off the classical field equation.",
+    "theorems": [
+      "Comparison.System.row_H02"
+    ],
+    "source": "Supplemental Material, Part IV, record H02",
+    "unit": "1",
+    "measurement": {
+      "central": 0.99934908645,
+      "upper_sigma": 0.00277,
+      "lower_sigma": 0.00277,
+      "source": "0.99934908645 +0.00277/-0.00277 [Gravity Probe B, Everitt et al., Phys. Rev. Lett. 106, 221101 (2011)]"
+    }
+  },
+  {
+    "id": "L18",
+    "quantity": "second-order light-bending coefficient",
+    "formula": "stationary: the frame term's field equation at second order: 15π/4",
+    "value": "11.7809724509617",
+    "comparison": "prediction",
+    "residual": "-",
+    "operation": "statement: read off the classical field equation.",
+    "theorems": [
+      "Comparison.System.row_L18"
+    ],
+    "source": "Supplemental Material, Part IV, record L18",
+    "unit": "1"
+  },
+  {
+    "id": "H03",
+    "quantity": "two orders in coherent superposition told apart (quantum switch)",
+    "formula": "stationary: the quantum switch with the order in coherent superposition: commuting and anticommuting pairs told apart with certainty, 1",
+    "value": "1",
+    "comparison": "0.976 +0.015/-0.015 [quantum switch, Procopio et al., Nat. Commun. 6, 7913 (2015)]",
+    "residual": "+1.600",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_H03"
+    ],
+    "source": "Supplemental Material, Part IV, record H03",
+    "unit": "1",
+    "measurement": {
+      "central": 0.976,
+      "upper_sigma": 0.015,
+      "lower_sigma": 0.015,
+      "source": "0.976 +0.015/-0.015 [quantum switch, Procopio et al., Nat. Commun. 6, 7913 (2015)]"
+    }
+  },
+  {
+    "id": "G02",
+    "quantity": "Delta mass",
+    "formula": "pole: the spin-aligned pole of the first return: m_Δ = 3b m_p",
+    "value": "1231.48211736401",
+    "comparison": "1232 +2/-2 [PDG 2026]",
+    "residual": "-0.259",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G02"
+    ],
+    "source": "Supplemental Material, Part IV, record G02",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1232.0,
+      "upper_sigma": 2.0,
+      "lower_sigma": 2.0,
+      "source": "1232 +2/-2 [PDG 2026]"
+    }
+  },
+  {
+    "id": "G06",
+    "quantity": "neutral pion mass",
+    "formula": "pole: pole of the two-source exchange block: m_π0 = (38 h m_e m_p)^(1/2)",
+    "value": "134.977044559769",
+    "comparison": "134.9768 +0.0005/-0.0005 [PDG 2026]",
+    "residual": "+0.489",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G06"
+    ],
+    "source": "Supplemental Material, Part IV, record G06",
+    "unit": "MeV",
+    "measurement": {
+      "central": 134.9768,
+      "upper_sigma": 0.0005,
+      "lower_sigma": 0.0005,
+      "source": "134.9768 +0.0005/-0.0005 [PDG 2026]"
+    }
+  },
+  {
+    "id": "G07",
+    "quantity": "charged pion mass",
+    "formula": "pole: charged pion pole: m_π0² + πα m_p²/(Eℓ(1 − αbΦ(i)))",
+    "value": "139.570386613809",
+    "comparison": "139.57039 +0.00018/-0.00018 [PDG 2024]",
+    "residual": "-0.019",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G07"
+    ],
+    "source": "Supplemental Material, Part IV, record G07",
+    "unit": "MeV",
+    "measurement": {
+      "central": 139.57039,
+      "upper_sigma": 0.00018,
+      "lower_sigma": 0.00018,
+      "source": "139.57039 +0.00018/-0.00018 [PDG 2024]"
+    }
+  },
+  {
+    "id": "G10",
+    "quantity": "deuteron binding m_p + m_n - m_deut",
+    "formula": "pole: pole difference m_p + m_n − m_deut = m_p χ_A^(1/2)a³[1 − (1 + t/Eℓ)ε₂]",
+    "value": "2.22456646309919",
+    "comparison": "2.22456636409 +3.8e-07/-3.8e-07 [CODATA 2022 mass ratios]",
+    "residual": "+0.261",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G10"
+    ],
+    "source": "Supplemental Material, Part IV, record G10",
+    "unit": "MeV",
+    "measurement": {
+      "central": 2.22456636409,
+      "upper_sigma": 3.8e-07,
+      "lower_sigma": 3.8e-07,
+      "source": "2.22456636409 +3.8e-07/-3.8e-07 [CODATA 2022 mass ratios]"
+    }
+  },
+  {
+    "id": "G11",
+    "quantity": "deuteron mass",
+    "formula": "pole: deuteron pole: m_p + m_n − B_d",
+    "value": "1875.61294498229",
+    "comparison": "1875.612945 +5.8e-07/-5.8e-07 [CODATA 2022]",
+    "residual": "-0.031",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G11"
+    ],
+    "source": "Supplemental Material, Part IV, record G11",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1875.612945,
+      "upper_sigma": 5.8e-07,
+      "lower_sigma": 5.8e-07,
+      "source": "1875.612945 +5.8e-07/-5.8e-07 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "G12",
+    "quantity": "deuteron/proton m_deut/m_p",
+    "formula": "pole: pole quotient m_deut/m_p",
+    "value": "1.99900750126897",
+    "comparison": "1.99900750127 +8.4e-12/-8.4e-12 [CODATA 2022]",
+    "residual": "-0.110",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_G12"
+    ],
+    "source": "Supplemental Material, Part IV, record G12",
+    "unit": "1",
+    "measurement": {
+      "central": 1.99900750127,
+      "upper_sigma": 8.4e-12,
+      "lower_sigma": 8.4e-12,
+      "source": "1.99900750127 +8.4e-12/-8.4e-12 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "J03",
+    "quantity": "Λ (MeV)",
+    "formula": "m_n(5/2)^(60/320)",
+    "value": "1115.68290090769",
+    "comparison": "1115.683 +0.006 / -0.006 [source not recorded]",
+    "residual": "-0.0165154",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J03"
+    ],
+    "source": "Supplemental Material, Part IV, record J03",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1115.683,
+      "upper_sigma": 0.006,
+      "lower_sigma": 0.006,
+      "source": "1115.683 +0.006 / −0.006 [source not recorded]"
+    }
+  },
+  {
+    "id": "J04",
+    "quantity": "Δ, Breit–Wigner (MeV)",
+    "formula": "3bm_p",
+    "value": "1231.48211736401",
+    "comparison": "1232 +2 / -2 [PDG 2026]",
+    "residual": "-0.258941",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J04"
+    ],
+    "source": "Supplemental Material, Part IV, record J04",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1232.0,
+      "upper_sigma": 2.0,
+      "lower_sigma": 2.0,
+      "source": "1232 +2 / −2 [PDG 2026]"
+    }
+  },
+  {
+    "id": "J05",
+    "quantity": "π⁰ (MeV)",
+    "formula": "sqrt(38 h_nu m_e m_p)",
+    "value": "134.977044559769",
+    "comparison": "134.9768 +0.0005 / -0.0005 [PDG 2026]",
+    "residual": "+0.48912",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J05"
+    ],
+    "source": "Supplemental Material, Part IV, record J05",
+    "unit": "MeV",
+    "measurement": {
+      "central": 134.9768,
+      "upper_sigma": 0.0005,
+      "lower_sigma": 0.0005,
+      "source": "134.9768 +0.0005 / −0.0005 [PDG 2026]"
+    }
+  },
+  {
+    "id": "J06",
+    "quantity": "π± (MeV)",
+    "formula": "√(m_π0² + Δ_el)",
+    "value": "139.570386613809",
+    "comparison": "139.57039 +0.00018 / -0.00018 [PDG 2024]",
+    "residual": "-0.0188122",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J06"
+    ],
+    "source": "Supplemental Material, Part IV, record J06",
+    "unit": "MeV",
+    "measurement": {
+      "central": 139.57039,
+      "upper_sigma": 0.00018,
+      "lower_sigma": 0.00018,
+      "source": "139.57039 +0.00018 / −0.00018 [PDG 2024]"
+    }
+  },
+  {
+    "id": "J07",
+    "quantity": "ρ pole, Re s [GeV²] (GeV²)",
+    "formula": "6m_p² ln[(√313 − 11)/6]",
+    "value": "0.576408555494293",
+    "comparison": "0.577879 +0.002449 / -0.002449 [source not recorded]",
+    "residual": "-0.600427",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J07"
+    ],
+    "source": "Supplemental Material, Part IV, record J07",
+    "unit": "GeV^2",
+    "measurement": {
+      "central": 0.577879,
+      "upper_sigma": 0.002449,
+      "lower_sigma": 0.002449,
+      "source": "0.577879 +0.002449 / −0.002449 [source not recorded]"
+    }
+  },
+  {
+    "id": "J08",
+    "quantity": "K⁰ (MeV)",
+    "formula": "P(S_d,S_s) = [2k_C m_p² tr δ₁(R_ds)]^(1/2)",
+    "value": "497.613584450934",
+    "comparison": "497.611 +0.013 / -0.013 [source not recorded]",
+    "residual": "+0.198804",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J08"
+    ],
+    "source": "Supplemental Material, Part IV, record J08",
+    "unit": "MeV",
+    "measurement": {
+      "central": 497.611,
+      "upper_sigma": 0.013,
+      "lower_sigma": 0.013,
+      "source": "497.611 +0.013 / −0.013 [source not recorded]"
+    }
+  },
+  {
+    "id": "J09",
+    "quantity": "K± (MeV)",
+    "formula": "[2k_C m_p² tr δ₁(R_us) + (48/25)Δ_el]^(1/2), the marked current at the plane hk",
+    "value": "493.665032668308",
+    "comparison": "493.677 +0.015 / -0.015 [source not recorded]",
+    "residual": "-0.798",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J09"
+    ],
+    "source": "Supplemental Material, Part IV, record J09",
+    "unit": "MeV",
+    "measurement": {
+      "central": 493.677,
+      "upper_sigma": 0.015,
+      "lower_sigma": 0.015,
+      "source": "493.677 +0.015 / −0.015 [source not recorded]"
+    }
+  },
+  {
+    "id": "J17",
+    "quantity": "kT_c, the colour crossover temperature (MeV)",
+    "formula": "m_p/L(Ω) = m_p/6",
+    "value": "156.378681570033",
+    "comparison": "156.5 +1.5 / -1.5 [source not recorded]",
+    "residual": "-0.080879",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_J17"
+    ],
+    "source": "Supplemental Material, Part IV, record J17",
+    "unit": "MeV",
+    "measurement": {
+      "central": 156.5,
+      "upper_sigma": 1.5,
+      "lower_sigma": 1.5,
+      "source": "156.5 +1.5 / −1.5 [source not recorded]"
+    }
+  },
+  {
+    "id": "L13",
+    "quantity": "completed deuteron binding",
+    "formula": "pole: pole difference B_d",
+    "value": "2.22456646309919",
+    "comparison": "from G10",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_L13"
+    ],
+    "source": "Supplemental Material, Part IV, record L13",
+    "unit": "MeV"
+  },
+  {
+    "id": "M3",
+    "quantity": "deuteron nuclear mass MeV",
+    "formula": "m_p + m_n − B_d",
+    "value": "1875.61294498229",
+    "comparison": "1875.612945 \\ensuremath{\\pm} 5.8e-07 [CODATA 2022]",
+    "residual": "-0.0305386",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_M3"
+    ],
+    "source": "Supplemental Material, Part IV, record M3",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1875.612945,
+      "upper_sigma": 5.8e-07,
+      "lower_sigma": 5.8e-07,
+      "source": "1875.612945 ± 5.8e-07 [CODATA 2022]"
+    }
+  },
+  {
+    "id": "N22",
+    "quantity": "saturation energy e_0",
+    "formula": "pole: the bulk volume term −a_V = −m_p a²(1 − t/Eℓ)",
+    "value": "-15.8382148058291",
+    "comparison": "-16 +0.5/-0.5 [extrapolation of masses to symmetric matter]",
+    "residual": "+0.324",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_N22"
+    ],
+    "source": "Supplemental Material, Part IV, record N22",
+    "unit": "MeV",
+    "measurement": {
+      "central": -16.0,
+      "upper_sigma": 0.5,
+      "lower_sigma": 0.5,
+      "source": "-16 +0.5/-0.5 [extrapolation of masses to symmetric matter]"
+    }
+  },
+  {
+    "id": "T07",
+    "quantity": "deuteron D-state share",
+    "formula": "eigenvector: D-state component of the deuteron's eigenvector at its pole: p_D = 2/51",
+    "value": "0.0392156862745098",
+    "comparison": "construction",
+    "residual": "-",
+    "operation": "computed.",
+    "theorems": [
+      "Comparison.System.row_T07"
+    ],
+    "source": "Supplemental Material, Part IV, record T07",
+    "unit": "1"
+  },
+  {
+    "id": "K04",
+    "quantity": "m_beta and m_betabeta",
+    "formula": "pole: C[m_β, m_ββ with U_l] of the light poles",
+    "value": "[0.00882841829799682, 0.0033134118567138]",
+    "comparison": "< 0.45 eV and < 0.028 eV [KATRIN; KamLAND-Zen]",
+    "residual": "--",
+    "operation": "computed.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record K04",
+    "unit": "eV"
+  },
+  {
+    "id": "T05",
+    "quantity": "light neutrinos m1,m2",
+    "formula": "pole: the two lightest zeros m₁ = 0, m₂",
+    "value": "[0, 0.00861267197365246]",
+    "comparison": "prediction",
+    "residual": "--",
+    "operation": "computed.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record T05",
+    "unit": "eV"
+  },
+  {
+    "id": "L02",
+    "quantity": "tau row of the lepton current",
+    "formula": "eigenvector: C[\\|U_τi\\|²] of U_l: (b/2, (1 − b)/2, 1/2)",
+    "value": "[0.21875, 0.28125, 0.5]",
+    "comparison": "prediction",
+    "residual": "--",
+    "operation": "computed.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record L02",
+    "unit": "1"
+  },
+  {
+    "id": "I01",
+    "quantity": "up mass m_u(2 GeV)",
+    "formula": "pole: C[four-loop running and matching to 2 GeV] of the up pole at M_Z (the open levels carry 1/η)",
+    "value": "2.11478",
+    "comparison": "2.16 +0.04/-0.04 [PDG 2026]",
+    "residual": "-1.13",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record I01",
+    "unit": "MeV",
+    "measurement": {
+      "central": 2.16,
+      "upper_sigma": 0.04,
+      "lower_sigma": 0.04,
+      "source": "2.16 +0.04/-0.04 [PDG 2026]"
+    }
+  },
+  {
+    "id": "I02",
+    "quantity": "down mass m_d(2 GeV)",
+    "formula": "pole: C[four-loop running and matching to 2 GeV] of the down pole at M_Z (the open levels carry 1/η)",
+    "value": "4.60275",
+    "comparison": "4.7 +0.04/-0.04 [PDG 2026]",
+    "residual": "-2.43",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record I02",
+    "unit": "MeV",
+    "measurement": {
+      "central": 4.7,
+      "upper_sigma": 0.04,
+      "lower_sigma": 0.04,
+      "source": "4.7 +0.04/-0.04 [PDG 2026]"
+    }
+  },
+  {
+    "id": "I03",
+    "quantity": "strange mass m_s(2 GeV)",
+    "formula": "pole: C[four-loop running and matching to 2 GeV] of the strange pole at M_Z (the open levels carry 1/η)",
+    "value": "91.8786",
+    "comparison": "92.9 +0.4/-0.4 [PDG 2026]",
+    "residual": "-2.55",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record I03",
+    "unit": "MeV",
+    "measurement": {
+      "central": 92.9,
+      "upper_sigma": 0.4,
+      "lower_sigma": 0.4,
+      "source": "92.9 +0.4/-0.4 [PDG 2026]"
+    }
+  },
+  {
+    "id": "I04",
+    "quantity": "charm mass m_c(m_c)",
+    "formula": "pole: C[four-loop running and matching to m_c] of the charm pole at M_Z (the open levels carry 1/η)",
+    "value": "1.26243",
+    "comparison": "1.2729 +0.0027/-0.0027 [PDG 2026]",
+    "residual": "-3.88",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record I04",
+    "unit": "GeV",
+    "measurement": {
+      "central": 1.2729,
+      "upper_sigma": 0.0027,
+      "lower_sigma": 0.0027,
+      "source": "1.2729 +0.0027/-0.0027 [PDG 2026]"
+    }
+  },
+  {
+    "id": "I05",
+    "quantity": "bottom mass m_b(m_b)",
+    "formula": "pole: C[four-loop running and matching to m_b] of the bottom pole at M_Z",
+    "value": "4.18248214152943",
+    "comparison": "4.1859 +0.0034/-0.0034 [PDG 2026]",
+    "residual": "-1.005",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record I05",
+    "unit": "GeV",
+    "measurement": {
+      "central": 4.1859,
+      "upper_sigma": 0.0034,
+      "lower_sigma": 0.0034,
+      "source": "4.1859 +0.0034/-0.0034 [PDG 2026]"
+    }
+  },
+  {
+    "id": "T10",
+    "quantity": "coloured/lepton C_d",
+    "formula": "pole: C[the coloured/lepton statistic] of the down pole (the open levels carry 1/η)",
+    "value": "10.4618",
+    "comparison": "quark-mass statistic",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record T10",
+    "unit": "1"
+  },
+  {
+    "id": "T11",
+    "quantity": "coloured/lepton C_s",
+    "formula": "pole: C[the coloured/lepton statistic] of the strange pole (the open levels carry 1/η)",
+    "value": "10.4697",
+    "comparison": "quark-mass statistic",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record T11",
+    "unit": "1"
+  },
+  {
+    "id": "T12",
+    "quantity": "coloured/lepton C_b",
+    "formula": "pole: C[the coloured/lepton statistic] of the bottom pole",
+    "value": "10.3757734611098",
+    "comparison": "quark-mass statistic",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record T12",
+    "unit": "1"
+  },
+  {
+    "id": "S10",
+    "quantity": "coloured/lepton Cd",
+    "formula": "pole: C[the coloured/lepton statistic] of the down pole (the open levels carry 1/η)",
+    "value": "10.4618",
+    "comparison": "10.67 +0.16/-0.16 [quark-mass statistic]",
+    "residual": "-1.30",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S10",
+    "unit": "1",
+    "measurement": {
+      "central": 10.67,
+      "upper_sigma": 0.16,
+      "lower_sigma": 0.16,
+      "source": "10.67 +0.16/-0.16 [quark-mass statistic]"
+    }
+  },
+  {
+    "id": "S11",
+    "quantity": "coloured/lepton Cs",
+    "formula": "pole: C[the coloured/lepton statistic] of the strange pole (the open levels carry 1/η)",
+    "value": "10.4697",
+    "comparison": "10.57 +0.08/-0.08 [quark-mass statistic]",
+    "residual": "-1.25",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S11",
+    "unit": "1",
+    "measurement": {
+      "central": 10.57,
+      "upper_sigma": 0.08,
+      "lower_sigma": 0.08,
+      "source": "10.57 +0.08/-0.08 [quark-mass statistic]"
+    }
+  },
+  {
+    "id": "S12",
+    "quantity": "coloured/lepton Cb",
+    "formula": "pole: C[the coloured/lepton statistic] of the bottom pole",
+    "value": "10.3757734611098",
+    "comparison": "10.38 +0.02/-0.02 [quark-mass statistic]",
+    "residual": "-0.211",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S12",
+    "unit": "1",
+    "measurement": {
+      "central": 10.38,
+      "upper_sigma": 0.02,
+      "lower_sigma": 0.02,
+      "source": "10.38 +0.02/-0.02 [quark-mass statistic]"
+    }
+  },
+  {
+    "id": "I06",
+    "quantity": "strong coupling at the proton",
+    "formula": "coefficient: C[four-loop running to m_p] of the colour two-source coefficient α_s",
+    "value": "0.505523057661309",
+    "comparison": "0.50927 +0.0233/-0.0213 [four-loop evolution of the PDG 2024 alpha\\_\\allowbreak{}s(M\\_\\allowbreak{}Z) = 0.1180(9)]",
+    "residual": "-0.176",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record I06",
+    "unit": "1",
+    "measurement": {
+      "central": 0.50927,
+      "upper_sigma": 0.0233,
+      "lower_sigma": 0.0213,
+      "source": "0.50927 +0.0233/-0.0213 [four-loop evolution of the PDG 2024 alpha_s(M_Z) = 0.1180(9)]"
+    }
+  },
+  {
+    "id": "S018",
+    "quantity": "Lambda_5, four-loop convention at M_Z = 91.188 GeV",
+    "formula": "coefficient: C[the four-loop length at M_Z = 91.188 GeV] of α_s",
+    "value": "206.896190226441",
+    "comparison": "four-loop convention: 206.90 MeV",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S018",
+    "unit": "MeV"
+  },
+  {
+    "id": "Q01",
+    "quantity": "electric running 1/alpha(M_Z)",
+    "formula": "C[dispersion] of the computed vector current",
+    "value": "128.937243",
+    "comparison": "128.94 +0.014/-0.014 [on shell]",
+    "residual": "-0.197",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q01",
+    "unit": "1",
+    "measurement": {
+      "central": 128.94,
+      "upper_sigma": 0.014,
+      "lower_sigma": 0.014,
+      "source": "128.94 +0.014/-0.014 [on shell]"
+    }
+  },
+  {
+    "id": "Q11",
+    "quantity": "proton decay matrix element",
+    "formula": "pole: C[continuous four-loop operator transport, computed bottom threshold] of the poles m_p and m_π0",
+    "value": "0.134483885087514",
+    "comparison": "0.131 +0.0136/-0.0136 [lattice 2017]",
+    "residual": "+0.256",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q11",
+    "unit": "GeV^2",
+    "measurement": {
+      "central": 0.131,
+      "upper_sigma": 0.0136,
+      "lower_sigma": 0.0136,
+      "source": "0.131 +0.0136/-0.0136 [lattice 2017]"
+    }
+  },
+  {
+    "id": "T09",
+    "quantity": "alpha_s at bottom and charm thresholds",
+    "formula": "coefficient: C[running to m_b and m_c] of α_s",
+    "value": "[0.224009369316102, 0.385356820505129]",
+    "comparison": "running convention",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record T09",
+    "unit": "1"
+  },
+  {
+    "id": "S14",
+    "quantity": "five-flavour four-loop scale",
+    "formula": "coefficient: C[the four-loop length at the constructed M_Z] of α_s",
+    "value": "206.890203783025",
+    "comparison": "four-loop convention",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S14",
+    "unit": "MeV"
+  },
+  {
+    "id": "S017",
+    "quantity": "five-flavour scale at the reporting M_Z = 91.1876 GeV",
+    "formula": "coefficient: C[the four-loop length at M_Z = 91.1876 GeV] of α_s",
+    "value": "206.895282667594",
+    "comparison": "four-loop convention at M\\_\\allowbreak{}Z = 91.1876 GeV: 206.9 MeV",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S017",
+    "unit": "MeV"
+  },
+  {
+    "id": "I10",
+    "quantity": "electron anomaly a_e",
+    "formula": "residue: C[the electron vertex to five loops] of the residue α and the charged poles; with the computed hadronic share",
+    "value": "0.00115965218050222",
+    "comparison": "0.00115965218059 +1.3e-13/-1.3e-13 [Fan et al., Phys. Rev. Lett. 130, 071801 (2023)]",
+    "residual": "-0.675",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record I10",
+    "unit": "1",
+    "measurement": {
+      "central": 0.00115965218059,
+      "upper_sigma": 1.3e-13,
+      "lower_sigma": 1.3e-13,
+      "source": "0.00115965218059 +1.3e-13/-1.3e-13 [Fan et al., Phys. Rev. Lett. 130, 071801 (2023)]"
+    }
+  },
+  {
+    "id": "I11",
+    "quantity": "hydrogen binding",
+    "formula": "residue: C[the hydrogen series] of the residue α and the pole m_p/m_e; with the computed hadronic term; compared at the spectral lines",
+    "value": "13.5984345996929",
+    "comparison": "13.5984345997 (relative difference -6.710e-13)",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record I11",
+    "unit": "eV"
+  },
+  {
+    "id": "S06",
+    "quantity": "muonic-hydrogen singlet capture",
+    "formula": "the whole axial shape w/(4 − 3w) with its Ward partner, through C[the capture map]",
+    "value": "717.110240723118",
+    "comparison": "715.6 +7.4/-7.4 [MuCap]",
+    "residual": "+0.204",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S06",
+    "unit": "s^-1",
+    "measurement": {
+      "central": 715.6,
+      "upper_sigma": 7.4,
+      "lower_sigma": 7.4,
+      "source": "715.6 +7.4/-7.4 [MuCap]"
+    }
+  },
+  {
+    "id": "S15",
+    "quantity": "pion electronic/muonic decay ratio",
+    "formula": "residue: C[inclusive point-pseudoscalar QED through O(α)] of the charged poles m_e, m_μ, m_π±",
+    "value": "0.000123292613490236",
+    "comparison": "0.00012327 +2.3e-07/-2.3e-07 [PDG 2024 inclusive ratio]",
+    "residual": "+0.098",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S15",
+    "unit": "1",
+    "measurement": {
+      "central": 0.00012327,
+      "upper_sigma": 2.3e-07,
+      "lower_sigma": 2.3e-07,
+      "source": "0.00012327 +2.3e-07/-2.3e-07 [PDG 2024 inclusive ratio]"
+    }
+  },
+  {
+    "id": "A001",
+    "quantity": "induced pseudoscalar coupling at Q^2=0.88 m_mu^2",
+    "formula": "the whole axial shape w/(4 − 3w) with its Ward partner at Q² = 0.88 m_μ²",
+    "value": "8.36259039416189",
+    "comparison": "8.99 +0.626/-0.626 [ETMC 2024]",
+    "residual": "-1.002",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record A001",
+    "unit": "1",
+    "measurement": {
+      "central": 8.99,
+      "upper_sigma": 0.626,
+      "lower_sigma": 0.626,
+      "source": "8.99 +0.626/-0.626 [ETMC 2024]"
+    }
+  },
+  {
+    "id": "Q04",
+    "quantity": "muon hadronic polarization",
+    "formula": "the computed vector current's leading polarization of the muon",
+    "value": "711.1437",
+    "comparison": "713.2 +6.1/-6.1 [2025 lattice]",
+    "residual": "-0.337",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q04",
+    "unit": "10^-10",
+    "measurement": {
+      "central": 713.2,
+      "upper_sigma": 6.1,
+      "lower_sigma": 6.1,
+      "source": "713.2 +6.1/-6.1 [2025 lattice]"
+    }
+  },
+  {
+    "id": "I07",
+    "quantity": "top pole mass",
+    "formula": "pole: C[four-loop matching to the pole mass] of the top pole at M_Z",
+    "value": "172.76121248356",
+    "comparison": "172.1 +0.6/-0.6 [PDG 2026 top pole mass from cross sections]",
+    "residual": "+1.102",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record I07",
+    "unit": "GeV",
+    "measurement": {
+      "central": 172.1,
+      "upper_sigma": 0.6,
+      "lower_sigma": 0.6,
+      "source": "172.1 +0.6/-0.6 [PDG 2026 top pole mass from cross sections]"
+    }
+  },
+  {
+    "id": "T08",
+    "quantity": "running top and Yukawa",
+    "formula": "pole: C[running to m_t(m_t), y_t = √2 m_t/v] of the top pole",
+    "value": "[162.984094960692, 0.936132971038294]",
+    "comparison": "running convention",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record T08",
+    "unit": "GeV, 1"
+  },
+  {
+    "id": "L21",
+    "quantity": "clock-independent lower bound on the light neutral mass sum",
+    "formula": "pole: sum of the light poles at the clock endpoint h = 1",
+    "value": "0.0587890893281977",
+    "comparison": "bound for every clock",
+    "residual": "--",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record L21",
+    "unit": "eV"
+  },
+  {
+    "id": "F02",
+    "quantity": "cold/baryon omega_c/omega_b",
+    "formula": "stationary: stationary weight on all sixteen states with the heavy pole: a¹⁶M_R/m_p, then C[κ_B] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": "5.34277169492503",
+    "comparison": "5.3643 +0.0646/-0.0646 [Planck 2018 ratio]",
+    "residual": "-0.333",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record F02",
+    "unit": "1",
+    "measurement": {
+      "central": 5.3643,
+      "upper_sigma": 0.0646,
+      "lower_sigma": 0.0646,
+      "source": "5.3643 +0.0646/-0.0646 [Planck 2018 ratio]"
+    }
+  },
+  {
+    "id": "F05",
+    "quantity": "photon temperature at the 24:11 epoch",
+    "formula": "stationary: the present, ρ_Λ/ρ_m = 24/11, then C[thermal history: T] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": "2.72549728670312",
+    "comparison": "2.72548 +0.00057/-0.00057 [FIRAS, Fixsen, Astrophys. J. 707, 916 (2009)]",
+    "residual": "+0.030",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record F05",
+    "unit": "K",
+    "measurement": {
+      "central": 2.72548,
+      "upper_sigma": 0.00057,
+      "lower_sigma": 0.00057,
+      "source": "2.72548 +0.00057/-0.00057 [FIRAS, Fixsen, Astrophys. J. 707, 916 (2009)]"
+    }
+  },
+  {
+    "id": "F06",
+    "quantity": "Hubble rate H_comp",
+    "formula": "stationary: the present, 24/11, then C[thermal history: H_comp] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": "67.4316192077386",
+    "comparison": "67.62 +0.5/-0.5 [P-ACT]",
+    "residual": "-0.377",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record F06",
+    "unit": "km s^-1 Mpc^-1",
+    "measurement": {
+      "central": 67.62,
+      "upper_sigma": 0.5,
+      "lower_sigma": 0.5,
+      "source": "67.62 +0.5/-0.5 [P-ACT]"
+    }
+  },
+  {
+    "id": "F07",
+    "quantity": "age t_age",
+    "formula": "stationary: the present, 24/11, then C[thermal history: t_age] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": "13.7944222597347",
+    "comparison": "13.789 +0.018/-0.018 [P-ACT]",
+    "residual": "+0.301",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record F07",
+    "unit": "Gyr",
+    "measurement": {
+      "central": 13.789,
+      "upper_sigma": 0.018,
+      "lower_sigma": 0.018,
+      "source": "13.789 +0.018/-0.018 [P-ACT]"
+    }
+  },
+  {
+    "id": "F08",
+    "quantity": "matter share Omega_m",
+    "formula": "stationary: the present, 24/11, then C[thermal history: Ω_m] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": "0.314264682713255",
+    "comparison": "0.3116 +0.0071/-0.0071 [P-ACT]",
+    "residual": "+0.375",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record F08",
+    "unit": "1",
+    "measurement": {
+      "central": 0.3116,
+      "upper_sigma": 0.0071,
+      "lower_sigma": 0.0071,
+      "source": "0.3116 +0.0071/-0.0071 [P-ACT]"
+    }
+  },
+  {
+    "id": "F09",
+    "quantity": "the Λ share Omega_Lambda",
+    "formula": "stationary: the present, 24/11, then C[thermal history: Ω_Λ] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": "0.685668398647101",
+    "comparison": "0.6847 +0.0073/-0.0073 [Planck 2018]",
+    "residual": "+0.133",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record F09",
+    "unit": "1",
+    "measurement": {
+      "central": 0.6847,
+      "upper_sigma": 0.0073,
+      "lower_sigma": 0.0073,
+      "source": "0.6847 +0.0073/-0.0073 [Planck 2018]"
+    }
+  },
+  {
+    "id": "F10",
+    "quantity": "helium mass fraction Y_p",
+    "formula": "stationary: the nucleosynthesis network on the computed coefficients, Y_p = 4y/(1 + 4y) in the measurements' convention",
+    "value": "0.24694744653623",
+    "comparison": "0.2458 +0.0013/-0.0013 [LBT 2026, Y\\_\\allowbreak{}p = 4y/(1 + 4y) from He I/H I lines]",
+    "residual": "+0.883",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record F10",
+    "unit": "1",
+    "measurement": {
+      "central": 0.2458,
+      "upper_sigma": 0.0013,
+      "lower_sigma": 0.0013,
+      "source": "0.2458 +0.0013/-0.0013 [LBT 2026, Y_p = 4y/(1 + 4y) from He I/H I lines]"
+    }
+  },
+  {
+    "id": "F11",
+    "quantity": "baryon density omega_b",
+    "formula": "stationary: the present, 24/11, then C[thermal history: ω_b] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": "0.0224294823835265",
+    "comparison": "0.0225 +0.00011/-0.00011 [P-ACT]",
+    "residual": "-0.641",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record F11",
+    "unit": "1",
+    "measurement": {
+      "central": 0.0225,
+      "upper_sigma": 0.00011,
+      "lower_sigma": 0.00011,
+      "source": "0.0225 +0.00011/-0.00011 [P-ACT]"
+    }
+  },
+  {
+    "id": "F12",
+    "quantity": "cold density omega_c",
+    "formula": "stationary: the present, 24/11, then C[thermal history: ω_c] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": "0.119835603610525",
+    "comparison": "0.1193 +0.0012/-0.0012 [P-ACT]",
+    "residual": "+0.446",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record F12",
+    "unit": "1",
+    "measurement": {
+      "central": 0.1193,
+      "upper_sigma": 0.0012,
+      "lower_sigma": 0.0012,
+      "source": "0.1193 +0.0012/-0.0012 [P-ACT]"
+    }
+  },
+  {
+    "id": "Q05",
+    "quantity": "acoustic angle 100 theta_* (common-area convention)",
+    "formula": "stationary: C[CAMB transfer, common-area convention] of the populations at the present",
+    "value": "1.04094999030065",
+    "comparison": "1.04094 +0.00025/-0.00025 [P-ACT]",
+    "residual": "+0.040",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q05",
+    "unit": "1",
+    "measurement": {
+      "central": 1.04094,
+      "upper_sigma": 0.00025,
+      "lower_sigma": 0.00025,
+      "source": "1.04094 +0.00025/-0.00025 [P-ACT]"
+    }
+  },
+  {
+    "id": "Q06",
+    "quantity": "acoustic angle at optical depth one 100 theta",
+    "formula": "C[CAMB transport with the nucleosynthesis network's helium] of the populations",
+    "value": "1.04098061206",
+    "comparison": "1.04094 +0.00025/-0.00025 [P-ACT]",
+    "residual": "+0.162",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q06",
+    "unit": "1",
+    "measurement": {
+      "central": 1.04094,
+      "upper_sigma": 0.00025,
+      "lower_sigma": 0.00025,
+      "source": "1.04094 +0.00025/-0.00025 [P-ACT]"
+    }
+  },
+  {
+    "id": "Q07",
+    "quantity": "acoustic angle at visibility peak 100 theta",
+    "formula": "C[CAMB transport with the nucleosynthesis network's helium] of the populations",
+    "value": "1.041686318178",
+    "comparison": "1.04161 +0.00023/-0.00023 [CMB-SPA]",
+    "residual": "+0.332",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q07",
+    "unit": "1",
+    "measurement": {
+      "central": 1.04161,
+      "upper_sigma": 0.00023,
+      "lower_sigma": 0.00023,
+      "source": "1.04161 +0.00023/-0.00023 [CMB-SPA]"
+    }
+  },
+  {
+    "id": "Q08",
+    "quantity": "matter fluctuation sigma_8",
+    "formula": "C[CAMB transport with the nucleosynthesis network's helium] of the populations",
+    "value": "0.8213353983338",
+    "comparison": "0.8149 +0.0063/-0.0063 [P-ACT]",
+    "residual": "+1.021",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q08",
+    "unit": "1",
+    "measurement": {
+      "central": 0.8149,
+      "upper_sigma": 0.0063,
+      "lower_sigma": 0.0063,
+      "source": "0.8149 +0.0063/-0.0063 [P-ACT]"
+    }
+  },
+  {
+    "id": "Q09",
+    "quantity": "S_8",
+    "formula": "σ₈(Ω_m/0.3)^(1/2) of the carried σ₈",
+    "value": "0.840635453047808",
+    "comparison": "0.83 +0.014/-0.014 [P-ACT]",
+    "residual": "+0.760",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q09",
+    "unit": "1",
+    "measurement": {
+      "central": 0.83,
+      "upper_sigma": 0.014,
+      "lower_sigma": 0.014,
+      "source": "0.83 +0.014/-0.014 [P-ACT]"
+    }
+  },
+  {
+    "id": "Q10",
+    "quantity": "drag ruler r_d",
+    "formula": "C[CAMB transport with the nucleosynthesis network's helium] of the populations",
+    "value": "147.0826558961",
+    "comparison": "147.14 +0.29/-0.29 [P-ACT]",
+    "residual": "-0.198",
+    "operation": "Classical evolution of the stated finite inputs.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q10",
+    "unit": "Mpc",
+    "measurement": {
+      "central": 147.14,
+      "upper_sigma": 0.29,
+      "lower_sigma": 0.29,
+      "source": "147.14 +0.29/-0.29 [P-ACT]"
+    }
+  },
+  {
+    "id": "Q12",
+    "quantity": "Muon magnetic-frequency ratio $R'_\\mu$",
+    "formula": "$R'_\\mu=a_\\mu/[\\mu_p(m_e/m_p)(1-\\sigma'_p)(m_\\mu/m_e)]$",
+    "value": "0.003707299080299",
+    "comparison": "$0.00370730088(46)$ [Muon $g-2$ final result; shielded protons in spherical water at $25^\\circ\\mathrm C$, Ref.~\\cite{MuonG2Final}]",
+    "residual": "$-3.90$ with the recorded $4.62\\times10^{-10}$ width",
+    "operation": "Carried conventional conversion with the complete muon anomaly and measured shielding.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record Q12",
+    "unit": "1",
+    "measurement": {
+      "central": 0.00370730088,
+      "upper_sigma": 4.62e-10,
+      "lower_sigma": 4.62e-10,
+      "source": "$0.00370730088(46)$ [Muon $g-2$ final result; shielded protons in spherical water at $25^\\circ\\mathrm C$, Ref.~\\cite{MuonG2Final}]; recorded comparison width 4.62e-10"
+    }
+  },
+  {
+    "id": "S21",
+    "quantity": "B_c* minus B_c",
+    "formula": "pole difference: the colour kernel's contact with one mass for the motion and the spin, the rest energy",
+    "value": "Analytic expression",
+    "comparison": "64.5 +1.7/-2.0 [ATLAS 2026, B\\_\\allowbreak{}c*\\ensuremath{{}^{+}} \\ensuremath{\\to} B\\_\\allowbreak{}c\\ensuremath{{}^{+}}\\ensuremath{\\gamma} with converted photons]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S21",
+    "unit": "MeV",
+    "measurement": {
+      "central": 64.5,
+      "upper_sigma": 1.7,
+      "lower_sigma": 2.0,
+      "source": "64.5 +1.7/-2.0 [ATLAS 2026, B_c*⁺ → B_c⁺γ with converted photons]"
+    }
+  },
+  {
+    "id": "N23",
+    "quantity": "incompressibility K_0",
+    "formula": "C[one two-source response with both Pauli blockings at the saturation point]: 9n₀²e″(n₀), the scalar and vector strengths carrying R_σ(n)²(1 − f(n))",
+    "value": "Analytic expression",
+    "comparison": "230 +40/-40 [the isoscalar giant monopole resonance with RPA functionals]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record N23",
+    "unit": "MeV",
+    "measurement": {
+      "central": 230.0,
+      "upper_sigma": 40.0,
+      "lower_sigma": 40.0,
+      "source": "230 +40/-40 [the isoscalar giant monopole resonance with RPA functionals]"
+    }
+  },
+  {
+    "id": "N24",
+    "quantity": "symmetry energy J",
+    "formula": "coefficient: the kinetic part, the isospin-charge two-source response C_τn/2, the T = 0 iterated pion of neutron matter carried by the response's m*, and the one-pion Fock term, at n₀",
+    "value": "Analytic expression",
+    "comparison": "31.6 +2.7/-2.7 [Li and Han 2013]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record N24",
+    "unit": "MeV",
+    "measurement": {
+      "central": 31.6,
+      "upper_sigma": 2.7,
+      "lower_sigma": 2.7,
+      "source": "31.6 +2.7/-2.7 [Li and Han 2013]"
+    }
+  },
+  {
+    "id": "N25",
+    "quantity": "symmetry slope L",
+    "formula": "3n₀S₂′(n₀) of the same",
+    "value": "Analytic expression",
+    "comparison": "58.7 +28.1/-28.1 [Oertel et al. 2017]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record N25",
+    "unit": "MeV",
+    "measurement": {
+      "central": 58.7,
+      "upper_sigma": 28.1,
+      "lower_sigma": 28.1,
+      "source": "58.7 +28.1/-28.1 [Oertel et al. 2017]"
+    }
+  },
+  {
+    "id": "J10",
+    "quantity": "π⁰ by its world lines (MeV)",
+    "formula": "√[(P(S_u,S_u)² + P(S_d,S_d)²)/2]",
+    "value": "134.956486146739",
+    "comparison": "134.9768 +0.0005 / -0.0005 [source not recorded]",
+    "residual": "-40.627707",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J10",
+    "unit": "MeV",
+    "measurement": {
+      "central": 134.9768,
+      "upper_sigma": 0.0005,
+      "lower_sigma": 0.0005,
+      "source": "134.9768 +0.0005 / −0.0005 [source not recorded]"
+    }
+  },
+  {
+    "id": "J11",
+    "quantity": "η (MeV)",
+    "formula": "P(S_d,S_d)",
+    "value": "157.925020972358",
+    "comparison": "547.862 +0.017 / -0.017 [source not recorded]",
+    "residual": "-22937.469355",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J11",
+    "unit": "MeV",
+    "measurement": {
+      "central": 547.862,
+      "upper_sigma": 0.017,
+      "lower_sigma": 0.017,
+      "source": "547.862 +0.017 / −0.017 [source not recorded]"
+    }
+  },
+  {
+    "id": "J12",
+    "quantity": "η′ (MeV)",
+    "formula": "P(S_s,S_s)",
+    "value": "675.959220300687",
+    "comparison": "957.78 +0.06 / -0.06 [source not recorded]",
+    "residual": "-4697.012995",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J12",
+    "unit": "MeV",
+    "measurement": {
+      "central": 957.78,
+      "upper_sigma": 0.06,
+      "lower_sigma": 0.06,
+      "source": "957.78 +0.06 / −0.06 [source not recorded]"
+    }
+  },
+  {
+    "id": "J13",
+    "quantity": "D (mean) (MeV)",
+    "formula": "P(S_c,(S_u + S_d)/2)",
+    "value": "Analytic expression",
+    "comparison": "1867.25 +0.03 / -0.03 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J13",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1867.25,
+      "upper_sigma": 0.03,
+      "lower_sigma": 0.03,
+      "source": "1867.25 +0.03 / −0.03 [source not recorded]"
+    }
+  },
+  {
+    "id": "J14",
+    "quantity": "D_s (MeV)",
+    "formula": "P(S_c,S_s)",
+    "value": "Analytic expression",
+    "comparison": "1968.35 +0.07 / -0.07 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J14",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1968.35,
+      "upper_sigma": 0.07,
+      "lower_sigma": 0.07,
+      "source": "1968.35 +0.07 / −0.07 [source not recorded]"
+    }
+  },
+  {
+    "id": "J15",
+    "quantity": "B (mean) (MeV)",
+    "formula": "P(S_b,(S_u + S_d)/2)",
+    "value": "Analytic expression",
+    "comparison": "5279.565 +0.053 / -0.053 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J15",
+    "unit": "MeV",
+    "measurement": {
+      "central": 5279.565,
+      "upper_sigma": 0.053,
+      "lower_sigma": 0.053,
+      "source": "5279.565 +0.053 / −0.053 [source not recorded]"
+    }
+  },
+  {
+    "id": "J16",
+    "quantity": "B_s (MeV)",
+    "formula": "P(S_b,S_s)",
+    "value": "Analytic expression",
+    "comparison": "5366.93 +0.1 / -0.1 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J16",
+    "unit": "MeV",
+    "measurement": {
+      "central": 5366.93,
+      "upper_sigma": 0.1,
+      "lower_sigma": 0.1,
+      "source": "5366.93 +0.1 / −0.1 [source not recorded]"
+    }
+  },
+  {
+    "id": "J19",
+    "quantity": "ω (MeV)",
+    "formula": "sqrt(Re s_rho), with Re s_rho in MeV^2",
+    "value": "759.215750293876",
+    "comparison": "782.66 +0.13 / -0.13 [source not recorded]",
+    "residual": "-180.340382",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J19",
+    "unit": "MeV",
+    "measurement": {
+      "central": 782.66,
+      "upper_sigma": 0.13,
+      "lower_sigma": 0.13,
+      "source": "782.66 +0.13 / −0.13 [source not recorded]"
+    }
+  },
+  {
+    "id": "J20",
+    "quantity": "K*± (MeV)",
+    "formula": "√(s_ρ + m_K±²)",
+    "value": "905.601302988073",
+    "comparison": "891.88 +0.23 / -0.23 [source not recorded]",
+    "residual": "+59.657839",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J20",
+    "unit": "MeV",
+    "measurement": {
+      "central": 891.88,
+      "upper_sigma": 0.23,
+      "lower_sigma": 0.23,
+      "source": "891.88 +0.23 / −0.23 [source not recorded]"
+    }
+  },
+  {
+    "id": "J21",
+    "quantity": "K*⁰ (MeV)",
+    "formula": "√(s_ρ + m_K0²)",
+    "value": "907.759789219815",
+    "comparison": "895.56 +0.2 / -0.2 [source not recorded]",
+    "residual": "+60.998946",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J21",
+    "unit": "MeV",
+    "measurement": {
+      "central": 895.56,
+      "upper_sigma": 0.2,
+      "lower_sigma": 0.2,
+      "source": "895.56 +0.2 / −0.2 [source not recorded]"
+    }
+  },
+  {
+    "id": "J22",
+    "quantity": "φ (MeV)",
+    "formula": "√[s_ρ + P(S_s,S_s)²]",
+    "value": "1016.52812209196",
+    "comparison": "1019.46 +0.016 / -0.016 [source not recorded]",
+    "residual": "-183.242369",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J22",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1019.46,
+      "upper_sigma": 0.016,
+      "lower_sigma": 0.016,
+      "source": "1019.46 +0.016 / −0.016 [source not recorded]"
+    }
+  },
+  {
+    "id": "J23",
+    "quantity": "J/ψ (MeV)",
+    "formula": "open: the c c̄ source is not yet constructed",
+    "value": "Analytic expression",
+    "comparison": "3096.9 +0.006 / -0.006 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J23",
+    "unit": "MeV",
+    "measurement": {
+      "central": 3096.9,
+      "upper_sigma": 0.006,
+      "lower_sigma": 0.006,
+      "source": "3096.9 +0.006 / −0.006 [source not recorded]"
+    }
+  },
+  {
+    "id": "J24",
+    "quantity": "Υ(1S) (MeV)",
+    "formula": "open: the b b̄ source is not yet constructed",
+    "value": "Analytic expression",
+    "comparison": "9460.4 +0.1 / -0.1 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J24",
+    "unit": "MeV",
+    "measurement": {
+      "central": 9460.4,
+      "upper_sigma": 0.1,
+      "lower_sigma": 0.1,
+      "source": "9460.4 +0.1 / −0.1 [source not recorded]"
+    }
+  },
+  {
+    "id": "J25",
+    "quantity": "Σ⁺ (MeV)",
+    "formula": "open: the charge assignment is not yet constructed",
+    "value": "Analytic expression",
+    "comparison": "1189.37 +0.07 / -0.07 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J25",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1189.37,
+      "upper_sigma": 0.07,
+      "lower_sigma": 0.07,
+      "source": "1189.37 +0.07 / −0.07 [source not recorded]"
+    }
+  },
+  {
+    "id": "J26",
+    "quantity": "Σ⁰ (MeV)",
+    "formula": "m_n(5/2)^(59/320)",
+    "value": "1112.492814404643",
+    "comparison": "1192.642 +0.024 / -0.024 [source not recorded]",
+    "residual": "-3339.549400",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J26",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1192.642,
+      "upper_sigma": 0.024,
+      "lower_sigma": 0.024,
+      "source": "1192.642 +0.024 / −0.024 [source not recorded]"
+    }
+  },
+  {
+    "id": "J27",
+    "quantity": "Σ⁻ (MeV)",
+    "formula": "open: the charge assignment is not yet constructed",
+    "value": "Analytic expression",
+    "comparison": "1197.449 +0.029 / -0.029 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J27",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1197.449,
+      "upper_sigma": 0.029,
+      "lower_sigma": 0.029,
+      "source": "1197.449 +0.029 / −0.029 [source not recorded]"
+    }
+  },
+  {
+    "id": "J28",
+    "quantity": "Ξ⁰ (MeV)",
+    "formula": "m_n(5/2)^(118/320)",
+    "value": "1317.247562638359",
+    "comparison": "1314.86 +0.2 / -0.2 [source not recorded]",
+    "residual": "+11.937813",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J28",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1314.86,
+      "upper_sigma": 0.2,
+      "lower_sigma": 0.2,
+      "source": "1314.86 +0.2 / −0.2 [source not recorded]"
+    }
+  },
+  {
+    "id": "J29",
+    "quantity": "Ξ⁻ (MeV)",
+    "formula": "open: the charge assignment is not yet constructed",
+    "value": "Analytic expression",
+    "comparison": "1321.71 +0.07 / -0.07 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J29",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1321.71,
+      "upper_sigma": 0.07,
+      "lower_sigma": 0.07,
+      "source": "1321.71 +0.07 / −0.07 [source not recorded]"
+    }
+  },
+  {
+    "id": "J30",
+    "quantity": "Σ* (mean) (MeV)",
+    "formula": "3bm_p(5/2)^(20/320)",
+    "value": "1304.065364234984",
+    "comparison": "1384.61 +0.36 / -0.36 [source not recorded]",
+    "residual": "-223.735099",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J30",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1384.61,
+      "upper_sigma": 0.36,
+      "lower_sigma": 0.36,
+      "source": "1384.61 +0.36 / −0.36 [source not recorded]"
+    }
+  },
+  {
+    "id": "J31",
+    "quantity": "Ξ* (mean) (MeV)",
+    "formula": "3bm_p(5/2)^(40/320)",
+    "value": "1380.926649456699",
+    "comparison": "1533.4 +0.34 / -0.34 [source not recorded]",
+    "residual": "-448.451031",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J31",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1533.4,
+      "upper_sigma": 0.34,
+      "lower_sigma": 0.34,
+      "source": "1533.4 +0.34 / −0.34 [source not recorded]"
+    }
+  },
+  {
+    "id": "J32",
+    "quantity": "Ω⁻ (MeV)",
+    "formula": "3bm_p(5/2)^(60/320)",
+    "value": "1462.318119535674",
+    "comparison": "1672.45 +0.29 / -0.29 [source not recorded]",
+    "residual": "-724.592691",
+    "operation": "Finite expression evaluated in Sec.~\\ref{sec:literalcompositesSI}.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J32",
+    "unit": "MeV",
+    "measurement": {
+      "central": 1672.45,
+      "upper_sigma": 0.29,
+      "lower_sigma": 0.29,
+      "source": "1672.45 +0.29 / −0.29 [source not recorded]"
+    }
+  },
+  {
+    "id": "J33",
+    "quantity": "Λ_c (MeV)",
+    "formula": "open: the c source is not yet constructed",
+    "value": "Analytic expression",
+    "comparison": "2286.46 +0.14 / -0.14 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J33",
+    "unit": "MeV",
+    "measurement": {
+      "central": 2286.46,
+      "upper_sigma": 0.14,
+      "lower_sigma": 0.14,
+      "source": "2286.46 +0.14 / −0.14 [source not recorded]"
+    }
+  },
+  {
+    "id": "J34",
+    "quantity": "Λ_b (MeV)",
+    "formula": "open: the b source is not yet constructed",
+    "value": "Analytic expression",
+    "comparison": "5619.57 +0.16 / -0.16 [source not recorded]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record J34",
+    "unit": "MeV",
+    "measurement": {
+      "central": 5619.57,
+      "upper_sigma": 0.16,
+      "lower_sigma": 0.16,
+      "source": "5619.57 +0.16 / −0.16 [source not recorded]"
+    }
+  },
+  {
+    "id": "S19",
+    "quantity": "nucleon scalar residue sigma_piN",
+    "formula": "residue: the scalar insertion at the nucleon pole: its π, K, η₈ and Δ cloud, Σ_φ (m̂∂M_φ²/∂m̂)∂Σ_φ/∂M_φ² = 45.315 MeV, and its core, the levels of the three light world lines at one depth, 3Z_l m̂(1 + 2A/u), with the light world line's depth Z_l = 1.678 from its share λ = m_p/3 moving around a world line at rest",
+    "value": "Analytic expression",
+    "comparison": "59.1 +3.5/-3.5 [Roy--Steiner, Hoferichter et al. 2015]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S19",
+    "unit": "MeV",
+    "measurement": {
+      "central": 59.1,
+      "upper_sigma": 3.5,
+      "lower_sigma": 3.5,
+      "source": "59.1 +3.5/-3.5 [Roy–Steiner, Hoferichter et al. 2015]"
+    }
+  },
+  {
+    "id": "S20",
+    "quantity": "nucleon strange scalar residue sigma_s",
+    "formula": "residue: the strange scalar insertion at the nucleon pole through its K and η₈ cloud",
+    "value": "Analytic expression",
+    "comparison": "44.9 +6.4/-6.4 [FLAG 2024, N\\_\\allowbreak{}f = 2+1 lattice average]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record S20",
+    "unit": "MeV",
+    "measurement": {
+      "central": 44.9,
+      "upper_sigma": 6.4,
+      "lower_sigma": 6.4,
+      "source": "44.9 +6.4/-6.4 [FLAG 2024, N_f = 2+1 lattice average]"
+    }
+  },
+  {
+    "id": "G14",
+    "quantity": "deuteron asymptotic S normalization A_S",
+    "formula": "residue: the S normalization of the two-nucleon pole's residue, the two-nucleon kernel",
+    "value": "Analytic expression",
+    "comparison": "0.8845 +0.0008/-0.0008 [de Swart, Terheggen and Stoks 1995, Nijmegen]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record G14",
+    "unit": "fm^-1/2",
+    "measurement": {
+      "central": 0.8845,
+      "upper_sigma": 0.0008,
+      "lower_sigma": 0.0008,
+      "source": "0.8845 +0.0008/-0.0008 [de Swart, Terheggen and Stoks 1995, Nijmegen]"
+    }
+  },
+  {
+    "id": "G15",
+    "quantity": "deuteron D/S ratio eta",
+    "formula": "eigenvector: the D/S direction of the two-nucleon pole's residue",
+    "value": "Analytic expression",
+    "comparison": "0.0253 +0.0002/-0.0002 [de Swart et al. 1995, recommended]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record G15",
+    "unit": "1",
+    "measurement": {
+      "central": 0.0253,
+      "upper_sigma": 0.0002,
+      "lower_sigma": 0.0002,
+      "source": "0.0253 +0.0002/-0.0002 [de Swart et al. 1995, recommended]"
+    }
+  },
+  {
+    "id": "G16",
+    "quantity": "deuteron effective range at the pole rho_d",
+    "formula": "residue: 1/γ − 2/N_p² of the two-nucleon pole",
+    "value": "Analytic expression",
+    "comparison": "1.765 +0.004/-0.004 [de Swart et al. 1995]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record G16",
+    "unit": "fm",
+    "measurement": {
+      "central": 1.765,
+      "upper_sigma": 0.004,
+      "lower_sigma": 0.004,
+      "source": "1.765 +0.004/-0.004 [de Swart et al. 1995]"
+    }
+  },
+  {
+    "id": "G17",
+    "quantity": "triplet scattering length a_t",
+    "formula": "the two-nucleon kernel at zero energy",
+    "value": "Analytic expression",
+    "comparison": "5.4194 +0.002/-0.002 [de Swart et al. 1995, Nijmegen]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record G17",
+    "unit": "fm",
+    "measurement": {
+      "central": 5.4194,
+      "upper_sigma": 0.002,
+      "lower_sigma": 0.002,
+      "source": "5.4194 +0.002/-0.002 [de Swart et al. 1995, Nijmegen]"
+    }
+  },
+  {
+    "id": "G18",
+    "quantity": "triplet effective range r_t",
+    "formula": "the two-nucleon kernel at zero energy",
+    "value": "Analytic expression",
+    "comparison": "1.7536 +0.0025/-0.0025 [de Swart et al. 1995, Nijmegen]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record G18",
+    "unit": "fm",
+    "measurement": {
+      "central": 1.7536,
+      "upper_sigma": 0.0025,
+      "lower_sigma": 0.0025,
+      "source": "1.7536 +0.0025/-0.0025 [de Swart et al. 1995, Nijmegen]"
+    }
+  },
+  {
+    "id": "G19",
+    "quantity": "deuteron point matter radius r_m",
+    "formula": "residue: (1/2)⟨r²⟩^(1/2) of the two-nucleon pole's wave",
+    "value": "Analytic expression",
+    "comparison": "1.9676 +0.001/-0.001 [Nijmegen high-quality potentials, de Swart et al. 1995]; the isotope shift's 1.97507 is the structure radius r\\_\\allowbreak{}str (G19a)",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record G19",
+    "unit": "fm",
+    "measurement": {
+      "central": 1.9676,
+      "upper_sigma": 0.001,
+      "lower_sigma": 0.001,
+      "source": "1.9676 +0.001/-0.001 [Nijmegen high-quality potentials, de Swart et al. 1995]; the isotope shift's 1.97507 is the structure radius r_str (G19a)"
+    }
+  },
+  {
+    "id": "G19a",
+    "quantity": "deuteron structure radius r_str (the 1S–2S number)",
+    "formula": "residue: √(r_m² + the two-body and spin–orbit monopoles) of the two-nucleon pole",
+    "value": "Analytic expression",
+    "comparison": "1.97507 +0.00078/-0.00078 [H--D 1S--2S isotope shift with bound-state QED, Jentschura et al. 2011]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record G19a",
+    "unit": "fm",
+    "measurement": {
+      "central": 1.97507,
+      "upper_sigma": 0.00078,
+      "lower_sigma": 0.00078,
+      "source": "1.97507 +0.00078/-0.00078 [H–D 1S–2S isotope shift with bound-state QED, Jentschura et al. 2011]"
+    }
+  },
+  {
+    "id": "G20",
+    "quantity": "deuteron quadrupole moment, impulse part Q_d",
+    "formula": "residue: (1/20)∫r²w(√8u − w) of the two-nucleon pole",
+    "value": "Analytic expression",
+    "comparison": "0.271 +0.001/-0.001 [the impulse Q\\ensuremath{{}_{0}} of the Nijmegen high-quality potentials, a model value]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record G20",
+    "unit": "fm^2",
+    "measurement": {
+      "central": 0.271,
+      "upper_sigma": 0.001,
+      "lower_sigma": 0.001,
+      "source": "0.271 +0.001/-0.001 [the impulse Q₀ of the Nijmegen high-quality potentials, a model value]"
+    }
+  },
+  {
+    "id": "G21",
+    "quantity": "deuteron electric polarizability alpha_E",
+    "formula": "the two-nucleon pole's E1 response with the free P and F waves",
+    "value": "Analytic expression",
+    "comparison": "0.637 +0.029/-0.029 [SLEGS 2026: the Baldin \\ensuremath{\\alpha}\\_\\allowbreak{}E + \\ensuremath{\\beta}\\_\\allowbreak{}M less a pionless \\ensuremath{\\beta}\\_\\allowbreak{}M]",
+    "residual": "--",
+    "operation": "Analytic comparison record.",
+    "theorems": [],
+    "source": "Supplemental Material, Part IV, record G21",
+    "unit": "fm^3",
+    "measurement": {
+      "central": 0.637,
+      "upper_sigma": 0.029,
+      "lower_sigma": 0.029,
+      "source": "0.637 +0.029/-0.029 [SLEGS 2026: the Baldin α_E + β_M less a pionless β_M]"
+    }
+  }
+]

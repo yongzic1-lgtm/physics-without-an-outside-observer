@@ -1,0 +1,254 @@
+
+== 1. The geometry of comparison: four amplitudes, five Dirac matrices, one comparison, four types
+ok   five Hermitian Dirac matrices on four amplitudes, g_a g_b + g_b g_a = 2 delta_ab
+ok   the five together are central: g_1 g_2 g_3 g_4 g_5 = +-1   [-1]
+ok   the square root of the sign q_D = I - P_D + iP_D: q_D^2 = I - 2P_D = theta_D and q_D^dagger q_D = I
+ok   one comparison L = I (x) I + sum_t g_t (x) g_t has spectrum 6^1, 2^10, (-2)^5   [[(np.float64(6.0), 1), (np.float64(2.0), 10), (np.float64(-2.0), 5)]]
+ok   its blocks: the singlet L(I) = 6I, the ten symmetric states L(g_a g_b) = 2 g_a g_b, the five vector states L(g_a) = -2 g_a
+ok   L = 2(P + E): P the exchange, E the singlet channel of rank one, P^2 = I, E^2 = 4E, PE = EP = -E
+ok   the singlet channel pairs each amplitude with its conjugate: E = |J><J| with J^T = -J, an antisymmetric form on the four amplitudes
+ok   four types 0|6, 1|5, 2|4, 3|3: rotations within the two sides 15, 10, 7, 6 and mixing them d(6 - d) = 0, 5, 8, 9   [[(0, 15, 0), (1, 10, 5), (2, 7, 8), (3, 6, 9)]]
+ok   the whole system described once: Lambda(iI) e_S = i^|S| e_S, the four phases 1, i, -1, -i at |S| = 0, 1, 2, 3
+ok   a description carries the product: q_D(e_S)q_D(e_T) = (-1)^|S cap T cap D| q_D(e_S e_T), all 64 x 64 words
+ok   the charge of a two-spinor state is how it meets the plane hk: Q = T_3 + Y, Y = |S cap F|/2 - |S cap C|/3, direction charges (0, 1, -1/3, -1/3, -1/3)
+ok   one generation: Y = 0 (1), 1 (1), -2/3 (3), 1/6 (6), 1/3 (3), -1/2 (2): nu^c, e^c, u^c, Q, d^c, L
+ok   the generation carries no anomaly: sum Y = sum Y^3 = 0, sum over doublets Y = 0, sum over triplets Y = 0
+ok   sum Y^5 = 5/9 over the sixteen
+ok   the four directions other than h pair in exactly three ways: three families
+ok   the rotations that keep the split 2 + 3 and the determinant: su(2) + su(3) + u(1), twelve generators
+ok   the direction h moves three of them, Gram eigenvalues 1/2, 1/2, 4/5: W+, W-, Z; nine stay massless, the photon and the colour rotations   [[np.float64(0.5), np.float64(0.5), np.float64(0.8)]]
+ok   at the source M_W^2/M_Z^2 = 5/8 and sin^2 theta = 3/8
+
+== 2. Existence and the law: the step B, the law in one variable, the cells it walks on
+ok   P5: eighty directed edges (state, last change), each continued by the four other changes; 320 transitions
+ok   the graph of the two-spinor states has spectrum 5 - 2N on the grades N = 0, 2, 4
+ok   P4: the law det(I - uB) = (1 - u^2)^24 (1 - u)(1 - 4u)(1 - u + 4u^2)^10 (1 + 3u + 4u^2)^5
+ok   the two pairings are one operator: det = prod over the sixteen characters U of (1+u)^(a_U-1)(1-u)^(d_U-1)[1 + 4u^2 - u(a_U - d_U)]
+ok   the vertices, links, squares, cubes and four-cells: 16, 40, 40, 20, 5, Euler number 1, the cells of RP^4   [[16, 40, 40, 20, 5]]
+ok   the boundary of a boundary is nothing, and the cells have one class in each dimension mod 2 (1, 1, 1, 1, 1)   [[1, 1, 1, 1, 1]]
+ok   the curvature around the squares: C grad = 0, rank C = 25 = 40 - 16 + 1, spec C^T C = 0^15, 4^10, 8^15   [[(np.float64(-0.0), 15), (np.float64(4.0), 10), (np.float64(8.0), 15)]]
+ok   the signed step carries the Clifford sign of every transition: symmetric, A_-^2 = 5I
+ok   the signed law det(I - uB_-) = (1 - u^2)^24 (1 + 3u^2 + 16u^4)^8
+ok   its renewed return at the four points is the signed first return: 1 - 1/R_-(i^k/4) = Phi(i^k)
+ok   with any phases on the links the law stays positive below 1/4: (1 + 4u^2) - uA_U >= (1 - u)(1 - 4u)
+
+== 3. The law's functions, every one counted on B
+ok   one first-return excursion from the singlet back to it: the plain first return of B is F(z) = z^4(1 + z)/(16 - 8z - 3z^2 - 3z^3)
+ok   and, with the Clifford sign of every loop, the signed first return Phi(z) = -z^4/(16 + 3z^2)
+ok   every excursion closes, F(1) = 1, mean return time F'(1) = 16; Phi(1) = -1/19, Phi(i) = -1/13
+ok   one excursion visits the symmetric states E n_F = 10 and the vector states E n_L = 5 times; Var n_F = 84, Var n_L = 12, Cov = 30, Var l = 156
+ok   the symmetric-state visit function of one excursion is x(1 + x)/(16 - 11x - 3x^2), pole x_c = (sqrt313 - 11)/6
+ok   the available transitions: 74 directed edges, M = 296 transitions, C_h = 60 along h, 59 along each other direction; 34 edges whose state does not contain h
+ok   the self-interaction on the available transitions: at each transition the moment meets itself with the comparison's value 6, along h once more: sum = 6M + C_h = 1836
+ok   the Green's function at the critical step (5 - A)^+ = (7 + A)/32 - 3J/128; the effective resistance between the singlet and a symmetric state b = 7/16
+ok   the polar step: singular values 1 and 4, |B| = 2e^(xi(2Pi - I)), xi = log 2, tanh(xi/4) = 3 - 2sqrt2 = tan^2(pi/8)
+ok   the charge current c = 2 Var(Q) over the five directions = 8/15
+ok   24/11: Tr L^2/4 = 24 traceless rotations against the 11 states of positive comparison value
+ok   the mixed moment on the fifteen states other than the singlet: J_DE = C_W (rs - 5 Tr P_D P_E)/72 for every central weight W
+ok   one pair of directions on opposite sides: 1/72 against the clock 1 at u = 0, and 1/100 against 18/25 at u = 1/4: the ratio 1/72 stays   [(Fraction(1, 72), Fraction(1, 1), Fraction(1, 100), Fraction(18, 25))]
+ok   one direction against the other four: 4/72 = 1/18 = -Phi(1)/(1 + Phi(1)); the plane hk against the three directions outside it: 6/72 = 1/12 = -Phi(i)/(1 + Phi(i))
+ok   marking one transition of the 320 with a phase: D_theta(u) = D(u) + (e^(-i theta) - 1) u D'(u)/320, at every transition
+ok   so the marked world line turns the leading zero at the rate theta/320 per step for small theta: the electron, the unit rate 1/320
+
+== 4. Breaking puts u at the four points u = i^d/4; the law's values there
+| type | u | k0 | k2 | k4 | 1 - u^2 | F(4u) | Phi(4u) | w = u/(1 + 4u^2) | kappa(w) |
+|---|---|---|---|---|---|---|---|---|---|
+| 0|6 singlet | (0.25+0j) | 0j | (1+0j) | (2+0j) | (0.9375+0j) | (1+0j) | (-0.052632+0j) | (0.2+0j) | (0.005+0j) |
+| 1|5 direction h | 0.25j | (0.75-1.25j) | (0.75-0.25j) | (0.75+0.75j) | (1.0625+0j) | (0.0363+0.0622j) | (-0.076923+0j) | 0.333333j | (0.010204+0j) |
+| 2|4 plane hk | (-0.25+0j) | (2.5+0j) | (1.5+0j) | (0.5+0j) | (0.9375+0j) | 0j | (-0.052632+0j) | (-0.2+0j) | (0.005+0j) |
+| 3|3 colour | (-0-0.25j) | (0.75+1.25j) | (0.75+0.25j) | (0.75-0.75j) | (1.0625+0j) | (0.0363-0.0622j) | (-0.076923+0j) | (-0-0.333333j) | (0.010204+0j) |
+ok   at u = -1/4 the grade factors are 5/2, 3/2, 1/2; t = 1/k_N, e = k_(N+2)/k_N: 2/5, 3/5, 2/3, 1/3
+ok   at u = 1/4 k_0 = 0: the one critical zero; at the other points no factor vanishes
+ok   on all 64 divided sets the rule's step weights are the law's grade factors at u = -1/4, N = 5 - |L_S|
+ok   divided sets: 32 even (3/5, 1/28); {n} and the five directions (3/5, -1/22); a direction and its complement (1/3, -1/6); three of six (-1, 1/2)   [{(1, 5, '3/5', '1/28'): 32, (-1, 3, '1/3', '-1/6'): 10, (-1, 1, '-1', '1/2'): 20, (-1, 5, '3/5', '-1/22'): 2}]
+ok   one pair of directions on opposite sides g^2 = [-Phi(1)/(1 + Phi(1))]/4 = [-Phi(i)/(1 + Phi(i))]/6 = e_line^2/(k_C^2 - 1) = 1/72
+ok   a = (1 - Phi(1))/8 = 5/38; chi_A = 1/(1 + Phi(i)) = 13/12; w_h = 3/13; chi_h = 30/169
+
+== 5. Completion at long wavelength: the field equations of the four breakings
+ok   the five directions less their mean: sum v_t = 0, sum v_t (x) v_t = 1 on R^4, v_a.v_b = delta_ab - 1/5
+ok   Klein-Gordon: at u = 1/4 - eps^2 m^2/24 the law's operator is (eps^2/8)(m^2 - Delta) + O(eps^3)   [[np.float64(0.006948988882833107), np.float64(0.0006937032596397201)]]
+ok   Dirac: one step U = e^(-ik g_j) e^(-i mu g_h) has U + U^dagger = 2 cos k cos mu, every eigenphase cos w = cos mu cos k
+ok   in the chart Gamma^mu = sum_t v_t^mu g_t and g(m) = sum_t g_t/sqrt5 are five anticommuting directions: (Gamma.p + M g(m))^2 = p^2 + M^2
+ok   Maxwell and Yang-Mills: d^2 log det(I - wA_-[e^(i theta)]) = -kappa(w) C^T C exactly, kappa(w) = 2w^4/(1 - 5w^2)^2
+ok   kappa = 1/200 at the counting points (w = +-1/5) and 1/98 at the amplitude points (w = +-i/3)
+ok   tr(g_h g_a g_b g_c g_d) = 4 eps_habcd (times the sign of the volume element)
+ok   so(5) = so(4) + R^4 at h: the four rotations that move h close into the six that keep it, [R^4, R^4] in so(4)
+ok   the curvature of the ten rotations split at h, F = R - e^e/l^2, in the epsilon contraction: eps(F^F) - eps(R^R) = -(4/l^2)(R - 6/l^2) vol: Lambda = 3/l^2   [(np.float64(-14.998747474225183), np.float64(-14.99874747422534))]
+
+== 6. Completion with two sources: the couplings, and the numbers in front of the field terms
+ok   the clock's five marks (0, 1, 2, 3, -1/Phi(1))/4: ten gaps of mean E_D = 2
+  strong          alpha_s = k4/(k2 sqrt(k_C^2 - 1))           = 0.117851130198   (PDG 2024 0.1180(9))
+  electromagnetic 1/alpha = N_2(1 - x)k0^2/(c_L k2^2)           = 137.035999177   (CODATA 2022 137.035999177(21))
+  weak            G_F m_p^2 = (1 - 1/N_2) W_W/M^2              = 1.02682689e-05   (1.0268268e-5)
+  gravity         alpha_G = [k0^(-k_C El) eta^(k_C E_H)]^2     = 5.90615249e-39   (CODATA 2022 5.90615(13)e-39)
+ok   alpha_s = (1/72)^(1/2) = 0.117851
+ok   1/alpha = 137.035999177
+ok   G_F m_p^2 = 1.026827e-5
+ok   alpha_G = W^2, W = (2/5)^48 (295/296)^9 = k0(-1/4)^(-48) eta^9
+ok   a circulation theta on the links moves the leading zero: log 4u_c = |theta_cyc|^2/48 + O(theta^4), 48 = k_C El = 2(40 - 16)   [[np.float64(0.02083369839649285), np.float64(0.020833366185580647)]]
+  the link phases against the field in units of the charge: int F^2 = 8 pi kappa alpha ||C theta||^2, 8 pi kappa alpha = 9.170124e-04 at the plane hk
+  and at colour 8 pi kappa alpha_s = 3.022369e-02; in front of F^2 stands 1/(16 pi alpha) = 2.726245, in front of R 1/(16 pi G)
+
+== 7-9. Completion at the zeros, the overlaps and the stationary state: masses, mixings, stationary numbers
+  masses (MeV unless marked):
+    e 0.51099895 | mu 105.658376 | tau 1776.980 | p 938.272089 | n 939.565422 | pi0 134.97704 | pi+ 139.57039
+    d 2.6642 | s 53.182 | b 2867.65 | u 1.2241 | c 626.25 | (the pole sequence at its source; the 2 GeV and m(m) values are classical maps)
+    W 80.3663 GeV | Z 91.1854 GeV | H 125.1348 GeV | t 172.647 GeV | v 246.219634 GeV | lambda_H 0.129145909
+    neutrinos m2 8.6127 meV, m3 50.1983 meV, sum 0.0588 eV; M_R 6.2028e+14 GeV
+  mixings: s12 = 9/40, s23 = 1/24, s13 = s12 (2/5) s23, delta_q = arg(7 + 16i) = 1.158386 rad; J_q = 3.1355e-05
+    lepton s^2_12 0.305090, s^2_13 0.0221484, s^2_23 0.488675, delta_l 205.584 deg, J_l -0.014464
+  stationary: eta_B = 3a^11 = 6.140048e-10, n_s = 39/40, N_eff = 3 eta sigma^(4/3) = 3.043857, Lambda l_P^2 = 2.855223e-122, l = 5369.082 Mpc
+ok   m_p/m_e = 6M + C_h + (1/6) log k0(-1/4) - a^5 - b a^6 = 1836.152673412   [1836.152673412]
+ok   m_mu/m_e = (k2/k4)^5 e^(-9/56) M_Q(nu)^(1/6) = 206.768283945
+ok   m_tau/m_mu = (k2/k4)^(5/2) e^(1/14 + 2 nu) = 16.8181606
+ok   lambda_H = pi alpha (4 chi_A)^2/(4 chi_A - 1) = 0.129145909, m_H = v sqrt(2 lambda_H) = 125.1348 GeV
+
+== 10. The 131 scalar values evaluated here, beside their records and measurements
+| row | constant | from B | table | measurement | standard deviations |
+|---|---|---:|---:|---|---:|
+| A002 | pion decay constant, second construction 5m_p/36 | 130.315567975 | 130.315567975027 | 130.2 +0.8/-0.8 [FLAG 2+1] | +0.144 |
+| A003 | pion current product, second construction 5m_p/36 | 126.973222886 | 126.97322288644 | 127.13 +0.13/-0.13 [PDG inclusive pion decay; correlated with lifetime] | -1.206 |
+| B01 | muon/electron | 206.768283945 | 206.768283945476 | 206.7682827 +4.6e-06/-4.6e-06 [CODATA 2022] | +0.271 |
+| B02 | tau/muon | 16.8181606411 | 16.8181606410583 | 16.817691845 +0.000852/-0.000852 [PDG 2024 m_tau] | +0.550 |
+| B03 | Koide statistic | 0.666667259761 | 0.666667259761091 | 0.6666645 +6.8e-06/-6.8e-06 [PDG masses] | +0.406 |
+| B04 | strange/down | 19.9616523938 | 19.9616523937783 | 19.946 +0.335/-0.335 [FLAG 2021 N_f = 2+1+1, m_s/m_ud = 27.23(10) times (1 + m_u/m_d)/2 with m_u/m_d = 0.465(24)] | +0.047 |
+| B05 | bottom/strange | 53.9210868808 | 53.9211 | 53.88 +0.12/-0.12 [PDG 2026] | +0.342 |
+| B06 | down statistic m_b^2 m_d/m_s^3 | 145.653453585 | 145.653 | 145.45 +2.63/-2.63 [(m_b/m_s)^2 (m_d/m_s) of the two FLAG ratios above] | +0.077 |
+| B07 | up statistic m_t^2 m_u/m_c^3 | 145.653453585 | 145.653 | 144.156 +6.06/-5.72 [PDG 2026 masses, four-loop running to m_t(m_t)] | +0.247 |
+| B08 | lepton/quark symmetric-state quotient | 10.3582749497 | 10.3582749497192 | 10.3664 +0.174/-0.174 [CODATA m_mu/m_e over the FLAG strange/down ratio] | -0.047 |
+| B09 | up/down m_u/m_d | 0.459459459459 | 0.459459459459459 | 0.4595745 +0.01/-0.01 [PDG 2.16/4.70] | -0.012 |
+| B10 | up factor per visit to a symmetric state, kappa | 1.91313675094 | 1.91313675093869 | 1.9131 +0.0062/-0.0062 [up-sector masses] | +0.006 |
+| B11 | charm/strange | 11.7754434122 | 11.7754434121621 | 11.761 +0.028/-0.028 [PDG 2026 m_c/m_s] | +0.516 |
+| B12 | proton/electron m_p/m_e | 1836.15267341 | 1836.15267341205 | 1836.152673426 +3.2e-08/-3.2e-08 [CODATA 2022] | -0.436 |
+| B13 | neutron/proton m_n/m_p | 1.00137841956 | 1.00137841956462 | 1.00137841946 +4e-10/-4e-10 [CODATA 2022] | +0.262 |
+| B14 | neutron/electron m_n/m_e | 1838.68366218 | 1838.68366218071 | 1838.683662 +7.4e-07/-7.4e-07 [CODATA 2022] | +0.244 |
+| C01 | first quark mixing s12 | 0.225 | 0.225 | 0.22517 +0.00068/-0.00068 [PDG 2026 CKM global fit] | -0.250 |
+| C02 | second quark mixing s23 | 0.0416666666667 | 0.0416666666666667 | 0.04189 +0.00081/-0.00069 [PDG 2026 CKM fit] | -0.324 |
+| C03 | far quark mixing s13 | 0.00375 | 0.00375 | 0.003763 +8.8e-05/-8.3e-05 [PDG 2026 CKM fit] | -0.157 |
+| C04 | quark phase delta_q | 1.1583858852 | 1.15838588519751 | 1.154 +0.025/-0.025 [PDG 2026 CKM fit] | +0.175 |
+| C05 | quark quartet J_q | 3.13550917579 | 3.13550917578981 | 3.16 +0.13/-0.11 [PDG] | -0.223 |
+| C06 | triangle angle alpha | 90.7137730643 | 90.713773064338 | 91.04 +1.61/-1.6 [PDG-derived] | -0.204 |
+| C07 | triangle angle beta | 22.9511439354 | 22.9511439353888 | 22.86 +0.71/-0.7 [PDG-derived] | +0.128 |
+| C08 | triangle angle gamma | 66.3350830003 | 66.3350830002732 | 66.09 +1.43/-1.43 [PDG-derived] | +0.171 |
+| C09 | two-row W current sum | 2 | 2 | 1.984 +0.021/-0.021 [CMS 2022, Phys. Rev. D 105, 072008] | +0.762 |
+| C10 | solar lepton angle s^2_12 | 0.305089610923 | 0.305089610922636 | 0.3036 +0.0064/-0.0064 [JUNO 2026] | +0.233 |
+| C11 | reactor angle s^2_13 | 0.0221484375 | 0.0221484375 | 0.02215 +0.00056/-0.00058 [NuFIT 6.0] | -0.003 |
+| C12 | reactor angle sin^2 2theta_13 | 0.0866315368652 | 0.0866315368652344 | 0.0833 +0.0022/-0.0022 [Daya Bay, Phys. Rev. Lett. 133, 151801 (2024)] | +1.514 |
+| C13 | atmospheric angle s^2_23 | 0.488674949067 | 0.488674949067231 | 0.47 +0.017/-0.013 [NuFIT 6.0] | +1.099 |
+| C14 | lepton phase delta_l | 205.584225835 | 205.584225835201 | 212 +26/-41 [NuFIT 6.0] | -0.156 |
+| C15 | scalar tilt n_s | 0.975 | 0.975 | 0.9752 +0.003/-0.003 [P-ACT-LB2] | -0.067 |
+| C16 | running of the tilt dn_s/dlnk | 0 | 0 | -0.0045 +0.0067/-0.0067 [Planck 2018] | +0.672 |
+| D01 | strong coupling alpha_s(M_Z) | 0.117851130198 | 0.117851130197758 | 0.118 +0.0009/-0.0009 [PDG 2024] | -0.165 |
+| D02 | inverse electric coupling 1/alpha | 137.035999177 | 137.035999177096 | 137.035999177 +2.1e-08/-2.1e-08 [CODATA 2022] | +0.005 |
+| D03 | Fermi coefficient G_F | 1.16637885871 | 1.16637885870644 | 1.1663787 +6e-07/-6e-07 [CODATA 2022] | +0.265 |
+| D04 | gravitational coupling G m_p^2/(hbar c) | 5.90615249377 | 5.90615249377146 | 5.90614943 +0.000133/-0.000133 [CODATA 2022 G] | +0.023 |
+| D05 | Planck mass, m_p over the square root of the gravitational coupling | 1.22088981189 | 1.22088981188542 | 1.22089 +1.4e-05/-1.4e-05 [CODATA 2022] | -0.013 |
+| D06 | cosmological constant Lambda l_P^2 | 2.85522324301 | 2.85522324300803 | 2.8451 +0.076/-0.076 [Planck 2018 base model, 3 Omega_Lambda H_0^2 l_P^2/c^2 with Omega_Lambda = 0.6847 and H_0 = 67.36] | +0.133 |
+| D07 | d log alpha / d(Phi/c^2) | 0 | 0 | 14 +11/-11 [atomic clocks, Lange et al., Phys. Rev. Lett. 126, 011102 (2021)] | -1.273 |
+| D08 | MSbar weak angle 3 N_h | 0.231257521689 | 0.231257521689422 | 0.23122 +6e-05/-6e-05 [PDG 2026, top decoupled] | +0.625 |
+| D09 | effective weak angle 3 N_con | 0.231550233938 | 0.231550233937853 | 0.23153 +0.00016/-0.00016 [LEP/SLD, Phys. Rep. 427, 257 (2006)] | +0.126 |
+| D10 | on-shell weak angle 3 N_h/(1 + f) | 0.223221546032 | 0.223221546032261 | 0.2233373 +0.000153/-0.000153 [direct M_W/M_Z] | -0.757 |
+| D11 | W mass | 80.3662510403 | 80.3662510403325 | 80.3625 +0.0077/-0.0077 [PDG 2026 evaluation without the CDF II measurement] | +0.487 |
+| D12 | Z mass | 91.1853615183 | 91.1853615183457 | 91.1879 +0.002/-0.002 [PDG 2026 world average (LEP 1, CDF, LHCb), running-width convention] | -1.269 |
+| D13 | W/Z mass ratio | 0.881350358239 | 0.881350358238844 | 0.88128469 +8.66e-05/-8.66e-05 [direct masses] | +0.758 |
+| D14 | weak correction delta_inv = f | 0.036 | 0.036 | 0.03641 +0.00046/-0.00046 [1 - pi alpha/(sqrt2 G_F M_W^2 s2_OS) of the records of 1/alpha, G_F, M_W and M_Z] | -0.891 |
+| D15 | electroweak scale v = (sqrt2 G_F)^-1/2 | 246.219634043 | 246.219634042871 | 246.21964024 +6.33e-05/-6.33e-05 [(sqrt2 G_F)^(-1/2) of the PDG 2024 G_F, the Fermi row's second record] | -0.098 |
+| D16 | scalar mass m_H | 125.134771593 | 125.134771593402 | 125.13 +0.11/-0.11 [PDG 2026 average, error with scale factor S = 1.5] | +0.043 |
+| D17 | top mass | 172.646613614 | 172.646613614442 | 172.6 +0.27/-0.27 [PDG 2026 average of direct measurements, error with scale factor S = 1.5] | +0.173 |
+| E01 | solar splitting Delta m^2_21 | 7.41781185257 | 7.41781185257386 | 7.388 +0.078/-0.078 [JUNO 2026] | +0.382 |
+| E02 | splitting Delta m^2_31 | 2.51987242994 | 2.51987242994258 | 2.509 +0.027/-0.025 [JUNO 2026] | +0.403 |
+| E03 | splitting Delta m^2_32 | 2.44569431142 | 2.44569431141684 | 2.438 +0.021/-0.019 [NuFIT 6.0] | +0.366 |
+| E04 | neutrino mass ratio m_2/m_3 | 0.171572875254 | 0.17157287525381 | 0.172645 +0.00229/-0.00229 [NuFIT 6.0-derived, m_1 = 0] | -0.468 |
+| E05 | splitting ratio Delta m^2_31/Delta m^2_21 | 33.9705627485 | 33.9705627484771 | 33.55 +0.94/-0.94 [PDG-derived] | +0.447 |
+| E06 | heaviest light neutrino m_3 | 50.1983309478 | 50.1983309477773 | 50.09 +0.269/-0.25 [sqrt Delta m^2_31 of JUNO 2026] | +0.403 |
+| E07 | light neutrino channels | 3 | 3 | 2.9963 +0.0074/-0.0074 [Janot and Jadach, Phys. Lett. B 803, 135319 (2020)] | +0.500 |
+| F01 | baryons per photon eta_B | 6.14004762346 | 6.14004762346375 | 6.12 +0.04/-0.04 [PDG 2024 BBN review, Planck omega_b = 0.02237(15)] | +0.501 |
+| F03 | primordial amplitude ln(1e10 A_s) | 3.06130986015 | 3.06130986015343 | 3.056 +0.013/-0.013 [P-ACT] | +0.408 |
+| F04 | effective neutrinos N_eff | 3.04385727362 | 3.04385727361762 | 2.99 +0.17/-0.17 [Planck + BAO] | +0.317 |
+| F13 | spatial curvature Omega_k | 0 | 0 | 0.0007 +0.0019/-0.0019 [Planck + BAO] | -0.368 |
+| G01 | proton charge radius | 0.841235640213 | 0.84123564021281 | 0.84075 +0.00064/-0.00064 [CODATA 2022] | +0.759 |
+| G02 | Delta mass | 1231.48211736 | 1231.48211736401 | 1232 +2/-2 [PDG 2026] | -0.259 |
+| G03 | proton moment mu_p | 2.7928473453 | 2.79284734529616 | 2.79284734463 +8.2e-10/-8.2e-10 [CODATA 2022] | +0.812 |
+| G04 | neutron moment mu_n | -1.91304302381 | -1.91304302380603 | -1.91304276 +4.5e-07/-4.5e-07 [CODATA 2022] | -0.586 |
+| G05 | moment ratio mu_n/mu_p | -0.684979444733 | -0.684979444733371 | -0.68497935 +1.6e-07/-1.6e-07 [CODATA 2022] | -0.592 |
+| G06 | neutral pion mass | 134.97704456 | 134.977044559769 | 134.9768 +0.0005/-0.0005 [PDG 2026] | +0.489 |
+| G07 | charged pion mass | 139.570386614 | 139.570386613809 | 139.57039 +0.00018/-0.00018 [PDG 2024] | -0.019 |
+| G08 | pion decay constant f_pi | 130.529195478 | 130.529195478157 | 130.56 +0.138/-0.138 [PDG, (2)(4)(13) combined] | -0.223 |
+| G09 | pion constant times V_ud | 127.181371253 | 127.181371252679 | 127.13 +0.13/-0.13 [PDG, (1)(13) combined] | +0.395 |
+| G10 | deuteron binding m_p + m_n - m_deut | 2.2245664631 | 2.22456646309919 | 2.22456636409 +3.8e-07/-3.8e-07 [CODATA 2022 mass ratios] | +0.261 |
+| G11 | deuteron mass | 1875.61294498 | 1875.61294498229 | 1875.612945 +5.8e-07/-5.8e-07 [CODATA 2022] | -0.031 |
+| G12 | deuteron/proton m_deut/m_p | 1.99900750127 | 1.99900750126897 | 1.99900750127 +8.4e-12/-8.4e-12 [CODATA 2022] | -0.122 |
+| G13 | deuteron moment mu_d | 0.857438233519 | 0.857438233518713 | 0.8574382335 +2.2e-09/-2.2e-09 [CODATA 2022] | +0.009 |
+| H01 | light bending 1 + gamma | 2 | 2 | 2.000021 +2.3e-05/-2.3e-05 [Cassini, Bertotti et al., Nature 425, 374 (2003)] | -0.913 |
+| H02 | geodetic drift / its Einstein value | 1 | 1 | 0.99934908645 +0.00277/-0.00277 [Gravity Probe B, Everitt et al., Phys. Rev. Lett. 106, 221101 (2011)] | +0.235 |
+| H03 | two orders in coherent superposition told apart (quantum switch) | 1 | 1 | 0.976 +0.015/-0.015 [quantum switch, Procopio et al., Nat. Commun. 6, 7913 (2015)] | +1.600 |
+| I08 | topological curvature chi/(F_pi^2 m_pi0^2) | 0.212911371927 | 0.212911371927165 | 0.21054 +0.0224/-0.0224 [lattice, Borsanyi et al., Nature 539, 69 (2016)] | +0.106 |
+| I09 | fourth strong cumulant b_2 | -0.0280584730988 | -0.0280584730987574 | -0.029 +0.002/-0.002 [NLO chiral, Grilli di Cortona et al., JHEP 01 (2016) 034] | +0.471 |
+| J01 | m_p/m_e | 1836.15267341 | 1836.15267341205 | 1836.152673426 +3.2e-08 / −3.2e-08 [CODATA 2022] | -0.436 |
+| J02 | m_n/m_p | 1.00137841956 | 1.00137841956462 | 1.00137841946 +4e-10 / −4e-10 [CODATA 2022] | +0.262 |
+| J03 | Λ (MeV) | 1115.68290091 | 1115.68290090769 | 1115.683 +0.006 / −0.006 [source not recorded] | -0.017 |
+| J04 | Δ, Breit–Wigner (MeV) | 1231.48211736 | 1231.48211736401 | 1232 +2 / −2 [PDG 2026] | -0.259 |
+| J05 | π⁰ (MeV) | 134.97704456 | 134.977044559769 | 134.9768 +0.0005 / −0.0005 [PDG 2026] | +0.489 |
+| J06 | π± (MeV) | 139.570386614 | 139.570386613809 | 139.57039 +0.00018 / −0.00018 [PDG 2024] | -0.019 |
+| J07 | ρ pole, Re s [GeV²] (GeV²) | 0.576408555494 | 0.576408555494293 | 0.577879 +0.002449 / −0.002449 [source not recorded] | -0.600 |
+| J08 | K⁰ (MeV) | 497.613584451 | 497.613584450934 | 497.611 +0.013 / −0.013 [source not recorded] | +0.199 |
+| J09 | K± (MeV) | 493.665032668 | 493.665032668308 | 493.677 +0.015 / −0.015 [source not recorded] | -0.798 |
+| J17 | kT_c, the colour crossover temperature (MeV) | 156.37868157 | 156.378681570033 | 156.5 +1.5 / −1.5 [source not recorded] | -0.081 |
+| K01 | strong phase theta | 0 | 0 | \|θ\| < 1e-10 [neutron EDM] |  |
+| K02 | neutrino mass sum | 0.0588110029214 | 0.0588110029214298 | < 0.081 eV [SPT-3G D1 + DESI] |  |
+| K03 | neutrino mass sum | 0.0588110029214 | 0.0588110029214298 | < 0.055 eV [CMB-SPA + DESI] |  |
+| K05 | diagonal quark current | 2.89531084488 | 2.89531084487576 | >= 2.84295 [direct current rows] |  |
+| K06 | proton partial lifetime tau/B(e pi) | 1.16971098946e+37 | 1.16971098945628e+37 | > 2.4e34 yr [Super-Kamiokande] |  |
+| L01 | tau pole mass | 1776.97954286 | 1776.97954286319 | from B01 and B02 |  |
+| L03 | light-limit neutrino splitting ratio | 33.9705627485 | 33.9705627484771 | prediction |  |
+| L04 | number of charged families | 3 | 3 | prediction: no fourth family |  |
+| L05 | forbidden charged-lepton threshold | 7.96568530689 | 7.96568530688517 | prediction: no charged lepton at this threshold |  |
+| L06 | scalar-index running | 0 | 0 | prediction |  |
+| L07 | spatial curvature fraction | 0 | 0 | prediction |  |
+| L08 | the equation of state of the constant term | -1 | -1 | prediction |  |
+| L09 | a recorded electric fact does not drift | 0 | 0 | prediction |  |
+| L10 | de Sitter horizon entropy | 3.30089003858e+122 | 3.30089003858073e+122 | identity with D06 |  |
+| L11 | tensor-to-scalar ratio in the de Sitter convention | 1.9735911755e-113 | 1.9735911754997e-113 | prediction |  |
+| L12 | proton partial lifetime | 1.16971098946e+37 | 1.16971098945628e+37 | > 2.4e34 yr [Super-Kamiokande] |  |
+| L13 | completed deuteron binding | 2.2245664631 | 2.22456646309919 | from G10 |  |
+| L14 | colour component count N | 8 | 8 | identity |  |
+| L15 | W pole mass test | 80.3662510403 | 80.3662510403325 | 80.3570(60) GeV [PDG 2026 SM indirect determination] |  |
+| L16 | strong phase | 0 | 0 | \|θ̄\| < 1e-10 [neutron EDM] |  |
+| L17 | Koide discrimination | 0.666667259761 | 0.666667259761091 | from B03 |  |
+| L18 | second-order light-bending coefficient | 11.780972451 | 11.7809724509617 | prediction |  |
+| L19 | clock-independent lower bound on inverse alpha | 137.035999147 | 137.035999147056 | bound for every clock |  |
+| L20 | clock-independent upper bound on the MS-bar weak angle | 0.231264231358 | 0.231264231357674 | bound for every clock |  |
+| M1 | proton mass MeV | 938.27208942 | 938.272089420197 | 938.27208943 ± 2.9e-07 [CODATA 2022] | -0.034 |
+| M2 | neutron mass MeV | 939.565422025 | 939.56542202519 | 939.56542194 ± 4.8e-07 [CODATA 2022] | +0.177 |
+| M3 | deuteron nuclear mass MeV | 1875.61294498 | 1875.61294498229 | 1875.612945 ± 5.8e-07 [CODATA 2022] | -0.031 |
+| N22 | saturation energy e_0 | -15.8382148058 | -15.8382148058291 | -16 +0.5/-0.5 [extrapolation of masses to symmetric matter] | +0.324 |
+| S01 | axial coupling g_A | 1.27580092812 | 1.27580092811547 | 1.2753 +0.0013/-0.0013 [PDG 2026] | +0.385 |
+| S02 | axial radius squared | 0.39806853883 | 0.398068538829894 | 0.339 +0.0484/-0.0484 [ETMC 2024 lattice; errors 0.048 and 0.006] | +1.220 |
+| S03 | axial radius | 0.63092673016 | 0.630926730159608 | construction (S02 is its square) |  |
+| S04 | pion charge radius | 0.665055167996 | 0.665055167995603 | 0.659 +0.004/-0.004 [PDG] | +1.514 |
+| S05 | neutron lifetime | 878.051411827 | 878.051411826578 | 878.3 +0.4/-0.4 [PDG 2026 neutron listing] | -0.621 |
+| S07 | top mass, second construction | 172.281080538 | 172.281080537681 | 172.57 +0.29/-0.29 [PDG 2024 direct] | -0.996 |
+| S08 | primordial amplitude, second construction | 2.1025756247 | 2.10257562469885 | 2.099 +0.029/-0.029 [Planck 2018] | +0.123 |
+| S09 | cold/baryon count, second construction | 5.28571428571 | 5.28571428571429 | 5.3643 +0.0646/-0.0646 [Planck 2018 ratio] | -1.216 |
+| S16 | five-flavour one-loop scale marker | 87.0577778265 | 87.0577778264851 | one-loop convention |  |
+| T01 | heavy neutral threshold M_R | 6.20276285061e+14 | 620276285060927 | threshold |  |
+| T02 | heavy threshold M_off of the rotations mixing the three-plus-two split | 1.67474596966e+16 | 1.6747459696645e+16 | threshold |  |
+| T03 | de Sitter radius | 5369.08213305 | 5369.08213305102 | de Sitter convention |  |
+| T04 | de Sitter temperature | 1.89564063246e-34 | 1.8956406324587e-34 | de Sitter convention |  |
+| T06 | lepton quartet J_l | -0.0144644347463 | -0.0144644347463475 | prediction |  |
+| T07 | deuteron D-state share | 0.0392156862745 | 0.0392156862745098 | construction |  |
+
+rows computed: 131; agreeing with the table within its printed digits: 131
+measured comparisons among this program's 131 evaluated scalar rows: 99; within one standard deviation 90, two 99, three 99
+among this program's 99 measured comparisons, beyond three standard deviations: none
+conventional and composite records printed by article_results.py: 80
+  A001 F02 F05 F06 F07 F08 F09 F10 F11 F12 G14 G15 G16 G17 G18 G19 G19a G20 G21 I01 I02 I03 I04 I05 I06 I07 I10 I11 J10 J11 J12 J13 J14 J15 J16 J19 J20 J21 J22 J23 J24 J25 J26 J27 J28 J29 J30 J31 J32 J33 J34 L21 N23 N24 N25 Q01 Q04 Q05 Q06 Q07 Q08 Q09 Q10 Q11 S017 S018 S06 S10 S11 S12 S14 S15 S19 S20 S21 T08 T09 T10 T11 T12
+ok   the 131 scalar rows evaluated here agree with their recorded values within the printed digits   [(np.int64(131), 131)]
+
+== 11. The classical theory is the law's long-wave limit
+ok   the law's own transformation: K_16(v) = a K_16(u) + b I with a = v/u, b = 1 + 4v^2 - a(1 + 4u^2)
+  under it a response read against a fixed clock runs, kappa(w(u)) = 2u^4 - 12u^6 - 10u^8 + 360u^10 + ...,
+  while a response read against the clock that transforms with it stays: one pair of directions on opposite sides 1/72 at every central weight (section 3)
+ok   kappa(u) = 2u^4/(1 + 3u^2 + 16u^4)^2 = 2u^4 - 12u^6 - 10u^8 + 360u^10 + O(u^12)
+
+checks: 73 of 73 ok

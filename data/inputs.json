@@ -1,0 +1,77 @@
+{
+  "electron_mass_MeV": {
+    "value": 0.51099895069,
+    "meaning": "Mass unit",
+    "source": "CODATA 2022 electron rest energy, article reference CODATA"
+  },
+  "planck_J_s": {
+    "value": 6.62607015e-34,
+    "meaning": "Exact SI unit conversion",
+    "source": "SI definition of the kilogram"
+  },
+  "speed_of_light_m_s": {
+    "value": 299792458,
+    "meaning": "Exact SI unit conversion",
+    "source": "SI definition of the metre"
+  },
+  "MeV_J": {
+    "value": 1.602176634e-13,
+    "meaning": "Exact SI unit conversion",
+    "source": "SI elementary-charge definition"
+  },
+  "megaparsec_m": {
+    "value": 3.085677581491367e+22,
+    "meaning": "Length conversion used in the article",
+    "source": "Parsec defined by the astronomical unit and one arcsecond"
+  },
+  "julian_year_days": {
+    "value": 365.25,
+    "meaning": "Julian-year conversion",
+    "source": "Julian year"
+  },
+  "primordial_pivot_Mpc_inv": {
+    "value": 0.05,
+    "meaning": "Reporting pivot of the scalar spectrum",
+    "source": "P-ACT comparison, article reference ACT"
+  },
+  "neutron_rate_normalization_s": {
+    "value": 5099.33,
+    "meaning": "Conventional neutron-rate normalization, including measured Fermi constant",
+    "source": "Neutron-rate formula in Supplemental Part III"
+  },
+  "neutron_rate_factor": {
+    "value": 1.03983,
+    "meaning": "Conventional neutron-rate correction",
+    "source": "Neutron-rate formula in Supplemental Part III"
+  },
+  "network_baryon_mass_factor": {
+    "value": 0.998785632760614,
+    "meaning": "Recorded nucleosynthesis-network mass per counted baryon in proton units",
+    "source": "Thermal-composition calculation, Supplemental Part III"
+  },
+  "hydrogen_binding_eV": {
+    "value": 13.5984345996929,
+    "meaning": "Recorded atomic-binding calculation used for composition",
+    "source": "Hydrogen binding, record I11"
+  },
+  "helium_atom_mass_GeV": {
+    "value": 3.72839931079,
+    "meaning": "Helium-4 atomic rest energy used for composition",
+    "source": "Atomic-composition formula in Supplemental Part III"
+  },
+  "light_quark_reporting_scale_GeV": {
+    "value": 2.0,
+    "meaning": "MSbar mass reporting scale",
+    "source": "Article Table II conventional coordinate"
+  },
+  "Z_reporting_scale_1_GeV": {
+    "value": 91.1876,
+    "meaning": "Alternate five-flavour Lambda reporting coordinate",
+    "source": "Supplemental four-loop scale record S017"
+  },
+  "Z_reporting_scale_2_GeV": {
+    "value": 91.188,
+    "meaning": "Alternate five-flavour Lambda reporting coordinate",
+    "source": "Supplemental four-loop scale record S018"
+  }
+}

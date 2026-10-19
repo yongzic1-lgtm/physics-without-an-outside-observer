@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Physics Without an Outside Observer: programs, data and proofs"
+type: software
+authors:
+  - given-names: Yongzi
+    family-names: Chen
+    affiliation: "Department of Physics and Materials, The Hong Kong Polytechnic University"
+repository-code: "https://github.com/yongzic1-lgtm/physics-without-an-outside-observer"
+license: MIT
+version: "1.0"
+date-released: "2026-10-20"
+abstract: "Programs, data and Lean proofs accompanying the article Physics Without an Outside Observer: A Finite Geometry, Broken and Completed. The comparison of the five postulates, the determinant law in one variable, its returns and source responses, and the quantities of the article's tables are computed by the programs; the mathematical statements are proved in Lean."
+keywords:
+  - foundations of physics
+  - finite geometry
+  - Ihara zeta function
+  - Standard Model
+  - Einstein-Cartan gravity
+  - Lean

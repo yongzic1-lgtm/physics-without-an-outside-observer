@@ -1,0 +1,11 @@
+# Every text file is kept with LF line ends, in the repository and in every checkout.
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.out text eol=lf
+*.lean text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+lean-toolchain text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

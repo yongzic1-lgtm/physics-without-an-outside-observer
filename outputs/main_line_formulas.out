@@ -1,0 +1,32 @@
+ok   (1)-(3) the five Dirac matrices on four amplitudes; L = 2(P + E) with spectrum 6, 2^10, (-2)^5; L(Omega) = 6
+ok   (4)-(5) rotations within the sides 15, 10, 7, 6, mixing them 0, 5, 8, 9; the world line's own clock and the common clock one quaternion triple
+ok   (6) one generation: Sum Y = Sum Y^3 = 0 over the sixteen; the five directions carry (0, 1, -1/3, -1/3, -1/3)
+ok   (7) the Gram of h on the twelve rotations that keep 2 + 3: 1/2, 1/2, 4/5 and nine zeros; M_W^2/M_Z^2 = 5/8 at the source
+ok   (8) the null cone of the distinction of the plane hk has signature (1, 3), negative directions first
+ok   (9)-(11) B has 80 directed edges and 320 transitions; T^dagger(6I - L)T = 5I - A; det(I - uB) = (1 - u^2)^24 u^16 det[(6I - L) + chi I]; k_N = u(2N + chi)
+ok   (12)-(13) the spectral parameter at the four points 0, -5 - 3i, -10, -5 + 3i; at u = -1/4 5/2, 3/2, 1/2; t, e, t_l, e_l = 2/5, 3/5, 2/3, 1/3
+ok   (14)-(15) the spectral parameter is half the mass squared near the zero; U + U^dagger = 2 cos k cos mu   [1.008949, 1.002226, 1.000556]
+ok   (17) kappa(chi) = 2/[(chi + 5)^2 - 5]^2: 1/200 at the singlet and the plane hk, 1/98 at h and colour   [0.00499999, 0.00499999, 0.01020404]
+ok   (18) a circulation moves the leading zero by |theta_cyc|^2/48, 48 = 3 E l = 2(40 - 16)   [48.00000]
+ok   (19) the curvature of the ten rotations contracted with h: Lambda l^2 = 3 at any curvature   [3.000000000000]
+ok   (21)-(25) F and Phi counted on B; E l = 16, Var l = 156; E n_F = 10, E n_L = 5, Var n_F = 84, Var n_L = 12, Cov = 30; the available transitions 74, 296, 60, 59, 34; b = 7/16
+ok   (23) the first return with its visits marked, counted on B: F(z; x, y) = z^4 x^2 y (1 + zy)/(16 - 8zy - 3z^2 xy - 3z^3 xy^2), x at each vector state, y at each symmetric state; F(1; x, 1) = x^2/(4 - 3x): two compulsory vector arrivals, and K = n_L - 2 has G(x) = 1/(4 - 3x), Pr(K = k) = (1/4)(3/4)^k; the cumulants of K from log G(e^j): E K = E n_L - 2 = 3, Var K = Var n_L = 12, then 84, 876   [3, 12, 84, 876]
+ok   (26) a = 5/38, chi_A = 13/12, w_h = 3/13, chi_h = 30/169; c_L = 15/74, eta = 295/296, sigma = 75/74, R_ud = 17/37, E_H = 3
+ok   (27) the response of directions on opposite sides against its clock: 1/72, 1/18, 1/12 at regular chi; g^2 = 1/72 = -Phi(1)/[4(1 + Phi(1))] = -Phi(i)/[6(1 + Phi(i))] = e_l^2/8
+ok   (28)-(29) a transition weighs <Omega, (L + g_h x g_s) Omega> = 6 + [s = h]; one marked transition exactly: D_theta = D + (e^(-i theta) - 1) u D'/320
+ok   (30)-(34) f = 9/250, nu = 9/4000; the clock's gaps have mean E_D = 2; h, N_h, x, W_W   [h = 0.99997104933, N_h = 0.0770858406, x = 7.573573e-06, W_W = 0.9996273896]
+ok   (43) the three pairings of the four directions other than h: U_h = (e_ab + e_cd, e_ac + e_bd, e_ad + e_bc)/sqrt2 on the ten symmetric states; Gamma_P = [(5I - A) without the singlet]^-1 on the ten = (7I + 7J + A_P)/32, Gamma_P^-1 = (24I - 4A_P - J)/5; 10 U_h^T Gamma_P^-1 U_h = 40 I_3 - 4 J_3 at every h, common mode 28 = 1/Psi@{a,b}: three families   [spectrum 28, 40, 40]
+ok   (53) the heavy neutral exponent: k = {diag(A, 0, -Tr A) : A in u(3)} of real dimension 9 = 3 + 2 C(3, 2); rho(X) = sum X_ab c_a^dag c_b on the sixteen even states annihilates the singlet and never reaches it, so D_coh = |L|/L(Omega) = Pi_0 + (I - Pi_0)/3 gives D_coh rho(X) = rho(X)/3; G = [[8,4,4],[4,8,4],[4,4,8]] (+) 8 I_6, H = G/3, det(G^-1 H) = 3^-9 = e_l^9; on Hom_C(F, C), complex dimension 6, Gram 4 I_6, det_C = 3^-6 = e_l^6; M_R = M_Pl 3^-9 = T01, M_off = M_Pl 3^-6 = 27 M_R = T02   [M_R = 6.20276285061e+14 GeV, M_off = 1.67474596966e+16 GeV]
+ok   (54) the nucleon projected: P_N of rank 4 in the symmetric 20; <p up| sum sigma_z tau_z |p up> = 5/3
+ok   (58) with any phases on the forty links the law stays positive below the zero, (1 + 4u^2) - u A_U >= (1 - u)(1 - 4u): theta-bar = 0
+ok   (62)-(63) one source for the 3 and the 12: the positive volume a^11 on the eleven states of positive comparison value and the vector return beyond its two compulsory arrivals, C(j) = a^11 log G(e^j) = -a^11 log(4 - 3e^j); C'(0) = a^11 E K = 3a^11 = eta_B, C''(0) = a^11 Var K = 12a^11, the coefficient of A_s = 12a^11 (0.05 l)^(-1/40)   [C'(0) = 6.1400476235e-10, C''(0) = 2.4560190494e-09]
+ok   the formulas alone give all 113 rows of the main line, each agreeing with the table's value to a relative 1e-6 or within its printed digits   [[]]
+ok   (67) the rule over the 64 divided sets: Psi counted on B, -Phi(4w_S)/(16 w_S^2), equals P/(L_S^2 + 3P) at every divided set; classes 32, 2, 10, 20 with Psi = 1/28, -1/22, -1/6, 1/2
+ok   (68)-(69) read at their divided sets: e@{t} = 1/3, e@{t,n} = 3/5, t@{} = 2/5 (the kernel's ratios at chi = -10); alpha_s^2 = e@{t}^2/N(F) = 1/72, f = e@{t,n}^2/N(C) = 9/250, nu = e@{h,n}^2/(E n_F E l); Psi at the two signs of the plane: Psi@{a,b} = 1/28, Psi@{a,b,n} = 1/2
+ok   (70) the clock as nu varies: -log h/nu^2 -> (3/2) Var D, Var D = 61/16 = [(Var n_F - Var n_L)^2 + 4Cov^2]/(3 E l)^2, E_D = 2 = (Var n_F + Var n_L)/(3 E l); h = 0.99997104933   [nu = 0.05: 5.710721, nu = 0.02: 5.717463, nu = 0.01: 5.718428, nu = 0.00225: 5.718734]
+ok   (71) the proton's terms: det F0 = 0.400000000000 = t@{}; a weight t on every step moves the zero by log(1/t) exactly; det(a sgnL) on the five vector states = -a^5, on the seven sets avoiding h = -a^7, whose first variation per mean return time is -(7/16)a^6 = -ba^6; m_p/m_e rebuilt = 1836.152673412
+ok   (72) the neutron: the step graph of the symmetric states is the Petersen graph, Laplacian 0, 2^5, 5^4; sum over its nine contrasts a^(2 Delta) = 5a^4 + 4a^10; m_n/m_p rebuilt = 1.00137841956
+ok   (73) gravity W = det_C(t^El eta^E_H) and the level factors rebuilt from the rule: m_mu/m_e, m_tau/m_mu, p_q, q_q equal the main formulas'
+
+formulas: 73; rows: 113
+checks: 29 of 29 ok

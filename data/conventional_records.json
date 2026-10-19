@@ -1,0 +1,268 @@
+{
+  "A001": {
+    "quantity": "induced pseudoscalar coupling at Q^2=0.88 m_mu^2",
+    "formula": "the whole axial shape w/(4 − 3w) with its Ward partner at Q² = 0.88 m_μ²",
+    "value": 8.36259039416189,
+    "recorded_deviation": "-1.002"
+  },
+  "F02": {
+    "quantity": "cold/baryon omega_c/omega_b",
+    "formula": "stationary: stationary weight on all sixteen states with the heavy pole: a¹⁶M_R/m_p, then C[κ_B] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": 5.34277169492503,
+    "recorded_deviation": "-0.333"
+  },
+  "F05": {
+    "quantity": "photon temperature at the 24:11 epoch",
+    "formula": "stationary: the present, ρ_Λ/ρ_m = 24/11, then C[thermal history: T] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": 2.72549728670312,
+    "recorded_deviation": "+0.030"
+  },
+  "F06": {
+    "quantity": "Hubble rate H_comp",
+    "formula": "stationary: the present, 24/11, then C[thermal history: H_comp] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": 67.4316192077386,
+    "recorded_deviation": "-0.377"
+  },
+  "F07": {
+    "quantity": "age t_age",
+    "formula": "stationary: the present, 24/11, then C[thermal history: t_age] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": 13.7944222597347,
+    "recorded_deviation": "+0.301"
+  },
+  "F08": {
+    "quantity": "matter share Omega_m",
+    "formula": "stationary: the present, 24/11, then C[thermal history: Ω_m] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": 0.314264682713255,
+    "recorded_deviation": "+0.375"
+  },
+  "F09": {
+    "quantity": "the Λ share Omega_Lambda",
+    "formula": "stationary: the present, 24/11, then C[thermal history: Ω_Λ] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": 0.685668398647101,
+    "recorded_deviation": "+0.133"
+  },
+  "F10": {
+    "quantity": "helium mass fraction Y_p",
+    "formula": "stationary: the nucleosynthesis network on the computed coefficients, Y_p = 4y/(1 + 4y) in the measurements' convention",
+    "value": 0.24694744653623,
+    "recorded_deviation": "+0.883"
+  },
+  "F11": {
+    "quantity": "baryon density omega_b",
+    "formula": "stationary: the present, 24/11, then C[thermal history: ω_b] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": 0.0224294823835265,
+    "recorded_deviation": "-0.641"
+  },
+  "F12": {
+    "quantity": "cold density omega_c",
+    "formula": "stationary: the present, 24/11, then C[thermal history: ω_c] (the epoch with the nucleosynthesis network's κ_B)",
+    "value": 0.119835603610525,
+    "recorded_deviation": "+0.446"
+  },
+  "I01": {
+    "quantity": "up mass m_u(2 GeV)",
+    "formula": "pole: C[four-loop running and matching to 2 GeV] of the up pole at M_Z (the open levels carry 1/η)",
+    "value": 2.11478,
+    "recorded_deviation": "-1.13"
+  },
+  "I02": {
+    "quantity": "down mass m_d(2 GeV)",
+    "formula": "pole: C[four-loop running and matching to 2 GeV] of the down pole at M_Z (the open levels carry 1/η)",
+    "value": 4.60275,
+    "recorded_deviation": "-2.43"
+  },
+  "I03": {
+    "quantity": "strange mass m_s(2 GeV)",
+    "formula": "pole: C[four-loop running and matching to 2 GeV] of the strange pole at M_Z (the open levels carry 1/η)",
+    "value": 91.8786,
+    "recorded_deviation": "-2.55"
+  },
+  "I04": {
+    "quantity": "charm mass m_c(m_c)",
+    "formula": "pole: C[four-loop running and matching to m_c] of the charm pole at M_Z (the open levels carry 1/η)",
+    "value": 1.26243,
+    "recorded_deviation": "-3.88"
+  },
+  "I05": {
+    "quantity": "bottom mass m_b(m_b)",
+    "formula": "pole: C[four-loop running and matching to m_b] of the bottom pole at M_Z",
+    "value": 4.18248214152943,
+    "recorded_deviation": "-1.005"
+  },
+  "I06": {
+    "quantity": "strong coupling at the proton",
+    "formula": "coefficient: C[four-loop running to m_p] of the colour two-source coefficient α_s",
+    "value": 0.505523057661309,
+    "recorded_deviation": "-0.176"
+  },
+  "I07": {
+    "quantity": "top pole mass",
+    "formula": "pole: C[four-loop matching to the pole mass] of the top pole at M_Z",
+    "value": 172.76121248356,
+    "recorded_deviation": "+1.102"
+  },
+  "I10": {
+    "quantity": "electron anomaly a_e",
+    "formula": "residue: C[the electron vertex to five loops] of the residue α and the charged poles; with the computed hadronic share",
+    "value": 0.00115965218050222,
+    "recorded_deviation": "-0.675"
+  },
+  "I11": {
+    "quantity": "hydrogen binding",
+    "formula": "residue: C[the hydrogen series] of the residue α and the pole m_p/m_e; with the computed hadronic term; compared at the spectral lines",
+    "value": 13.5984345996929,
+    "recorded_deviation": ""
+  },
+  "L21": {
+    "quantity": "clock-independent lower bound on the light neutral mass sum",
+    "formula": "pole: sum of the light poles at the clock endpoint h = 1",
+    "value": 0.0587890893281977,
+    "recorded_deviation": ""
+  },
+  "Q01": {
+    "quantity": "electric running 1/alpha(M_Z)",
+    "formula": "C[dispersion] of the computed vector current",
+    "value": 128.937243,
+    "recorded_deviation": "-0.197"
+  },
+  "Q04": {
+    "quantity": "muon hadronic polarization",
+    "formula": "the computed vector current's leading polarization of the muon",
+    "value": 711.1437,
+    "recorded_deviation": "-0.337"
+  },
+  "Q05": {
+    "quantity": "acoustic angle 100 theta_* (common-area convention)",
+    "formula": "stationary: C[CAMB transfer, common-area convention] of the populations at the present",
+    "value": 1.04094999030065,
+    "recorded_deviation": "+0.040"
+  },
+  "Q06": {
+    "quantity": "acoustic angle at optical depth one 100 theta",
+    "formula": "C[CAMB transport with the nucleosynthesis network's helium] of the populations",
+    "value": 1.04098061206,
+    "recorded_deviation": "+0.162"
+  },
+  "Q07": {
+    "quantity": "acoustic angle at visibility peak 100 theta",
+    "formula": "C[CAMB transport with the nucleosynthesis network's helium] of the populations",
+    "value": 1.041686318178,
+    "recorded_deviation": "+0.332"
+  },
+  "Q08": {
+    "quantity": "matter fluctuation sigma_8",
+    "formula": "C[CAMB transport with the nucleosynthesis network's helium] of the populations",
+    "value": 0.8213353983338,
+    "recorded_deviation": "+1.021"
+  },
+  "Q09": {
+    "quantity": "S_8",
+    "formula": "σ₈(Ω_m/0.3)^(1/2) of the carried σ₈",
+    "value": 0.840635453047808,
+    "recorded_deviation": "+0.760"
+  },
+  "Q10": {
+    "quantity": "drag ruler r_d",
+    "formula": "C[CAMB transport with the nucleosynthesis network's helium] of the populations",
+    "value": 147.0826558961,
+    "recorded_deviation": "-0.198"
+  },
+  "Q11": {
+    "quantity": "proton decay matrix element",
+    "formula": "pole: C[continuous four-loop operator transport, computed bottom threshold] of the poles m_p and m_π0",
+    "value": 0.134483885087514,
+    "recorded_deviation": "+0.256"
+  },
+  "S017": {
+    "quantity": "five-flavour scale at the reporting M_Z = 91.1876 GeV",
+    "formula": "coefficient: C[the four-loop length at M_Z = 91.1876 GeV] of α_s",
+    "value": 206.895282667594,
+    "recorded_deviation": ""
+  },
+  "S018": {
+    "quantity": "Lambda_5, four-loop convention at M_Z = 91.188 GeV",
+    "formula": "coefficient: C[the four-loop length at M_Z = 91.188 GeV] of α_s",
+    "value": 206.896190226441,
+    "recorded_deviation": ""
+  },
+  "S06": {
+    "quantity": "muonic-hydrogen singlet capture",
+    "formula": "the whole axial shape w/(4 − 3w) with its Ward partner, through C[the capture map]",
+    "value": 717.110240723118,
+    "recorded_deviation": "+0.204"
+  },
+  "S10": {
+    "quantity": "coloured/lepton Cd",
+    "formula": "pole: C[the coloured/lepton statistic] of the down pole (the open levels carry 1/η)",
+    "value": 10.4618,
+    "recorded_deviation": "-1.30"
+  },
+  "S11": {
+    "quantity": "coloured/lepton Cs",
+    "formula": "pole: C[the coloured/lepton statistic] of the strange pole (the open levels carry 1/η)",
+    "value": 10.4697,
+    "recorded_deviation": "-1.25"
+  },
+  "S12": {
+    "quantity": "coloured/lepton Cb",
+    "formula": "pole: C[the coloured/lepton statistic] of the bottom pole",
+    "value": 10.3757734611098,
+    "recorded_deviation": "-0.211"
+  },
+  "S14": {
+    "quantity": "five-flavour four-loop scale",
+    "formula": "coefficient: C[the four-loop length at the constructed M_Z] of α_s",
+    "value": 206.890203783025,
+    "recorded_deviation": ""
+  },
+  "S15": {
+    "quantity": "pion electronic/muonic decay ratio",
+    "formula": "residue: C[inclusive point-pseudoscalar QED through O(α)] of the charged poles m_e, m_μ, m_π±",
+    "value": 0.000123292613490236,
+    "recorded_deviation": "+0.098"
+  },
+  "T08": {
+    "quantity": "running top and Yukawa",
+    "formula": "pole: C[running to m_t(m_t), y_t = √2 m_t/v] of the top pole",
+    "value": [
+      162.984094960692,
+      0.936132971038294
+    ],
+    "recorded_deviation": ""
+  },
+  "T09": {
+    "quantity": "alpha_s at bottom and charm thresholds",
+    "formula": "coefficient: C[running to m_b and m_c] of α_s",
+    "value": [
+      0.224009369316102,
+      0.385356820505129
+    ],
+    "recorded_deviation": ""
+  },
+  "T10": {
+    "quantity": "coloured/lepton C_d",
+    "formula": "pole: C[the coloured/lepton statistic] of the down pole (the open levels carry 1/η)",
+    "value": 10.4618,
+    "recorded_deviation": ""
+  },
+  "T11": {
+    "quantity": "coloured/lepton C_s",
+    "formula": "pole: C[the coloured/lepton statistic] of the strange pole (the open levels carry 1/η)",
+    "value": 10.4697,
+    "recorded_deviation": ""
+  },
+  "T12": {
+    "quantity": "coloured/lepton C_b",
+    "formula": "pole: C[the coloured/lepton statistic] of the bottom pole",
+    "value": 10.3757734611098,
+    "recorded_deviation": ""
+  },
+  "Q12": {
+    "quantity": "Muon magnetic-frequency ratio $R'_\\mu$",
+    "formula": "$R'_\\mu=a_\\mu/[\\mu_p(m_e/m_p)(1-\\sigma'_p)(m_\\mu/m_e)]$",
+    "value": 0.003707299080299,
+    "recorded_deviation": "$-3.90$ with the recorded $4.62\\times10^{-10}$ width",
+    "source": "Supplemental Material, Part IV, record Q12",
+    "operation": "recorded complete-muon-anomaly conversion with measured shielding"
+  }
+}

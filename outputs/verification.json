@@ -1,0 +1,87 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "rundec": "0.7",
+  "crundec": "3.1",
+  "platform": "Linux x86_64",
+  "OPENBLAS_NUM_THREADS": "1",
+  "programs": [
+    {
+      "program": "programs/main_line_formulas.py",
+      "command": "python -I programs/main_line_formulas.py > outputs/main_line_formulas.out",
+      "exit_status": 0,
+      "stdout_lines": 32,
+      "stdout_sha256": "66b810ccf21c42c0edac67bbcfb84d9575212fbd52048762b83891897bddbcc5",
+      "stderr": "",
+      "summary": [
+        "checks: 29 of 29 ok"
+      ],
+      "seconds": 0.8272800089980592
+    },
+    {
+      "program": "programs/classical_experiments.py",
+      "command": "python -I programs/classical_experiments.py > outputs/classical_experiments.out",
+      "exit_status": 0,
+      "stdout_lines": 709,
+      "stdout_sha256": "73b46c4305b9ba870c0fae2e3a07013ce57b42adae4ee241b474568105b79593",
+      "stderr": "",
+      "summary": [
+        "checks: 25 of 25 ok"
+      ],
+      "seconds": 3.4913755969973863
+    },
+    {
+      "program": "programs/table_from_the_step.py",
+      "command": "python -I programs/table_from_the_step.py > outputs/table_from_the_step.out",
+      "exit_status": 0,
+      "stdout_lines": 159,
+      "stdout_sha256": "4e388ca5c7a00ac5f48c709809c080c2526b40811a8e36ebeacf0f6f437e47cc",
+      "stderr": "",
+      "summary": [
+        "checks: 16 of 16 ok"
+      ],
+      "seconds": 0.14952883800287964
+    },
+    {
+      "program": "programs/geometry_law_and_rows.py",
+      "command": "python -I programs/geometry_law_and_rows.py > outputs/geometry_law_and_rows.out",
+      "exit_status": 0,
+      "stdout_lines": 308,
+      "stdout_sha256": "0b8604d6ecea5af9dd825d0b2d958a4a7a428c77ba465572d248f5755c4df99c",
+      "stderr": "",
+      "summary": [
+        "checks: 28 of 28 ok"
+      ],
+      "seconds": 0.19926740099981544
+    },
+    {
+      "program": "programs/whole_picture.py",
+      "command": "python -I programs/whole_picture.py > outputs/whole_picture.out",
+      "exit_status": 0,
+      "stdout_lines": 254,
+      "stdout_sha256": "e74498a958aa775ad799646b18436eaec3882c525eb3fefc48e6778438da80cd",
+      "stderr": "",
+      "summary": [
+        "checks: 73 of 73 ok"
+      ],
+      "seconds": 0.3984687350020977
+    },
+    {
+      "program": "programs/article_results.py",
+      "command": "python -I programs/article_results.py > outputs/article_results.out",
+      "exit_status": 0,
+      "stdout_lines": 553,
+      "stdout_sha256": "cfd883257f9022ca710d3fda43d4e2f28255ea64607895bd373f3c2aa143788a",
+      "stderr": "",
+      "summary": [
+        "AR SUMMARY | checks passed,total checks,table addresses,main-line formulas = [15, 15, 84, 73] [count]"
+      ],
+      "seconds": 1.8880358259993955
+    }
+  ],
+  "notes": [
+    "Article conventional QCD values and the explicit CRunDec prescription are printed separately, with their numerical differences.",
+    "Supplemental D15 uses the Supplemental comparison 246.219650794 +/- 0.0000633293 GeV; Table I uses its rounded comparison 246.2196508 +/- 0.0000633 GeV."
+  ]
+}

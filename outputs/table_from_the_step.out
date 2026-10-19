@@ -1,0 +1,159 @@
+== A. Primitives from the step B
+ok   the graph of the two-spinor states: Clebsch spectrum 5, 1, -3 on the grades 0, 2, 4
+ok   at u = -1/4: k = 5/2, 3/2, 1/2; t = 2/5, e = 3/5, e_line = 1/3
+ok   polar step: singular values {1, 4}, xi = log 2
+ok   the half phase of the vector-state factor tan^2(pi/8) = tanh(xi/4) = 3 - 2 sqrt2
+ok   plain and signed first returns of B are F and Phi
+ok   Phi(1) = -1/19, Phi(i) = -1/13 from B
+ok   one excursion: E n_F = 10, E n_L = 5, E l = 16; Var n_F = 84, Var n_L = 12, Cov = 30, Var l = 156   [(10.0, 5.0, 83.99999999999997, 11.999999999999993, 30.0)]
+ok   the symmetric-state visit function of one excursion is x(1 + x)/(16 - 11x - 3x^2)
+ok   its pole x_c = (sqrt313 - 11)/6
+ok   the available transitions: 74 directed edges, M = 296, C_h = 60, C_j = 59; edges whose state does not contain h 34
+ok   eta = (M - 1)/M = 5 C_j/M
+ok   b = the effective resistance between the singlet and a symmetric state = 7/16
+ok   c = I(Q, Q) = 8/15
+ok   24/11: Tr L^2/4 = 24 against the 11 states of positive comparison value
+ok   the clock's ten gaps: mean E_D = 2
+  primitives: a = 5/38  chi_A = 13/12  b = 0.4375  M = 296  C_h = 60  eta = 0.996621621622  R_ud = 0.459459459459  c = 0.533333333333  kappa = 1.913136750939
+
+== B. Every row computed from the primitives of A, beside the table's value and the measurement
+| row | constant | from B | table | relative difference | measurement | standard deviations in the table |
+|---|---|---:|---:|---:|---|---:|
+| A002 | pion decay constant, second construction 5m_p/36 | 130.315567975 | 130.315567975027 | 2.62e-15 | 130.2 +0.8/-0.8 [FLAG 2+1] | +0.144 |
+| A003 | pion current product, second construction 5m_p/36 | 126.973222886 | 126.97322288644 | -1.90e-15 | 127.13 +0.13/-0.13 [PDG inclusive pion decay; correlated with lifetime] | -1.202 |
+| B01 | muon/electron | 206.768283945 | 206.768283945476 | 9.62e-16 | 206.7682827 +4.6e-06/-4.6e-06 [CODATA 2022] | +0.271 |
+| B02 | tau/muon | 16.8181606411 | 16.8181606410583 | 2.32e-15 | 16.817691845 +0.000852/-0.000852 [PDG 2024 m_tau] | +0.550 |
+| B03 | Koide statistic | 0.666667259761 | 0.666667259761091 | -6.66e-16 | 0.6666645 +6.8e-06/-6.8e-06 [PDG masses] | +0.406 |
+| B04 | strange/down | 19.9616523938 | 19.9616523937783 | 3.56e-15 | 19.946 +0.335/-0.335 [FLAG 2021 N_f = 2+1+1, m_s/m_ud = 27.23(10) times (1 + m_u/m_d)/2 with m_u/m_d = 0.465(24)] | +0.047 |
+| B05 | bottom/strange | 53.9210868808 | 53.9211 | -2.43e-07 | 53.88 +0.12/-0.12 [PDG 2026] | +0.34 |
+| B06 | down statistic m_b^2 m_d/m_s^3 | 145.653453585 | 145.653 | 3.11e-06 | 145.45 +2.63/-2.63 [(m_b/m_s)^2 (m_d/m_s) of the two FLAG ratios above] | +0.08 |
+| B07 | up statistic m_t^2 m_u/m_c^3 | 145.653453585 | 145.653 | 3.11e-06 | 144.156 +6.06/-5.72 [PDG 2026 masses, four-loop running to m_t(m_t)] | +0.25 |
+| B08 | lepton/quark symmetric-state quotient | 10.3582749497 | 10.3582749497192 | -3.09e-15 | 10.3664 +0.174/-0.174 [CODATA m_mu/m_e over the FLAG strange/down ratio] | -0.047 |
+| B09 | up/down m_u/m_d | 0.459459459459 | 0.459459459459459 | 1.09e-15 | 0.4595745 +0.01/-0.01 [PDG 2.16/4.70] | -0.012 |
+| B10 | up factor per visit to a symmetric state, kappa | 1.91313675094 | 1.91313675093869 | -1.97e-15 | 1.9131 +0.0062/-0.0062 [up-sector masses] | +0.006 |
+| B11 | charm/strange | 11.7754434122 | 11.7754434121621 | 5.58e-15 | 11.761 +0.028/-0.028 [PDG 2026 m_c/m_s] | +0.516 |
+| B12 | proton/electron m_p/m_e | 1836.15267341 | 1836.15267341205 | 9.91e-16 | 1836.152673426 +3.2e-08/-3.2e-08 [CODATA 2022] | -0.436 |
+| B13 | neutron/proton m_n/m_p | 1.00137841956 | 1.00137841956462 | -4.43e-16 | 1.00137841946 +4e-10/-4e-10 [CODATA 2022] | +0.262 |
+| B14 | neutron/electron m_n/m_e | 1838.68366218 | 1838.68366218071 | 8.66e-16 | 1838.683662 +7.4e-07/-7.4e-07 [CODATA 2022] | +0.244 |
+| C01 | first quark mixing s12 | 0.225 | 0.225 | 0.00e+00 | 0.22517 +0.00068/-0.00068 [PDG 2026 CKM global fit] | -0.250 |
+| C02 | second quark mixing s23 | 0.0416666666667 | 0.0416666666666667 | -8.33e-16 | 0.04189 +0.00081/-0.00069 [PDG 2026 CKM fit] | -0.324 |
+| C03 | far quark mixing s13 | 0.00375 | 0.00375 | 1.16e-16 | 0.003763 +8.8e-05/-8.3e-05 [PDG 2026 CKM fit] | -0.157 |
+| C04 | quark phase delta_q | 1.1583858852 | 1.15838588519751 | -5.75e-16 | 1.154 +0.025/-0.025 [PDG 2026 CKM fit] | +0.175 |
+| C05 | quark quartet J_q | 3.13550917579 | 3.13550917578981 | 4.25e-16 | 3.16 +0.13/-0.11 [PDG] | -0.223 |
+| C06 | triangle angle alpha | 90.7137730643 | 90.713773064338 | 0.00e+00 | 91.04 +1.61/-1.6 [PDG-derived] | -0.204 |
+| C07 | triangle angle beta | 22.9511439354 | 22.9511439353888 | 3.10e-16 | 22.86 +0.71/-0.7 [PDG-derived] | +0.128 |
+| C08 | triangle angle gamma | 66.3350830003 | 66.3350830002732 | -2.14e-16 | 66.09 +1.43/-1.43 [PDG-derived] | +0.171 |
+| C09 | two-row W current sum | 2 | 2 | -1.11e-16 | 1.984 +0.021/-0.021 [CMS 2022, Phys. Rev. D 105, 072008] | +0.762 |
+| C10 | solar lepton angle s^2_12 | 0.305089610923 | 0.305089610922636 | -1.09e-15 | 0.3036 +0.0064/-0.0064 [JUNO 2026] | +0.233 |
+| C11 | reactor angle s^2_13 | 0.0221484375 | 0.0221484375 | 6.27e-16 | 0.02215 +0.00056/-0.00058 [NuFIT 6.0] | -0.003 |
+| C12 | reactor angle sin^2 2theta_13 | 0.0866315368652 | 0.0866315368652344 | 3.20e-16 | 0.0833 +0.0022/-0.0022 [Daya Bay, Phys. Rev. Lett. 133, 151801 (2024)] | +1.514 |
+| C13 | atmospheric angle s^2_23 | 0.488674949067 | 0.488674949067231 | 4.54e-16 | 0.47 +0.017/-0.013 [NuFIT 6.0] | +1.099 |
+| C14 | lepton phase delta_l | 205.584225835 | 205.584225835201 | 2.21e-15 | 212 +26/-41 [NuFIT 6.0] | -0.156 |
+| C15 | scalar tilt n_s | 0.975 | 0.975 | 0.00e+00 | 0.9752 +0.003/-0.003 [P-ACT-LB2] | -0.067 |
+| C16 | running of the tilt dn_s/dlnk | 0 | 0 | 0.00e+00 | -0.0045 +0.0067/-0.0067 [Planck 2018] | +0.672 |
+| D01 | strong coupling alpha_s(M_Z) | 0.117851130198 | 0.117851130197758 | -7.07e-16 | 0.118 +0.0009/-0.0009 [PDG 2024] | -0.165 |
+| D02 | inverse electric coupling 1/alpha | 137.035999177 | 137.035999177096 | -1.87e-15 | 137.035999177 +2.1e-08/-2.1e-08 [CODATA 2022] | +0.005 |
+| D03 | Fermi coefficient G_F | 1.16637885871 | 1.16637885870644 | 9.52e-16 | 1.1663787 +6e-07/-6e-07 [CODATA 2022] | +0.265 |
+| D04 | gravitational coupling G m_p^2/(hbar c) | 5.90615249377 | 5.90615249377146 | 5.11e-15 | 5.90614943 +0.000133/-0.000133 [CODATA 2022 G] | +0.023 |
+| D05 | Planck mass, m_p over the square root of the gravitational coupling | 1.22088981189 | 1.22088981188542 | -9.09e-16 | 1.22089 +1.4e-05/-1.4e-05 [CODATA 2022] | -0.013 |
+| D06 | cosmological constant Lambda l_P^2 | 2.85522324301 | 2.85522324300803 | 1.46e-14 | 2.8451 +0.076/-0.076 [Planck 2018 base model, 3 Omega_Lambda H_0^2 l_P^2/c^2 with Omega_Lambda = 0.6847 and H_0 = 67.36] | +0.133 |
+| D07 | d log alpha / d(Phi/c^2) | 0 | 0 | 0.00e+00 | 14 +11/-11 [atomic clocks, Lange et al., Phys. Rev. Lett. 126, 011102 (2021)] | -1.273 |
+| D08 | MSbar weak angle 3 N_h | 0.231257521689 | 0.231257521689422 | 1.80e-15 | 0.23122 +6e-05/-6e-05 [PDG 2026, top decoupled] | +0.625 |
+| D09 | effective weak angle 3 N_con | 0.231550233938 | 0.231550233937853 | 1.92e-15 | 0.23153 +0.00016/-0.00016 [LEP/SLD, Phys. Rep. 427, 257 (2006)] | +0.126 |
+| D10 | on-shell weak angle 3 N_h/(1 + f) | 0.223221546032 | 0.223221546032261 | 1.24e-16 | 0.2233373 +0.000153/-0.000153 [direct M_W/M_Z] | -0.758 |
+| D11 | W mass | 80.3662510403 | 80.3662510403325 | 1.77e-16 | 80.3625 +0.0077/-0.0077 [PDG 2026 evaluation without the CDF II measurement] | +0.487 |
+| D12 | Z mass | 91.1853615183 | 91.1853615183457 | 3.12e-16 | 91.1879 +0.002/-0.002 [PDG 2026 world average (LEP 1, CDF, LHCb), running-width convention] | -1.269 |
+| D13 | W/Z mass ratio | 0.881350358239 | 0.881350358238844 | 1.26e-16 | 0.88128469 +8.66e-05/-8.66e-05 [direct masses] | +0.758 |
+| D14 | weak correction delta_inv = f | 0.036 | 0.036 | 0.00e+00 | 0.03641 +0.00046/-0.00046 [1 - pi alpha/(sqrt2 G_F M_W^2 s2_OS) of the records of 1/alpha, G_F, M_W and M_Z] | -0.891 |
+| D15 | electroweak scale v = (sqrt2 G_F)^-1/2 | 246.219634043 | 246.219634042871 | 0.00e+00 | 246.21964024 +6.33e-05/-6.33e-05 [(sqrt2 G_F)^(-1/2) of the PDG 2024 G_F, the Fermi row's second record] | -0.098 |
+| D16 | scalar mass m_H | 125.134771593 | 125.134771593402 | 2.38e-15 | 125.13 +0.11/-0.11 [PDG 2026 average, error with scale factor S = 1.5] | +0.043 |
+| D17 | top mass | 172.646613614 | 172.646613614442 | -2.47e-15 | 172.6 +0.27/-0.27 [PDG 2026 average of direct measurements, error with scale factor S = 1.5] | +0.173 |
+| E01 | solar splitting Delta m^2_21 | 7.41781185257 | 7.41781185257386 | 7.90e-15 | 7.388 +0.078/-0.078 [JUNO 2026] | +0.382 |
+| E02 | splitting Delta m^2_31 | 2.51987242994 | 2.51987242994258 | 7.58e-15 | 2.509 +0.027/-0.025 [JUNO 2026] | +0.403 |
+| E03 | splitting Delta m^2_32 | 2.44569431142 | 2.44569431141684 | 8.35e-15 | 2.438 +0.021/-0.019 [NuFIT 6.0] | +0.366 |
+| E04 | neutrino mass ratio m_2/m_3 | 0.171572875254 | 0.17157287525381 | -8.09e-16 | 0.172645 +0.00229/-0.00229 [NuFIT 6.0-derived, m_1 = 0] | -0.469 |
+| E05 | splitting ratio Delta m^2_31/Delta m^2_21 | 33.9705627485 | 33.9705627484771 | 2.09e-15 | 33.55 +0.94/-0.94 [PDG-derived] | +0.447 |
+| E06 | heaviest light neutrino m_3 | 50.1983309478 | 50.1983309477773 | 4.53e-15 | 50.09 +0.269/-0.25 [sqrt Delta m^2_31 of JUNO 2026] | +0.403 |
+| E07 | light neutrino channels | 3 | 3 | 0.00e+00 | 2.9963 +0.0074/-0.0074 [Janot and Jadach, Phys. Lett. B 803, 135319 (2020)] | +0.500 |
+| F01 | baryons per photon eta_B | 6.14004762346 | 6.14004762346375 | 7.23e-16 | 6.12 +0.04/-0.04 [PDG 2024 BBN review, Planck omega_b = 0.02237(15)] | +0.501 |
+| F03 | primordial amplitude ln(1e10 A_s) | 3.06130986015 | 3.06130986015343 | -1.16e-15 | 3.056 +0.013/-0.013 [P-ACT] | +0.408 |
+| F04 | effective neutrinos N_eff | 3.04385727362 | 3.04385727361762 | -4.38e-16 | 2.99 +0.17/-0.17 [Planck + BAO] | +0.317 |
+| F13 | spatial curvature Omega_k | 0 | 0 | 0.00e+00 | 0.0007 +0.0019/-0.0019 [Planck + BAO] | -0.368 |
+| G01 | proton charge radius | 0.841235640213 | 0.84123564021281 | -3.96e-16 | 0.84075 +0.00064/-0.00064 [CODATA 2022] | +0.759 |
+| G02 | Delta mass | 1231.48211736 | 1231.48211736401 | -9.23e-16 | 1232 +2/-2 [PDG 2026] | -0.259 |
+| G03 | proton moment mu_p | 2.7928473453 | 2.79284734529616 | 1.59e-15 | 2.79284734463 +8.2e-10/-8.2e-10 [CODATA 2022] | +0.812 |
+| G04 | neutron moment mu_n | -1.91304302381 | -1.91304302380603 | 2.55e-15 | -1.91304276 +4.5e-07/-4.5e-07 [CODATA 2022] | -0.586 |
+| G05 | moment ratio mu_n/mu_p | -0.684979444733 | -0.684979444733371 | -6.48e-16 | -0.68497935 +1.6e-07/-1.6e-07 [CODATA 2022] | -0.592 |
+| G06 | neutral pion mass | 134.97704456 | 134.977044559769 | -2.74e-15 | 134.9768 +0.0005/-0.0005 [PDG 2026] | +0.489 |
+| G07 | charged pion mass | 139.570386614 | 139.570386613809 | -3.05e-15 | 139.57039 +0.00018/-0.00018 [PDG 2024] | -0.019 |
+| G08 | pion decay constant f_pi | 130.529195478 | 130.529195478157 | 1.31e-15 | 130.56 +0.138/-0.138 [PDG, (2)(4)(13) combined] | -0.224 |
+| G09 | pion constant times V_ud | 127.181371253 | 127.181371252679 | 2.23e-15 | 127.13 +0.13/-0.13 [PDG, (1)(13) combined] | +0.394 |
+| G10 | deuteron binding m_p + m_n - m_deut | 2.2245664631 | 2.22456646309919 | 1.60e-15 | 2.22456636409 +3.8e-07/-3.8e-07 [CODATA 2022 mass ratios] | +0.261 |
+| G11 | deuteron mass | 1875.61294498 | 1875.61294498229 | -1.21e-15 | 1875.612945 +5.8e-07/-5.8e-07 [CODATA 2022] | -0.031 |
+| G12 | deuteron/proton m_deut/m_p | 1.99900750127 | 1.99900750126897 | 2.44e-15 | 1.99900750127 +8.4e-12/-8.4e-12 [CODATA 2022] | -0.110 |
+| G13 | deuteron moment mu_d | 0.857438233519 | 0.857438233518713 | -1.29e-16 | 0.8574382335 +2.2e-09/-2.2e-09 [CODATA 2022] | +0.009 |
+| H01 | light bending 1 + gamma | 2 | 2 | 0.00e+00 | 2.000021 +2.3e-05/-2.3e-05 [Cassini, Bertotti et al., Nature 425, 374 (2003)] | -0.913 |
+| H02 | geodetic drift / its Einstein value | 1 | 1 | 0.00e+00 | 0.99934908645 +0.00277/-0.00277 [Gravity Probe B, Everitt et al., Phys. Rev. Lett. 106, 221101 (2011)] | +0.235 |
+| H03 | two orders in coherent superposition told apart (quantum switch) | 1 | 1 | 0.00e+00 | 0.976 +0.015/-0.015 [quantum switch, Procopio et al., Nat. Commun. 6, 7913 (2015)] | +1.600 |
+| I08 | topological curvature chi/(F_pi^2 m_pi0^2) | 0.212911371927 | 0.212911371927165 | 1.04e-15 | 0.21054 +0.0224/-0.0224 [lattice, Borsanyi et al., Nature 539, 69 (2016)] | +0.106 |
+| I09 | fourth strong cumulant b_2 | -0.0280584730988 | -0.0280584730987574 | -1.11e-15 | -0.029 +0.002/-0.002 [NLO chiral, Grilli di Cortona et al., JHEP 01 (2016) 034] | +0.471 |
+| J01 | m_p/m_e | 1836.15267341 | 1836.15267341205 | 9.91e-16 | 1836.152673426 +3.2e-08 / −3.2e-08 [CODATA 2022] | -0.435882 |
+| J02 | m_n/m_p | 1.00137841956 | 1.00137841956462 | -4.43e-16 | 1.00137841946 +4e-10 / −4e-10 [CODATA 2022] | +0.261549 |
+| J03 | Λ (MeV) | 1115.68290091 | 1115.68290090769 | -2.65e-15 | 1115.683 +0.006 / −0.006 [source not recorded] | -0.0165154 |
+| J04 | Δ, Breit–Wigner (MeV) | 1231.48211736 | 1231.48211736401 | -9.23e-16 | 1232 +2 / −2 [PDG 2026] | -0.258941 |
+| J05 | π⁰ (MeV) | 134.97704456 | 134.977044559769 | -2.74e-15 | 134.9768 +0.0005 / −0.0005 [PDG 2026] | +0.48912 |
+| J06 | π± (MeV) | 139.570386614 | 139.570386613809 | -3.05e-15 | 139.57039 +0.00018 / −0.00018 [PDG 2024] | -0.0188122 |
+| J07 | ρ pole, Re s [GeV²] (GeV²) | 0.576408555494 | 0.576408555494293 | -5.78e-16 | 0.577879 +0.002449 / −0.002449 [source not recorded] | -0.600427 |
+| J08 | K⁰ (MeV) | 497.613584451 | 497.613584450934 | 4.91e-15 | 497.611 +0.013 / −0.013 [source not recorded] | +0.198804 |
+| J09 | K± (MeV) | 493.665032668 | 493.665032668308 | -4.61e-16 | 493.677 +0.015 / −0.015 [source not recorded] | -0.798 |
+| J17 | kT_c, the colour crossover temperature (MeV) | 156.37868157 | 156.378681570033 | -1.27e-15 | 156.5 +1.5 / −1.5 [source not recorded] | -0.080879 |
+| K01 | strong phase theta | 0 | 0 | 0.00e+00 | \|θ\| < 1e-10 [neutron EDM] |  |
+| K02 | neutrino mass sum | 0.0588110029214 | 0.0588110029214298 | 3.78e-15 | < 0.081 eV [SPT-3G D1 + DESI] |  |
+| K03 | neutrino mass sum | 0.0588110029214 | 0.0588110029214298 | 3.78e-15 | < 0.055 eV [CMB-SPA + DESI] |  |
+| K05 | diagonal quark current | 2.89531084488 | 2.89531084487576 | -1.38e-15 | >= 2.84295 [direct current rows] |  |
+| K06 | proton partial lifetime tau/B(e pi) | 1.16971098946e+37 | 1.16971098945628e+37 | -1.35e-14 | > 2.4e34 yr [Super-Kamiokande] |  |
+| L01 | tau pole mass | 1776.97954286 | 1776.97954286319 | 3.07e-15 | from B01 and B02 |  |
+| L03 | light-limit neutrino splitting ratio | 33.9705627485 | 33.9705627484771 | 1.25e-15 | prediction |  |
+| L04 | number of charged families | 3 | 3 | 0.00e+00 | prediction: no fourth family |  |
+| L05 | forbidden charged-lepton threshold | 7.96568530689 | 7.96568530688517 | 1.12e-16 | prediction: no charged lepton at this threshold |  |
+| L06 | scalar-index running | 0 | 0 | 0.00e+00 | prediction |  |
+| L07 | spatial curvature fraction | 0 | 0 | 0.00e+00 | prediction |  |
+| L08 | the equation of state of the constant term | -1 | -1 | -0.00e+00 | prediction |  |
+| L09 | a recorded electric fact does not drift | 0 | 0 | 0.00e+00 | prediction |  |
+| L10 | de Sitter horizon entropy | 3.30089003858e+122 | 3.30089003858073e+122 | -1.41e-14 | identity with D06 |  |
+| L11 | tensor-to-scalar ratio in the de Sitter convention | 1.9735911755e-113 | 1.9735911754997e-113 | 1.70e-14 | prediction |  |
+| L12 | proton partial lifetime | 1.16971098946e+37 | 1.16971098945628e+37 | -1.35e-14 | > 2.4e34 yr [Super-Kamiokande] |  |
+| L13 | completed deuteron binding | 2.2245664631 | 2.22456646309919 | 1.60e-15 | from G10 |  |
+| L14 | colour component count N | 8 | 8 | 0.00e+00 | identity |  |
+| L15 | W pole mass test | 80.3662510403 | 80.3662510403325 | 1.77e-16 | 80.3570(60) GeV [PDG 2026 SM indirect determination] |  |
+| L16 | strong phase | 0 | 0 | 0.00e+00 | \|θ̄\| < 1e-10 [neutron EDM] |  |
+| L17 | Koide discrimination | 0.666667259761 | 0.666667259761091 | -6.66e-16 | from B03 |  |
+| L18 | second-order light-bending coefficient | 11.780972451 | 11.7809724509617 | 1.96e-15 | prediction |  |
+| L19 | clock-independent lower bound on inverse alpha | 137.035999147 | 137.035999147056 | -6.22e-16 | bound for every clock |  |
+| L20 | clock-independent upper bound on the MS-bar weak angle | 0.231264231358 | 0.231264231357674 | 1.80e-15 | bound for every clock |  |
+| M1 | proton mass MeV | 938.27208942 | 938.272089420197 | -2.42e-16 | 938.27208943 ± 2.9e-07 [CODATA 2022] | -0.0338046 |
+| M2 | neutron mass MeV | 939.565422025 | 939.56542202519 | 1.21e-16 | 939.56542194 ± 4.8e-07 [CODATA 2022] | +0.177479 |
+| M3 | deuteron nuclear mass MeV | 1875.61294498 | 1875.61294498229 | -1.21e-15 | 1875.612945 ± 5.8e-07 [CODATA 2022] | -0.0305386 |
+| N22 | saturation energy e_0 | -15.8382148058 | -15.8382148058291 | 3.14e-15 | -16 +0.5/-0.5 [extrapolation of masses to symmetric matter] | +0.324 |
+| S01 | axial coupling g_A | 1.27580092812 | 1.27580092811547 | -3.48e-15 | 1.2753 +0.0013/-0.0013 [PDG 2026] | +0.385 |
+| S02 | axial radius squared | 0.39806853883 | 0.398068538829894 | -2.79e-16 | 0.339 +0.0484/-0.0484 [ETMC 2024 lattice; errors 0.048 and 0.006] | +1.221 |
+| S03 | axial radius | 0.63092673016 | 0.630926730159608 | -1.06e-15 | construction (S02 is its square) |  |
+| S04 | pion charge radius | 0.665055167996 | 0.665055167995603 | 1.67e-16 | 0.659 +0.004/-0.004 [PDG] | +1.514 |
+| S05 | neutron lifetime | 878.051411827 | 878.051411826578 | 2.59e-16 | 878.3 +0.4/-0.4 [PDG 2026 neutron listing] | -0.621 |
+| S07 | top mass, second construction | 172.281080538 | 172.281080537681 | -2.31e-15 | 172.57 +0.29/-0.29 [PDG 2024 direct] | -0.996 |
+| S08 | primordial amplitude, second construction | 2.1025756247 | 2.10257562469885 | 1.37e-14 | 2.099 +0.029/-0.029 [Planck 2018] | +0.123 |
+| S09 | cold/baryon count, second construction | 5.28571428571 | 5.28571428571429 | -8.40e-16 | 5.3643 +0.0646/-0.0646 [Planck 2018 ratio] | -1.216 |
+| S16 | five-flavour one-loop scale marker | 87.0577778265 | 87.0577778264851 | 2.12e-15 | one-loop convention |  |
+| T01 | heavy neutral threshold M_R | 6.20276285061e+14 | 620276285060927 | -3.63e-15 | threshold |  |
+| T02 | heavy threshold M_off of the rotations mixing the three-plus-two split | 1.67474596966e+16 | 1.6747459696645e+16 | -1.91e-15 | threshold |  |
+| T03 | de Sitter radius | 5369.08213305 | 5369.08213305102 | -5.59e-15 | de Sitter convention |  |
+| T04 | de Sitter temperature | 1.89564063246e-34 | 1.8956406324587e-34 | 3.84e-15 | de Sitter convention |  |
+| T06 | lepton quartet J_l | -0.0144644347463 | -0.0144644347463475 | -1.92e-15 | prediction |  |
+| T07 | deuteron D-state share | 0.0392156862745 | 0.0392156862745098 | 0.00e+00 | construction |  |
+
+rows computed from B: 131 ; compared with the table: 131 ; agreeing within the digits the table prints: 131 (J09 with the marked current at the plane hk, 493.665 MeV, -0.80 standard deviations)
+conventional and composite records printed by article_results.py: 80
+  A001 F02 F05 F06 F07 F08 F09 F10 F11 F12 G14 G15 G16 G17 G18 G19 G19a G20 G21 I01 I02 I03 I04 I05 I06 I07 I10 I11 J10 J11 J12 J13 J14 J15 J16 J19 J20 J21 J22 J23 J24 J25 J26 J27 J28 J29 J30 J31 J32 J33 J34 L21 N23 N24 N25 Q01 Q04 Q05 Q06 Q07 Q08 Q09 Q10 Q11 S017 S018 S06 S10 S11 S12 S14 S15 S19 S20 S21 T08 T09 T10 T11 T12
+ok   the 131 scalar rows compared here agree with their recorded values within the printed digits   [(np.int64(131), 131)]
+
+checks: 16 of 16 ok
